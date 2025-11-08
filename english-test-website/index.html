@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>您的网站名称 - 网站描述</title>
+  <meta name="description" content="您的网站描述内容" />
+  <meta name="keywords" content="关键词1,关键词2,关键词3" />
+  <meta name="author" content="您的网站名称" />
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+<script>
+  // 找到包含该类的元素
+const element = document.querySelector('.minimax-ball-text');
+// 移除指定 class
+if (element) {
+  element.classList.remove('minimax-ball-text');
+}
+// 找到 id 为 minimax-floating-ball 的元素
+const floatingBall = document.getElementById('minimax-floating-ball');
+// 如果元素存在，则移除它
+if (floatingBall) {
+  floatingBall.remove(); // 从页面中彻底删除该元素
+}
+</script>
+</body>
+
+</html>

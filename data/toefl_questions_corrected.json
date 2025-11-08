@@ -1,0 +1,1848 @@
+{
+  "metadata": {
+    "title": "托福TOEFL测试题库",
+    "version": "1.0",
+    "created_date": "2025-11-04",
+    "total_questions": 150,
+    "description": "完整的托福TOEFL测试题库，包含词汇题、语法题和阅读理解题",
+    "exam_type": "TOEFL iBT",
+    "language": "English",
+    "question_format": "Multiple Choice (4 options)",
+    "difficulty_levels": {
+      "basic": "适合初级到中级考生",
+      "intermediate": "适合中级到高级考生", 
+      "advanced": "适合高级考生"
+    },
+    "subjects": [
+      "Vocabulary",
+      "Grammar", 
+      "Reading Comprehension"
+    ]
+  },
+  "basic_version": {
+    "total_questions": 50,
+    "vocabulary_questions": 15,
+    "grammar_questions": 15,
+    "reading_questions": 20,
+    "questions": [
+      {
+        "id": "vocab_001",
+        "category": "vocabulary",
+        "difficulty": "basic",
+        "question_type": "word_meaning",
+        "question_text": "The word \"essential\" in the passage is closest in meaning to:",
+        "context": "Reading about the importance of vitamins in human nutrition, the passage states that vitamin D is essential for bone health.",
+        "options": [
+          "A) necessary",
+          "B) expensive", 
+          "C) optional",
+          "D) complicated"
+        ],
+        "correct_answer": "A",
+        "explanation": "The word 'essential' means absolutely necessary or required. In this context, vitamin D is necessary for bone health. Option A 'necessary' is the correct synonym. Option B 'expensive' refers to cost, not importance. Option C 'optional' means not required. Option D 'complicated' refers to difficulty.",
+        "knowledge_points": ["academic vocabulary", "synonyms", "nutrition"],
+        "tags": ["vocabulary", "basic", "academic"]
+      },
+      {
+        "id": "vocab_002", 
+        "category": "vocabulary",
+        "difficulty": "basic",
+        "question_type": "word_meaning",
+        "question_text": "The word \"component\" in the passage is closest in meaning to:",
+        "context": "Discussing the components of a successful business strategy, the passage mentions that customer service is just one component of the overall plan.",
+        "options": [
+          "A) problem",
+          "B) part",
+          "C) failure", 
+          "D) solution"
+        ],
+        "correct_answer": "B",
+        "explanation": "The word 'component' means a part or element of a larger whole. In this context, customer service is one part of the business strategy. Option B 'part' is the correct synonym. Option A 'problem' is the opposite meaning. Option C 'failure' is not related. Option D 'solution' refers to an answer, not a component.",
+        "knowledge_points": ["business vocabulary", "synonyms", "components"],
+        "tags": ["vocabulary", "basic", "business"]
+      },
+      {
+        "id": "vocab_003",
+        "category": "vocabulary",
+        "difficulty": "basic",
+        "question_type": "word_meaning",
+        "question_text": "The word \"justify\" in the passage is closest in meaning to:",
+        "context": "The researcher tried to justify her controversial findings by providing additional evidence and peer reviews.",
+        "options": [
+          "A) explain",
+          "B) hide",
+          "C) ignore",
+          "D) destroy"
+        ],
+        "correct_answer": "A",
+        "explanation": "The word 'justify' means to provide good reasons or evidence to support a decision, action, or belief. In this context, the researcher provided evidence to explain and support her findings. Option A 'explain' is the correct synonym. Option B 'hide' is the opposite meaning. Option C 'ignore' means to pay no attention. Option D 'destroy' means to ruin completely.",
+        "knowledge_points": ["academic vocabulary", "research", "reasoning"],
+        "tags": ["vocabulary", "basic", "academic"]
+      },
+      {
+        "id": "vocab_004",
+        "category": "vocabulary",
+        "difficulty": "basic",
+        "question_type": "word_meaning",
+        "question_text": "The word \"drastic\" in the passage is closest in meaning to:",
+        "context": "The company implemented drastic changes to improve efficiency, including restructuring the entire organization.",
+        "options": [
+          "A) minor",
+          "B) extreme",
+          "C) gradual", 
+          "D) temporary"
+        ],
+        "correct_answer": "B",
+        "explanation": "The word 'drastic' means extreme, severe, or very significant. In this context, the company made extreme changes to improve efficiency. Option B 'extreme' is the correct synonym. Option A 'minor' is the opposite meaning. Option C 'gradual' means slow and progressive. Option D 'temporary' means lasting for a limited time.",
+        "knowledge_points": ["business vocabulary", "change", "degree"],
+        "tags": ["vocabulary", "basic", "business"]
+      },
+      {
+        "id": "vocab_005",
+        "category": "vocabulary",
+        "difficulty": "basic",
+        "question_type": "word_meaning",
+        "question_text": "The word \"analyze\" in the passage is closest in meaning to:",
+        "context": "The scientist will analyze the data collected from the experiment to determine if the hypothesis was correct.",
+        "options": [
+          "A) ignore",
+          "B) examine",
+          "C) create",
+          "D) destroy"
+        ],
+        "correct_answer": "B",
+        "explanation": "The word 'analyze' means to examine something in detail to understand it better or draw conclusions. In this context, the scientist will examine the data to determine if the hypothesis was correct. Option B 'examine' is the correct synonym. Option A 'ignore' is the opposite meaning. Option C 'create' means to make something new. Option D 'destroy' means to ruin completely.",
+        "knowledge_points": ["scientific vocabulary", "research methods", "data analysis"],
+        "tags": ["vocabulary", "basic", "science"]
+      },
+      {
+        "id": "vocab_006",
+        "category": "vocabulary",
+        "difficulty": "basic",
+        "question_type": "word_meaning",
+        "question_text": "The word \"significant\" in the passage is closest in meaning to:",
+        "context": "The discovery of this new species is significant because it changes our understanding of evolution.",
+        "options": [
+          "A) unimportant",
+          "B) important",
+          "C) strange",
+          "D) small"
+        ],
+        "correct_answer": "B",
+        "explanation": "The word 'significant' means important, notable, or having meaning or influence. In this context, the discovery is important because it changes our understanding. Option B 'important' is the correct synonym. Option A 'unimportant' is the opposite meaning. Option C 'strange' refers to being unusual or odd. Option D 'small' refers to size, not importance.",
+        "knowledge_points": ["scientific vocabulary", "importance", "discovery"],
+        "tags": ["vocabulary", "basic", "science"]
+      },
+      {
+        "id": "vocab_007",
+        "category": "vocabulary",
+        "difficulty": "basic",
+        "question_type": "word_meaning",
+        "question_text": "The word \"complex\" in the passage is closest in meaning to:",
+        "context": "The mathematical formula is very complex, involving multiple variables and equations.",
+        "options": [
+          "A) simple",
+          "B) complicated",
+          "C) easy",
+          "D) basic"
+        ],
+        "correct_answer": "B",
+        "explanation": "The word 'complex' means complicated, difficult to understand, or consisting of many interconnected parts. In this context, the mathematical formula is complicated with multiple variables. Option B 'complicated' is the correct synonym. Option A 'simple' is the opposite meaning. Option C 'easy' means not difficult. Option D 'basic' means fundamental or elementary.",
+        "knowledge_points": ["mathematical vocabulary", "complexity", "formulas"],
+        "tags": ["vocabulary", "basic", "mathematics"]
+      },
+      {
+        "id": "vocab_008",
+        "category": "vocabulary",
+        "difficulty": "basic",
+        "question_type": "word_meaning",
+        "question_text": "The word \"impact\" in the passage is closest in meaning to:",
+        "context": "Climate change has a significant impact on global weather patterns and ecosystems.",
+        "options": [
+          "A) no effect",
+          "B) influence",
+          "C) benefit",
+          "D) problem"
+        ],
+        "correct_answer": "B",
+        "explanation": "The word 'impact' means influence, effect, or the action of one thing affecting another. In this context, climate change influences global weather patterns. Option B 'influence' is the correct synonym. Option A 'no effect' is the opposite meaning. Option C 'benefit' refers to something positive. Option D 'problem' refers to a difficulty or issue.",
+        "knowledge_points": ["environmental vocabulary", "cause and effect", "global issues"],
+        "tags": ["vocabulary", "basic", "environment"]
+      },
+      {
+        "id": "vocab_009",
+        "category": "vocabulary",
+        "difficulty": "basic",
+        "question_type": "word_meaning",
+        "question_text": "The word \"demonstrate\" in the passage is closest in meaning to:",
+        "context": "The experiment will demonstrate how photosynthesis works in plants under different light conditions.",
+        "options": [
+          "A) hide",
+          "B) show",
+          "C) guess",
+          "D) doubt"
+        ],
+        "correct_answer": "B",
+        "explanation": "The word 'demonstrate' means to show, prove, or display something clearly. In this context, the experiment will show how photosynthesis works. Option B 'show' is the correct synonym. Option A 'hide' is the opposite meaning. Option C 'guess' means to estimate without certain knowledge. Option D 'doubt' means to be uncertain about something.",
+        "knowledge_points": ["scientific vocabulary", "experiments", "demonstration"],
+        "tags": ["vocabulary", "basic", "science"]
+      },
+      {
+        "id": "vocab_010",
+        "category": "vocabulary",
+        "difficulty": "basic",
+        "question_type": "word_meaning",
+        "question_text": "The word \"accurate\" in the passage is closest in meaning to:",
+        "context": "The weather forecast was surprisingly accurate, predicting the exact amount of rainfall.",
+        "options": [
+          "A) wrong",
+          "B) correct",
+          "C) random",
+          "D) approximate"
+        ],
+        "correct_answer": "B",
+        "explanation": "The word 'accurate' means correct, exact, or free from error. In this context, the weather forecast was correct in predicting rainfall. Option B 'correct' is the correct synonym. Option A 'wrong' is the opposite meaning. Option C 'random' means happening by chance. Option D 'approximate' means close but not exact.",
+        "knowledge_points": ["weather vocabulary", "precision", "forecasting"],
+        "tags": ["vocabulary", "basic", "weather"]
+      },
+      {
+        "id": "vocab_011",
+        "category": "vocabulary",
+        "difficulty": "basic",
+        "question_type": "word_meaning",
+        "question_text": "The word \"evidence\" in the passage is closest in meaning to:",
+        "context": "The archaeologist found ancient pottery that provided evidence of early human civilization in the region.",
+        "options": [
+          "A) speculation",
+          "B) proof",
+          "C) confusion",
+          "D) mystery"
+        ],
+        "correct_answer": "B",
+        "explanation": "The word 'evidence' means proof, facts, or information that shows something is true or real. In this context, the ancient pottery provided proof of early civilization. Option B 'proof' is the correct synonym. Option A 'speculation' means guesswork or theory without proof. Option C 'confusion' means lack of clarity. Option D 'mystery' means something unknown or puzzling.",
+        "knowledge_points": ["archaeology vocabulary", "evidence", "historical research"],
+        "tags": ["vocabulary", "basic", "history"]
+      },
+      {
+        "id": "vocab_012",
+        "category": "vocabulary",
+        "difficulty": "basic",
+        "question_type": "word_meaning",
+        "question_text": "The word \"methodical\" in the passage is closest in meaning to:",
+        "context": "The researcher's methodical approach involved testing each variable systematically before drawing conclusions.",
+        "options": [
+          "A) random",
+          "B) systematic",
+          "C) careless",
+          "D) impulsive"
+        ],
+        "correct_answer": "B",
+        "explanation": "The word 'methodical' means systematic, organized, and done according to a fixed plan or method. In this context, the researcher tested variables systematically. Option B 'systematic' is the correct synonym. Option A 'random' is the opposite meaning. Option C 'careless' means not paying attention to details. Option D 'impulsive' means acting without thinking.",
+        "knowledge_points": ["research vocabulary", "methodology", "systematic approach"],
+        "tags": ["vocabulary", "basic", "research"]
+      },
+      {
+        "id": "vocab_013",
+        "category": "vocabulary",
+        "difficulty": "basic",
+        "question_type": "word_meaning",
+        "question_text": "The word \"adequate\" in the passage is closest in meaning to:",
+        "context": "The sample size was adequate for the statistical analysis, providing reliable results.",
+        "options": [
+          "A) insufficient",
+          "B) sufficient",
+          "C) excessive",
+          "D) irrelevant"
+        ],
+        "correct_answer": "B",
+        "explanation": "The word 'adequate' means sufficient, enough, or satisfactory for a particular purpose. In this context, the sample size was enough for reliable statistical analysis. Option B 'sufficient' is the correct synonym. Option A 'insufficient' is the opposite meaning. Option C 'excessive' means too much. Option D 'irrelevant' means not related to the matter.",
+        "knowledge_points": ["statistics vocabulary", "sampling", "research methodology"],
+        "tags": ["vocabulary", "basic", "statistics"]
+      },
+      {
+        "id": "vocab_014",
+        "category": "vocabulary",
+        "difficulty": "basic",
+        "question_type": "word_meaning",
+        "question_text": "The word \"conclude\" in the passage is closest in meaning to:",
+        "context": "After analyzing all the data, the team was able to conclude that the new treatment was effective.",
+        "options": [
+          "A) begin",
+          "B) end",
+          "C) decide",
+          "D) ignore"
+        ],
+        "correct_answer": "C",
+        "explanation": "The word 'conclude' means to decide or reach a judgment based on evidence and reasoning. In this context, the team decided the treatment was effective based on data analysis. Option C 'decide' is the correct synonym. Option A 'begin' is the opposite meaning. Option B 'end' refers to finishing, not concluding. Option D 'ignore' means to pay no attention.",
+        "knowledge_points": ["research vocabulary", "conclusions", "decision making"],
+        "tags": ["vocabulary", "basic", "research"]
+      },
+      {
+        "id": "vocab_015",
+        "category": "vocabulary",
+        "difficulty": "basic",
+        "question_type": "word_meaning",
+        "question_text": "The word \"fundamental\" in the passage is closest in meaning to:",
+        "context": "Understanding the fundamental principles of physics is essential before studying advanced topics.",
+        "options": [
+          "A) advanced",
+          "B) basic",
+          "C) complex",
+          "D) optional"
+        ],
+        "correct_answer": "B",
+        "explanation": "The word 'fundamental' means basic, essential, or foundational. In this context, understanding the basic principles of physics is essential before studying advanced topics. Option B 'basic' is the correct synonym. Option A 'advanced' is the opposite meaning. Option C 'complex' means complicated. Option D 'optional' means not required.",
+        "knowledge_points": ["physics vocabulary", "foundations", "principles"],
+        "tags": ["vocabulary", "basic", "physics"]
+      },
+      {
+        "id": "grammar_001",
+        "category": "grammar",
+        "difficulty": "basic",
+        "question_type": "verb_tense",
+        "question_text": "Choose the correct verb form: The research team _____ their findings next week.",
+        "options": [
+          "A) will present",
+          "B) presents",
+          "C) presented",
+          "D) is presenting"
+        ],
+        "correct_answer": "A",
+        "explanation": "The sentence refers to a future action ('next week'), so the future tense 'will present' is correct. Option B 'presents' is present tense. Option C 'presented' is past tense. Option D 'is presenting' is present continuous tense, which is not appropriate for a specific future time.",
+        "knowledge_points": ["future tense", "time expressions", "verb forms"],
+        "tags": ["grammar", "basic", "verb tenses"]
+      },
+      {
+        "id": "grammar_002",
+        "category": "grammar",
+        "difficulty": "basic",
+        "question_type": "subject_verb_agreement",
+        "question_text": "Choose the correct verb form: The data _____ that the hypothesis is correct.",
+        "options": [
+          "A) show",
+          "B) shows",
+          "C) showing",
+          "D) showed"
+        ],
+        "correct_answer": "A",
+        "explanation": "The subject 'data' is plural (Latin plural of 'datum'), so the plural verb 'show' is correct. Option B 'shows' would be used with a singular subject. Option C 'showing' is a participle, not a finite verb. Option D 'showed' is past tense, but the sentence refers to present information.",
+        "knowledge_points": ["subject-verb agreement", "plural forms", "data vs datum"],
+        "tags": ["grammar", "basic", "agreement"]
+      },
+      {
+        "id": "grammar_003",
+        "category": "grammar",
+        "difficulty": "basic",
+        "question_type": "prepositions",
+        "question_text": "Choose the correct preposition: The experiment was conducted _____ controlled conditions.",
+        "options": [
+          "A) under",
+          "B) in",
+          "C) at",
+          "D) by"
+        ],
+        "correct_answer": "A",
+        "explanation": "The phrase 'under controlled conditions' is the correct idiomatic expression. Option B 'in' would be used with 'controlled environment'. Option C 'at' is used for specific locations. Option D 'by' indicates method or agent.",
+        "knowledge_points": ["prepositions", "idiomatic expressions", "scientific terminology"],
+        "tags": ["grammar", "basic", "prepositions"]
+      },
+      {
+        "id": "grammar_004",
+        "category": "grammar",
+        "difficulty": "basic",
+        "question_type": "comparatives",
+        "question_text": "Choose the correct comparative form: This method is _____ than the previous one.",
+        "options": [
+          "A) efficient",
+          "B) more efficient",
+          "C) most efficient",
+          "D) efficiently"
+        ],
+        "correct_answer": "B",
+        "explanation": "When comparing two things, we use the comparative form with 'more' for adjectives with two or more syllables. Option A 'efficient' is the base form. Option C 'most efficient' is the superlative form. Option D 'efficiently' is an adverb.",
+        "knowledge_points": ["comparatives", "adjectives", "syllable rules"],
+        "tags": ["grammar", "basic", "comparisons"]
+      },
+      {
+        "id": "grammar_005",
+        "category": "grammar",
+        "difficulty": "basic",
+        "question_type": "articles",
+        "question_text": "Choose the correct article: _____ sun is the center of our solar system.",
+        "options": [
+          "A) A",
+          "B) An",
+          "C) The",
+          "D) No article"
+        ],
+        "correct_answer": "C",
+        "explanation": "We use 'the' with unique objects or things that are the only one of their kind. The sun is unique in our solar system. Option A 'A' is used with singular countable nouns. Option B 'An' is used before vowel sounds. Option D 'No article' would be incorrect in this context.",
+        "knowledge_points": ["definite articles", "unique objects", "the vs a/an"],
+        "tags": ["grammar", "basic", "articles"]
+      },
+      {
+        "id": "grammar_006",
+        "category": "grammar",
+        "difficulty": "basic",
+        "question_type": "pronouns",
+        "question_text": "Choose the correct pronoun: The researchers published _____ results in the journal.",
+        "options": [
+          "A) its",
+          "B) their",
+          "C) they're",
+          "D) there"
+        ],
+        "correct_answer": "B",
+        "explanation": "The subject 'researchers' is plural, so the plural possessive pronoun 'their' is correct. Option A 'its' is singular possessive. Option C 'they're' is a contraction of 'they are'. Option D 'there' is an adverb indicating location.",
+        "knowledge_points": ["possessive pronouns", "plural subjects", "pronoun agreement"],
+        "tags": ["grammar", "basic", "pronouns"]
+      },
+      {
+        "id": "grammar_007",
+        "category": "grammar",
+        "difficulty": "basic",
+        "question_type": "question_words",
+        "question_text": "_____ did the experiment take to complete?",
+        "options": [
+          "A) What",
+          "B) How long",
+          "C) When",
+          "D) Where"
+        ],
+        "correct_answer": "B",
+        "explanation": "The question asks about duration or time span, so 'How long' is the correct question word. Option A 'What' is used for things or substances. Option C 'When' is used for specific times. Option D 'Where' is used for locations.",
+        "knowledge_points": ["question words", "duration", "time expressions"],
+        "tags": ["grammar", "basic", "questions"]
+      },
+      {
+        "id": "grammar_008",
+        "category": "grammar",
+        "difficulty": "basic",
+        "question_type": "passive_voice",
+        "question_text": "Choose the correct passive form: The theory _____ by Einstein in 1905.",
+        "options": [
+          "A) developed",
+          "B) was developed",
+          "C) is developing",
+          "D) develops"
+        ],
+        "correct_answer": "B",
+        "explanation": "The sentence describes a completed action in the past, and the subject 'theory' receives the action, so the past passive 'was developed' is correct. Option A 'developed' is active voice. Option C 'is developing' is present continuous. Option D 'develops' is present active.",
+        "knowledge_points": ["passive voice", "past tense", "active vs passive"],
+        "tags": ["grammar", "basic", "voice"]
+      },
+      {
+        "id": "grammar_009",
+        "category": "grammar",
+        "difficulty": "basic",
+        "question_type": "conjunctions",
+        "question_text": "Choose the correct conjunction: The experiment failed, _____ the researchers learned valuable lessons.",
+        "options": [
+          "A) but",
+          "B) and",
+          "C) or",
+          "D) so"
+        ],
+        "correct_answer": "A",
+        "explanation": "The sentence shows contrast between the experiment failing and learning lessons, so the contrastive conjunction 'but' is correct. Option B 'and' shows addition. Option C 'or' shows choice. Option D 'so' shows result.",
+        "knowledge_points": ["conjunctions", "contrast", "logical relationships"],
+        "tags": ["grammar", "basic", "conjunctions"]
+      },
+      {
+        "id": "grammar_010",
+        "category": "grammar",
+        "difficulty": "basic",
+        "question_type": "gerunds_infinitives",
+        "question_text": "Choose the correct form: The scientist decided _____ the experiment again.",
+        "options": [
+          "A) repeat",
+          "B) to repeat",
+          "C) repeating",
+          "D) repeated"
+        ],
+        "correct_answer": "B",
+        "explanation": "After the verb 'decided', we use the infinitive form 'to repeat'. Option A 'repeat' is the base form. Option C 'repeating' is a gerund. Option D 'repeated' is past tense.",
+        "knowledge_points": ["infinitives", "verb patterns", "decide + to"],
+        "tags": ["grammar", "basic", "verb patterns"]
+      },
+      {
+        "id": "grammar_011",
+        "category": "grammar",
+        "difficulty": "basic",
+        "question_type": "adjectives_adverbs",
+        "question_text": "Choose the correct word form: The researcher worked _____ on the project.",
+        "options": [
+          "A) hard",
+          "B) hardly",
+          "C) harder",
+          "D) hardest"
+        ],
+        "correct_answer": "A",
+        "explanation": "The word 'hard' as an adverb means 'with great effort or intensity'. Option B 'hardly' means 'scarcely' or 'barely'. Option C 'harder' is comparative. Option D 'hardest' is superlative.",
+        "knowledge_points": ["adverbs", "adjectives vs adverbs", "hard vs hardly"],
+        "tags": ["grammar", "basic", "word forms"]
+      },
+      {
+        "id": "grammar_012",
+        "category": "grammar",
+        "difficulty": "basic",
+        "question_type": "conditionals",
+        "question_text": "Choose the correct conditional: If the hypothesis _____ correct, the results would support it.",
+        "options": [
+          "A) is",
+          "B) were",
+          "C) was",
+          "D) will be"
+        ],
+        "correct_answer": "B",
+        "explanation": "In conditional sentences (if-clauses), we use 'were' for all persons in hypothetical situations. This is the subjunctive mood. Option A 'is' is indicative mood. Option C 'was' would only be used with 'I/he/she/it' in some dialects. Option D 'will be' is future tense, not used in if-clauses.",
+        "knowledge_points": ["conditionals", "subjunctive mood", "hypothetical situations"],
+        "tags": ["grammar", "basic", "conditionals"]
+      },
+      {
+        "id": "grammar_013",
+        "category": "grammar",
+        "difficulty": "basic",
+        "question_type": "relative_clauses",
+        "question_text": "Choose the correct relative pronoun: The scientist _____ won the Nobel Prize is my mentor.",
+        "options": [
+          "A) who",
+          "B) which",
+          "C) what",
+          "D) where"
+        ],
+        "correct_answer": "A",
+        "explanation": "We use 'who' to refer to people in relative clauses. The scientist is a person. Option B 'which' is used for things. Option C 'what' is used for things and cannot start a defining relative clause. Option D 'where' is used for places.",
+        "knowledge_points": ["relative pronouns", "who vs which", "relative clauses"],
+        "tags": ["grammar", "basic", "relatives"]
+      },
+      {
+        "id": "grammar_014",
+        "category": "grammar",
+        "difficulty": "basic",
+        "question_type": "modal_verbs",
+        "question_text": "Choose the correct modal verb: You _____ be careful when handling dangerous chemicals.",
+        "options": [
+          "A) can",
+          "B) should",
+          "C) must",
+          "D) might"
+        ],
+        "correct_answer": "C",
+        "explanation": "The sentence expresses necessity or obligation, so 'must' is the correct modal verb. Option A 'can' expresses ability or possibility. Option B 'should' expresses advice or recommendation. Option D 'might' expresses possibility.",
+        "knowledge_points": ["modal verbs", "obligation", "must vs should"],
+        "tags": ["grammar", "basic", "modals"]
+      },
+      {
+        "id": "grammar_015",
+        "category": "grammar",
+        "difficulty": "basic",
+        "question_type": "punctuation",
+        "question_text": "Choose the sentence with correct punctuation:",
+        "options": [
+          "A) The results, however were unexpected.",
+          "B) The results however, were unexpected.",
+          "C) The results, however, were unexpected.",
+          "D) The results however were unexpected."
+        ],
+        "correct_answer": "C",
+        "explanation": "When 'however' is used as a conjunctive adverb meaning 'but', it should be set off by commas. Option A is missing a comma after 'however'. Option B has incorrect comma placement. Option D is missing both commas.",
+        "knowledge_points": ["punctuation", "conjunctive adverbs", "however"],
+        "tags": ["grammar", "basic", "punctuation"]
+      },
+      {
+        "id": "reading_001",
+        "category": "reading",
+        "difficulty": "basic",
+        "question_type": "main_idea",
+        "passage": "The field of artificial intelligence has experienced remarkable growth in recent years. Machine learning algorithms have become more sophisticated, allowing computers to process vast amounts of data and identify patterns that would be impossible for humans to detect manually. This advancement has led to significant improvements in areas such as image recognition, natural language processing, and autonomous vehicle technology. Companies across various industries are now implementing AI solutions to enhance efficiency and create new products. However, this rapid development also raises concerns about job displacement and the need for new skills in the workforce.",
+        "passage_title": "The Growth of Artificial Intelligence",
+        "question_text": "What is the main idea of the passage?",
+        "options": [
+          "A) AI technology is replacing human workers in all industries",
+          "B) Machine learning has advanced significantly and is being widely adopted, but also raises concerns",
+          "C) Companies are reluctant to implement AI solutions due to high costs",
+          "D) Image recognition is the most important application of artificial intelligence"
+        ],
+        "correct_answer": "B",
+        "explanation": "The passage discusses the growth of AI, improvements in machine learning, widespread adoption across industries, and concerns about job displacement. Option B captures the balanced view of both benefits and concerns. Option A is too extreme. Option C contradicts the passage. Option D is too narrow, focusing only on one application.",
+        "knowledge_points": ["main idea", "artificial intelligence", "technology trends"],
+        "tags": ["reading", "basic", "main idea"]
+      },
+      {
+        "id": "reading_002",
+        "category": "reading",
+        "difficulty": "basic",
+        "question_type": "detail",
+        "passage": "Photosynthesis is a vital process that occurs in plants, algae, and some bacteria. During photosynthesis, these organisms convert light energy, usually from the sun, into chemical energy stored in glucose molecules. The process requires carbon dioxide from the atmosphere and water from the soil. Oxygen is released as a byproduct. This process is essential for life on Earth because it produces the oxygen that most living organisms need to survive and provides the foundation for most food chains. Without photosynthesis, the Earth's atmosphere would lack oxygen, making it impossible for most life forms to exist.",
+        "passage_title": "The Process of Photosynthesis",
+        "question_text": "According to the passage, what is released as a byproduct of photosynthesis?",
+        "options": [
+          "A) Carbon dioxide",
+          "B) Water",
+          "C) Oxygen",
+          "D) Glucose"
+        ],
+        "correct_answer": "C",
+        "explanation": "The passage clearly states that 'Oxygen is released as a byproduct' during photosynthesis. Option A (carbon dioxide) is consumed, not released. Option B (water) is consumed, not released. Option D (glucose) is produced as the main product, not a byproduct.",
+        "knowledge_points": ["photosynthesis", "byproducts", "plant biology"],
+        "tags": ["reading", "basic", "detail"]
+      },
+      {
+        "id": "reading_003",
+        "category": "reading",
+        "difficulty": "basic",
+        "question_type": "vocabulary_in_context",
+        "passage": "The ancient city of Pompeii was buried under volcanic ash when Mount Vesuvius erupted in 79 AD. This catastrophic event preserved the city in remarkable detail, providing archaeologists with invaluable insights into daily life during the Roman Empire. The ash acted as a natural preservative, protecting buildings, artwork, and even human remains from decay. Today, Pompeii serves as one of the world's most important archaeological sites, offering a unique window into the past that cannot be found anywhere else.",
+        "passage_title": "Pompeii: A Preserved Ancient City",
+        "question_text": "The word 'catastrophic' in the passage is closest in meaning to:",
+        "options": [
+          "A) beneficial",
+          "B) destructive",
+          "C) mysterious",
+          "D) temporary"
+        ],
+        "correct_answer": "B",
+        "explanation": "In this context, 'catastrophic' describes the eruption that buried the city, indicating something very destructive or disastrous. The context of burial under ash and preservation suggests the event was destructive. Option A is the opposite meaning. Option C doesn't capture the destructive nature. Option D refers to duration, not impact.",
+        "knowledge_points": ["vocabulary in context", "Roman history", "archaeology"],
+        "tags": ["reading", "basic", "vocabulary"]
+      },
+      {
+        "id": "reading_004",
+        "category": "reading",
+        "difficulty": "basic",
+        "question_type": "inference",
+        "passage": "The honeybee population has been declining at an alarming rate over the past decade. This phenomenon, known as Colony Collapse Disorder, has puzzled scientists and beekeepers alike. While researchers have identified several potential causes including pesticides, parasites, and climate change, no single factor has been definitively proven to be the primary culprit. The implications of this decline extend beyond beekeeping, as honeybees play a crucial role in pollinating many of the world's food crops.",
+        "passage_title": "The Decline of Honeybee Populations",
+        "question_text": "What can be inferred from the passage about the relationship between honeybees and food production?",
+        "options": [
+          "A) Honeybees are the only pollinators of food crops",
+          "B) Honeybees are important for pollinating many food crops",
+          "C) Food production would stop completely without honeybees",
+          "D) Honeybees only pollinate flowers, not food crops"
+        ],
+        "correct_answer": "B",
+        "explanation": "The passage states that honeybees 'play a crucial role in pollinating many of the world's food crops.' This suggests they are important for food production, but not necessarily the only pollinators or absolutely essential. Option A is too absolute. Option C goes beyond what the passage states. Option D contradicts the passage.",
+        "knowledge_points": ["inference", "ecology", "agriculture"],
+        "tags": ["reading", "basic", "inference"]
+      },
+      {
+        "id": "reading_005",
+        "category": "reading",
+        "difficulty": "basic",
+        "question_type": "detail",
+        "passage": "The Sahara Desert, located in northern Africa, is the world's largest hot desert. It covers approximately 9.2 million square kilometers, making it roughly the size of the United States. The desert experiences extreme temperatures, with daytime highs often exceeding 50°C (122°F), while nighttime temperatures can drop near freezing. Despite these harsh conditions, the Sahara is home to diverse wildlife including fennec foxes, dromedary camels, and various species of lizards and scorpions. The desert also contains valuable mineral deposits, particularly oil and natural gas, which have attracted international investment.",
+        "passage_title": "The Sahara Desert: Facts and Features",
+        "question_text": "According to the passage, what is the approximate size of the Sahara Desert?",
+        "options": [
+          "A) Half the size of the United States",
+          "B) The same size as the United States",
+          "C) Larger than the United States",
+          "D) Smaller than the United States"
+        ],
+        "correct_answer": "B",
+        "explanation": "The passage states that the Sahara Desert covers 'approximately 9.2 million square kilometers, making it roughly the size of the United States.' This indicates they are about the same size. Option A is incorrect. Option C suggests the Sahara is larger. Option D suggests it's smaller.",
+        "knowledge_points": ["desert geography", "Africa", "comparative size"],
+        "tags": ["reading", "basic", "detail"]
+      },
+      {
+        "id": "reading_006",
+        "category": "reading",
+        "difficulty": "basic",
+        "question_type": "main_idea",
+        "passage": "The Internet of Things (IoT) refers to the network of physical devices embedded with sensors, software, and connectivity that enables them to collect and exchange data. These devices range from smart home appliances like thermostats and security cameras to industrial equipment and wearable health monitors. The IoT promises to revolutionize how we interact with technology by creating an interconnected ecosystem where devices communicate autonomously. However, this connectivity also raises significant privacy and security concerns, as the vast amount of data collected could be vulnerable to cyberattacks and unauthorized access.",
+        "passage_title": "The Internet of Things: Connected Devices",
+        "question_text": "What is the primary focus of the passage?",
+        "options": [
+          "A) The history of the Internet of Things",
+          "B) The benefits and risks of IoT technology",
+          "C) How to protect IoT devices from cyberattacks",
+          "D) The difference between smart home and industrial IoT"
+        ],
+        "correct_answer": "B",
+        "explanation": "The passage discusses both the benefits of IoT technology (interconnected ecosystem, autonomous communication) and the risks (privacy and security concerns). This balanced presentation focuses on both positive and negative aspects. Option A is not discussed. Option C and D are too specific and narrow.",
+        "knowledge_points": ["main idea", "technology", "Internet of Things"],
+        "tags": ["reading", "basic", "main idea"]
+      },
+      {
+        "id": "reading_007",
+        "category": "reading",
+        "difficulty": "basic",
+        "question_type": "vocabulary_in_context",
+        "passage": "The concept of emotional intelligence, first popularized by psychologist Daniel Goleman, refers to the ability to recognize, understand, and manage our own emotions as well as the emotions of others. Unlike traditional intelligence, which focuses primarily on cognitive abilities, emotional intelligence encompasses self-awareness, empathy, and social skills. Research has shown that individuals with high emotional intelligence tend to have better relationships, perform better in leadership roles, and experience greater overall life satisfaction. This field of study has gained significant attention in both academic and professional circles.",
+        "passage_title": "Understanding Emotional Intelligence",
+        "question_text": "The word 'encompasses' in the passage is closest in meaning to:",
+        "options": [
+          "A) excludes",
+          "B) includes",
+          "C) confuses",
+          "D) ignores"
+        ],
+        "correct_answer": "B",
+        "explanation": "In this context, 'encompasses' means 'includes' or 'covers'. The passage states that emotional intelligence 'encompasses self-awareness, empathy, and social skills,' meaning these are included as part of emotional intelligence. Option A is the opposite meaning. Options C and D don't fit the context.",
+        "knowledge_points": ["vocabulary in context", "psychology", "emotional intelligence"],
+        "tags": ["reading", "basic", "vocabulary"]
+      },
+      {
+        "id": "reading_008",
+        "category": "reading",
+        "difficulty": "basic",
+        "question_type": "detail",
+        "passage": "The Great Barrier Reef, located off the coast of Australia, is the world's largest coral reef system. It stretches over 2,300 kilometers and consists of nearly 3,000 individual reefs and 900 islands. This natural wonder supports an incredible diversity of marine life, including over 1,500 species of fish, 400 types of coral, and numerous marine mammals. However, the reef faces serious threats from climate change, ocean acidification, and pollution. These factors have caused coral bleaching events that have damaged significant portions of the reef in recent years.",
+        "passage_title": "The Great Barrier Reef: Australia's Marine Treasure",
+        "question_text": "According to the passage, how many species of fish can be found in the Great Barrier Reef?",
+        "options": [
+          "A) 400",
+          "B) 900",
+          "C) 1,500",
+          "D) 2,300"
+        ],
+        "correct_answer": "C",
+        "explanation": "The passage states that the Great Barrier Reef supports 'over 1,500 species of fish.' Option A (400) refers to coral species. Option B (900) refers to islands. Option D (2,300) refers to the reef's length in kilometers.",
+        "knowledge_points": ["marine biology", "Great Barrier Reef", "species diversity"],
+        "tags": ["reading", "basic", "detail"]
+      },
+      {
+        "id": "reading_009",
+        "category": "reading",
+        "difficulty": "basic",
+        "question_type": "inference",
+        "passage": "The ancient practice of origami, the Japanese art of paper folding, has evolved from simple ceremonial uses to a complex form of artistic expression. Modern origami artists create intricate designs ranging from simple animals to complex geometric structures. What makes origami particularly fascinating is that it follows mathematical principles, with each fold creating precise angles and proportions. This connection between art and mathematics has attracted the attention of scientists and engineers, who study origami techniques for applications in fields such as robotics and space technology.",
+        "passage_title": "The Art and Science of Origami",
+        "question_text": "What can be inferred about the relationship between origami and mathematics?",
+        "options": [
+          "A) Origami is purely a mathematical exercise with no artistic value",
+          "B) Origami follows mathematical principles and has practical applications",
+          "C) Mathematics has no relevance to traditional origami",
+          "D) Only professional mathematicians can create origami"
+        ],
+        "correct_answer": "B",
+        "explanation": "The passage states that origami 'follows mathematical principles' and that these techniques 'have attracted the attention of scientists and engineers' for practical applications. This suggests origami combines mathematical principles with real-world applications. Option A is incorrect as origami has artistic value. Option C contradicts the passage. Option D is not supported.",
+        "knowledge_points": ["inference", "origami", "mathematics applications"],
+        "tags": ["reading", "basic", "inference"]
+      },
+      {
+        "id": "reading_010",
+        "category": "reading",
+        "difficulty": "basic",
+        "question_type": "detail",
+        "passage": "Renewable energy sources, such as solar, wind, and hydroelectric power, are becoming increasingly important as the world seeks alternatives to fossil fuels. Unlike coal, oil, and natural gas, renewable sources are naturally replenished and produce little to no greenhouse gas emissions during operation. Solar panels convert sunlight directly into electricity, while wind turbines harness the kinetic energy of moving air. Hydroelectric power uses flowing water to generate electricity. However, renewable energy still faces challenges including high initial costs, intermittent availability, and the need for energy storage solutions.",
+        "passage_title": "Renewable Energy: Powering the Future",
+        "question_text": "According to the passage, what is one challenge facing renewable energy?",
+        "options": [
+          "A) They produce too much pollution",
+          "B) They are too expensive to maintain",
+          "C) They have high initial costs",
+          "D) They are not renewable"
+        ],
+        "correct_answer": "C",
+        "explanation": "The passage states that renewable energy faces challenges including 'high initial costs.' Option A is incorrect as renewables produce 'little to no greenhouse gas emissions.' Option B is not mentioned. Option D is false as renewable energy is, by definition, renewable.",
+        "knowledge_points": ["renewable energy", "challenges", "environmental science"],
+        "tags": ["reading", "basic", "detail"]
+      },
+      {
+        "id": "reading_011",
+        "category": "reading",
+        "difficulty": "basic",
+        "question_type": "main_idea",
+        "passage": "The field of archaeology has been revolutionized by technological advances in recent decades. Ground-penetrating radar allows archaeologists to scan beneath the earth without excavation, while satellite imagery helps identify potential archaeological sites from space. DNA analysis of ancient remains provides insights into human migration patterns and genetic relationships. These tools have enabled archaeologists to make discoveries that would have been impossible with traditional methods alone. However, technology also presents new challenges, including the need for specialized training and the risk of damaging artifacts during analysis.",
+        "passage_title": "Technology in Archaeology",
+        "question_text": "What is the main idea of the passage?",
+        "options": [
+          "A) Traditional archaeology methods are no longer useful",
+          "B) Technology has revolutionized archaeology but also created new challenges",
+          "C) Archaeologists should avoid using modern technology",
+          "D) Satellite imagery is the most important archaeological tool"
+        ],
+        "correct_answer": "B",
+        "explanation": "The passage discusses both how technology has 'revolutionized' archaeology (enabling new discoveries) and the 'new challenges' it presents (need for training, risk of damage). This balanced view is captured in option B. Option A is too extreme. Option C contradicts the passage. Option D is too narrow.",
+        "knowledge_points": ["main idea", "archaeology", "technology"],
+        "tags": ["reading", "basic", "main idea"]
+      },
+      {
+        "id": "reading_012",
+        "category": "reading",
+        "difficulty": "basic",
+        "question_type": "vocabulary_in_context",
+        "passage": "The concept of cultural relativism suggests that moral and ethical standards should be understood within the context of each culture's own values and beliefs. This perspective challenges the idea that there are universal moral truths that apply to all societies. Proponents of cultural relativism argue that judging other cultures by one's own standards is ethnocentric and unfair. However, critics contend that this view can be used to justify harmful practices and that some universal human rights should transcend cultural boundaries.",
+        "passage_title": "Cultural Relativism: A Complex Debate",
+        "question_text": "The word 'ethnocentric' in the passage is closest in meaning to:",
+        "options": [
+          "A) open-minded",
+          "B) judging by one's own cultural standards",
+          "C) culturally sensitive",
+          "D) internationally minded"
+        ],
+        "correct_answer": "B",
+        "explanation": "In this context, 'ethnocentric' means judging other cultures by one's own cultural standards. The passage states that cultural relativism 'challenges the idea' of such judging, suggesting ethnocentrism involves using one's own culture as the standard. Option A is the opposite. Options C and D suggest cultural sensitivity, which is not what ethnocentric means.",
+        "knowledge_points": ["vocabulary in context", "cultural relativism", "anthropology"],
+        "tags": ["reading", "basic", "vocabulary"]
+      },
+      {
+        "id": "reading_013",
+        "category": "reading",
+        "difficulty": "basic",
+        "question_type": "detail",
+        "passage": "The human brain contains approximately 86 billion neurons, or nerve cells, which communicate through electrical and chemical signals. These neurons form complex networks that process information from our senses, control our movements, and enable our thoughts and emotions. Neuroplasticity, the brain's ability to reorganize itself by forming new neural connections, allows us to learn and adapt throughout our lives. This plasticity is particularly active during childhood but continues to some degree in adulthood. Research has shown that activities such as learning new skills, exercising, and maintaining social connections can promote neuroplasticity and support brain health.",
+        "passage_title": "The Amazing Human Brain",
+        "question_text": "According to the passage, how many neurons are in the human brain?",
+        "options": [
+          "A) 86 million",
+          "B) 860 million",
+          "C) 86 billion",
+          "D) 860 billion"
+        ],
+        "correct_answer": "C",
+        "explanation": "The passage clearly states that the human brain 'contains approximately 86 billion neurons.' Option A (86 million) is too small. Option B (860 million) is still too small. Option D (860 billion) is too large.",
+        "knowledge_points": ["neuroscience", "brain anatomy", "neurons"],
+        "tags": ["reading", "basic", "detail"]
+      },
+      {
+        "id": "reading_014",
+        "category": "reading",
+        "difficulty": "basic",
+        "question_type": "inference",
+        "passage": "The practice of meditation has gained significant popularity in Western countries over the past few decades. Originally rooted in Eastern religious and philosophical traditions, meditation is now practiced by millions of people for its mental health benefits. Research has shown that regular meditation can reduce stress, improve focus, and increase emotional regulation. Many healthcare providers now recommend meditation as a complementary therapy for conditions such as anxiety, depression, and chronic pain. Corporate wellness programs have also begun incorporating meditation sessions to help employees manage workplace stress.",
+        "passage_title": "Meditation in Modern Society",
+        "question_text": "What can be inferred about the acceptance of meditation in Western medicine?",
+        "options": [
+          "A) Meditation is completely rejected by Western medicine",
+          "B) Meditation is only practiced in Eastern countries",
+          "C) Meditation is increasingly accepted and recommended by healthcare providers",
+          "D) Meditation has no scientific backing"
+        ],
+        "correct_answer": "C",
+        "explanation": "The passage states that 'many healthcare providers now recommend meditation as a complementary therapy,' suggesting increasing acceptance in Western medicine. Option A contradicts this. Option B is false as meditation is practiced in Western countries. Option D contradicts the mention of research supporting meditation.",
+        "knowledge_points": ["inference", "medicine", "mental health"],
+        "tags": ["reading", "basic", "inference"]
+      },
+      {
+        "id": "reading_015",
+        "category": "reading",
+        "difficulty": "basic",
+        "question_type": "detail",
+        "passage": "The concept of sustainable development seeks to meet the needs of the present without compromising the ability of future generations to meet their own needs. This approach balances economic growth, social development, and environmental protection. Sustainable practices include using renewable resources, reducing waste, and minimizing environmental impact. Many companies have adopted corporate sustainability strategies, implementing eco-friendly manufacturing processes and developing products with longer lifespans. Governments are also establishing regulations and incentives to promote sustainable practices across industries.",
+        "passage_title": "Sustainable Development: Balancing Present and Future",
+        "question_text": "According to the passage, what is one example of a sustainable practice?",
+        "options": [
+          "A) Using renewable resources",
+          "B) Increasing waste production",
+          "C) Ignoring environmental impact",
+          "D) Focusing only on short-term profits"
+        ],
+        "correct_answer": "A",
+        "explanation": "The passage states that sustainable practices include 'using renewable resources.' Option B is the opposite of sustainable practices. Option C contradicts the passage. Option D goes against the principle of sustainable development.",
+        "knowledge_points": ["sustainable development", "environmental science", "resource management"],
+        "tags": ["reading", "basic", "detail"]
+      },
+      {
+        "id": "reading_016",
+        "category": "reading",
+        "difficulty": "basic",
+        "question_type": "main_idea",
+        "passage": "The study of linguistics examines the structure, evolution, and use of language. Linguists analyze how languages develop, change over time, and vary across different regions and social groups. This field encompasses phonetics (the study of speech sounds), syntax (sentence structure), semantics (meaning), and pragmatics (language use in context). Modern linguistics also investigates how children acquire language, how different languages influence each other, and the relationship between language and thought. Understanding these aspects of language has practical applications in education, translation, and artificial intelligence development.",
+        "passage_title": "The Science of Language",
+        "question_text": "What is the primary focus of the passage?",
+        "options": [
+          "A) The history of English language",
+          "B) The various aspects and applications of linguistic study",
+          "C) How to learn foreign languages",
+          "D) The differences between spoken and written language"
+        ],
+        "correct_answer": "B",
+        "explanation": "The passage discusses multiple aspects of linguistics (phonetics, syntax, semantics, pragmatics) and its applications (education, translation, AI). This comprehensive overview focuses on the various aspects and applications of linguistic study. Options A, C, and D are too narrow.",
+        "knowledge_points": ["main idea", "linguistics", "language study"],
+        "tags": ["reading", "basic", "main idea"]
+      },
+      {
+        "id": "reading_017",
+        "category": "reading",
+        "difficulty": "basic",
+        "question_type": "vocabulary_in_context",
+        "passage": "The phenomenon of urban heat islands occurs when cities experience significantly higher temperatures than surrounding rural areas. This temperature difference is primarily due to human activities and the built environment. Concrete and asphalt absorb and retain heat, while the lack of vegetation reduces natural cooling through shade and transpiration. Additionally, vehicles, air conditioning units, and industrial processes generate heat. The urban heat island effect can increase energy consumption for cooling, worsen air quality, and pose health risks, particularly for vulnerable populations such as the elderly and those with respiratory conditions.",
+        "passage_title": "Urban Heat Islands: City Temperature Effects",
+        "question_text": "The word 'phenomenon' in the passage is closest in meaning to:",
+        "options": [
+          "A) problem",
+          "B) occurrence",
+          "C) solution",
+          "D) theory"
+        ],
+        "correct_answer": "B",
+        "explanation": "In this context, 'phenomenon' means an observable occurrence or event. The urban heat island effect is described as something that 'occurs' when cities are warmer than rural areas. Option A is too negative. Option C is the opposite. Option D is a proposed explanation, not the occurrence itself.",
+        "knowledge_points": ["vocabulary in context", "urban planning", "environmental science"],
+        "tags": ["reading", "basic", "vocabulary"]
+      },
+      {
+        "id": "reading_018",
+        "category": "reading",
+        "difficulty": "basic",
+        "question_type": "detail",
+        "passage": "The practice of hydroponics, or soil-less agriculture, involves growing plants in nutrient-rich water solutions. This method allows for precise control over the nutrients plants receive, potentially leading to faster growth and higher yields compared to traditional soil-based farming. Hydroponic systems can be set up in controlled environments such as greenhouses, making it possible to grow crops year-round regardless of weather conditions. This technique is particularly useful in areas with poor soil quality or limited arable land. However, hydroponic systems require careful monitoring of pH levels, nutrient concentrations, and water quality to ensure optimal plant growth.",
+        "passage_title": "Hydroponics: Soil-less Agriculture",
+        "question_text": "According to the passage, what is one advantage of hydroponic farming?",
+        "options": [
+          "A) It requires no monitoring of plant conditions",
+          "B) It can produce crops year-round",
+          "C) It only works in areas with good soil",
+          "D) It eliminates the need for water"
+        ],
+        "correct_answer": "B",
+        "explanation": "The passage states that hydroponic systems 'can be set up in controlled environments...making it possible to grow crops year-round.' Option A is incorrect as monitoring is required. Option C contradicts the passage. Option D is false as hydroponics uses water solutions.",
+        "knowledge_points": ["hydroponics", "agriculture", "controlled environments"],
+        "tags": ["reading", "basic", "detail"]
+      },
+      {
+        "id": "reading_019",
+        "category": "reading",
+        "difficulty": "basic",
+        "question_type": "inference",
+        "passage": "The field of telemedicine has expanded rapidly, especially following the global health crisis. This technology allows healthcare providers to consult with patients remotely using video calls, phone calls, and digital communication platforms. Telemedicine offers several advantages including increased access to healthcare for people in rural areas, reduced travel time and costs for patients, and decreased risk of infection transmission. However, it also presents challenges such as the need for reliable internet access, difficulty conducting physical examinations, and concerns about patient privacy and data security. Despite these challenges, many healthcare systems are integrating telemedicine as a permanent part of their service offerings.",
+        "passage_title": "Telemedicine: Healthcare at a Distance",
+        "question_text": "What can be inferred about the future of telemedicine?",
+        "options": [
+          "A) Telemedicine will completely replace traditional healthcare",
+          "B) Telemedicine will become a permanent part of healthcare systems",
+          "C) Telemedicine will only be used in emergency situations",
+          "D) Telemedicine will be eliminated due to privacy concerns"
+        ],
+        "correct_answer": "B",
+        "explanation": "The passage states that 'many healthcare systems are integrating telemedicine as a permanent part of their service offerings,' suggesting it will become a permanent feature. Option A is too extreme. Option C contradicts the mention of permanent integration. Option D goes against the trend toward permanent adoption.",
+        "knowledge_points": ["inference", "telemedicine", "healthcare technology"],
+        "tags": ["reading", "basic", "inference"]
+      },
+      {
+        "id": "reading_020",
+        "category": "reading",
+        "difficulty": "basic",
+        "question_type": "detail",
+        "passage": "The concept of blockchain technology extends far beyond its original application in cryptocurrency. A blockchain is essentially a distributed ledger that records transactions across multiple computers in a way that makes the records tamper-resistant and transparent. Each block in the chain contains a cryptographic hash of the previous block, creating an immutable record. This technology has potential applications in supply chain management, where it can track products from origin to consumer, ensuring authenticity and preventing counterfeiting. In healthcare, blockchain could secure patient records while allowing authorized access. The financial sector is also exploring blockchain for faster and more secure transactions.",
+        "passage_title": "Blockchain Technology: Beyond Cryptocurrency",
+        "question_text": "According to the passage, what makes blockchain records tamper-resistant?",
+        "options": [
+          "A) They are stored on a single computer",
+          "B) Each block contains a hash of the previous block",
+          "C) They can only be accessed by authorized users",
+          "D) They are automatically deleted after a certain time"
+        ],
+        "correct_answer": "B",
+        "explanation": "The passage states that 'Each block in the chain contains a cryptographic hash of the previous block, creating an immutable record.' This cryptographic linking makes the records tamper-resistant. Option A is incorrect as blockchain is distributed. Option C is about access control, not tamper-resistance. Option D is not mentioned.",
+        "knowledge_points": ["blockchain technology", "cryptography", "data security"],
+        "tags": ["reading", "basic", "detail"]
+      }
+    ]
+  },
+  "complete_version": {
+    "total_questions": 100,
+    "vocabulary_questions": 30,
+    "grammar_questions": 30,
+    "reading_questions": 40,
+    "questions": [
+      {
+        "id": "vocab_016",
+        "category": "vocabulary",
+        "difficulty": "intermediate",
+        "question_type": "word_meaning",
+        "question_text": "The word \"paradigm\" in the passage is closest in meaning to:",
+        "context": "The discovery of DNA structure represented a complete paradigm shift in how scientists understood genetic inheritance.",
+        "options": [
+          "A) problem",
+          "B) model",
+          "C) mistake",
+          "D) failure"
+        ],
+        "correct_answer": "B",
+        "explanation": "The word 'paradigm' means a typical example or pattern of something; a model or framework. In this context, the discovery of DNA structure represented a new model for understanding genetics. Option B 'model' is the correct synonym. Option A 'problem' refers to a difficulty. Option C 'mistake' refers to an error. Option D 'failure' refers to lack of success.",
+        "knowledge_points": ["scientific vocabulary", "models", "genetics"],
+        "tags": ["vocabulary", "intermediate", "science"]
+      },
+      {
+        "id": "vocab_017",
+        "category": "vocabulary",
+        "difficulty": "intermediate",
+        "question_type": "word_meaning",
+        "question_text": "The word \"ubiquitous\" in the passage is closest in meaning to:",
+        "context": "Smartphones have become ubiquitous in modern society, with people using them for everything from communication to navigation.",
+        "options": [
+          "A) rare",
+          "B) widespread",
+          "C) expensive",
+          "D) complicated"
+        ],
+        "correct_answer": "B",
+        "explanation": "The word 'ubiquitous' means present, appearing, or found everywhere. In this context, smartphones are widespread in modern society. Option B 'widespread' is the correct synonym. Option A 'rare' is the opposite meaning. Option C 'expensive' refers to cost. Option D 'complicated' refers to difficulty.",
+        "knowledge_points": ["technology vocabulary", "frequency", "society"],
+        "tags": ["vocabulary", "intermediate", "technology"]
+      },
+      {
+        "id": "vocab_018",
+        "category": "vocabulary",
+        "difficulty": "intermediate",
+        "question_type": "word_meaning",
+        "question_text": "The word \"ambiguous\" in the passage is closest in meaning to:",
+        "context": "The policy statement was deliberately ambiguous, allowing different interpretations depending on the reader's perspective.",
+        "options": [
+          "A) clear",
+          "B) unclear",
+          "C) important",
+          "D) simple"
+        ],
+        "correct_answer": "B",
+        "explanation": "The word 'ambiguous' means open to more than one interpretation; not having one obvious meaning. In this context, the policy statement was unclear and could be interpreted in different ways. Option B 'unclear' is the correct synonym. Option A 'clear' is the opposite meaning. Option C 'important' refers to significance. Option D 'simple' refers to ease of understanding.",
+        "knowledge_points": ["policy vocabulary", "clarity", "interpretation"],
+        "tags": ["vocabulary", "intermediate", "policy"]
+      },
+      {
+        "id": "vocab_019",
+        "category": "vocabulary",
+        "difficulty": "intermediate",
+        "question_type": "word_meaning",
+        "question_text": "The word \"phenomenon\" in the passage is closest in meaning to:",
+        "context": "The aurora borealis is a natural phenomenon caused by charged particles from the sun interacting with Earth's magnetic field.",
+        "options": [
+          "A) problem",
+          "B) event",
+          "C) mistake",
+          "D) theory"
+        ],
+        "correct_answer": "B",
+        "explanation": "The word 'phenomenon' means a fact or situation that is observed to exist or happen, especially one whose cause or explanation is in question. In this context, the aurora borealis is a natural event. Option B 'event' is the correct synonym. Option A 'problem' refers to a difficulty. Option C 'mistake' refers to an error. Option D 'theory' refers to a proposed explanation.",
+        "knowledge_points": ["scientific vocabulary", "natural events", "earth science"],
+        "tags": ["vocabulary", "intermediate", "science"]
+      },
+      {
+        "id": "vocab_020",
+        "category": "vocabulary",
+        "difficulty": "intermediate",
+        "question_type": "word_meaning",
+        "question_text": "The word \"inherent\" in the passage is closest in meaning to:",
+        "context": "There are inherent risks in any medical procedure, but the benefits often outweigh the potential complications.",
+        "options": [
+          "A) external",
+          "B) natural",
+          "C) artificial",
+          "D) avoidable"
+        ],
+        "correct_answer": "B",
+        "explanation": "The word 'inherent' means existing in something as a permanent, essential, or characteristic attribute. In this context, the risks are natural and built into any medical procedure. Option B 'natural' is the correct synonym. Option A 'external' is the opposite meaning. Option C 'artificial' means man-made. Option D 'avoidable' means can be prevented.",
+        "knowledge_points": ["medical vocabulary", "risk assessment", "characteristics"],
+        "tags": ["vocabulary", "intermediate", "medicine"]
+      },
+      {
+        "id": "vocab_021",
+        "category": "vocabulary",
+        "difficulty": "intermediate",
+        "question_type": "word_meaning",
+        "question_text": "The word \"proliferate\" in the passage is closest in meaning to:",
+        "context": "Social media platforms have proliferated rapidly in recent years, with new apps appearing monthly.",
+        "options": [
+          "A) decrease",
+          "B) multiply",
+          "C) disappear",
+          "D) change"
+        ],
+        "correct_answer": "B",
+        "explanation": "The word 'proliferate' means to increase rapidly in number or amount. In this context, social media platforms have multiplied rapidly. Option B 'multiply' is the correct synonym. Option A 'decrease' is the opposite meaning. Option C 'disappear' means to vanish. Option D 'change' means to become different.",
+        "knowledge_points": ["technology vocabulary", "growth", "social media"],
+        "tags": ["vocabulary", "intermediate", "technology"]
+      },
+      {
+        "id": "vocab_022",
+        "category": "vocabulary",
+        "difficulty": "intermediate",
+        "question_type": "word_meaning",
+        "question_text": "The word \"mitigate\" in the passage is closest in meaning to:",
+        "context": "The government implemented measures to mitigate the economic impact of the pandemic on small businesses.",
+        "options": [
+          "A) worsen",
+          "B) reduce",
+          "C) ignore",
+          "D) create"
+        ],
+        "correct_answer": "B",
+        "explanation": "The word 'mitigate' means to make less severe, serious, or painful. In this context, the government implemented measures to reduce the economic impact. Option B 'reduce' is the correct synonym. Option A 'worsen' is the opposite meaning. Option C 'ignore' means to pay no attention. Option D 'create' means to make something new.",
+        "knowledge_points": ["economic vocabulary", "policy", "problem solving"],
+        "tags": ["vocabulary", "intermediate", "economics"]
+      },
+      {
+        "id": "vocab_023",
+        "category": "vocabulary",
+        "difficulty": "intermediate",
+        "question_type": "word_meaning",
+        "question_text": "The word \"correlate\" in the passage is closest in meaning to:",
+        "context": "Studies have shown that education levels correlate strongly with income potential in most developed countries.",
+        "options": [
+          "A) differ",
+          "B) relate",
+          "C) separate",
+          "D) ignore"
+        ],
+        "correct_answer": "B",
+        "explanation": "The word 'correlate' means to have a mutual relationship or connection, in which one thing affects or depends on another. In this context, education levels are related to income potential. Option B 'relate' is the correct synonym. Option A 'differ' is the opposite meaning. Option C 'separate' means to divide or keep apart. Option D 'ignore' means to pay no attention.",
+        "knowledge_points": ["research vocabulary", "statistics", "relationships"],
+        "tags": ["vocabulary", "intermediate", "research"]
+      },
+      {
+        "id": "vocab_024",
+        "category": "vocabulary",
+        "difficulty": "intermediate",
+        "question_type": "word_meaning",
+        "question_text": "The word \"hypothesis\" in the passage is closest in meaning to:",
+        "context": "The scientist proposed a new hypothesis to explain the unusual behavior of subatomic particles under extreme conditions.",
+        "options": [
+          "A) fact",
+          "B) theory",
+          "C) experiment",
+          "D) conclusion"
+        ],
+        "correct_answer": "B",
+        "explanation": "The word 'hypothesis' means a supposition or proposed explanation made on the basis of limited evidence, used as a starting point for investigation. In this context, the scientist proposed a theory to explain the particle behavior. Option B 'theory' is the correct synonym. Option A 'fact' refers to something proven true. Option C 'experiment' refers to a test or trial. Option D 'conclusion' refers to a final decision or judgment.",
+        "knowledge_points": ["scientific vocabulary", "hypothesis", "theories"],
+        "tags": ["vocabulary", "intermediate", "science"]
+      },
+      {
+        "id": "vocab_025",
+        "category": "vocabulary",
+        "difficulty": "intermediate",
+        "question_type": "word_meaning",
+        "question_text": "The word \"synthesize\" in the passage is closest in meaning to:",
+        "context": "The researcher was able to synthesize the findings from multiple studies to create a comprehensive understanding of the phenomenon.",
+        "options": [
+          "A) separate",
+          "B) combine",
+          "C) ignore",
+          "D) destroy"
+        ],
+        "correct_answer": "B",
+        "explanation": "The word 'synthesize' means to combine separate ideas, beliefs, or items into a unified whole. In this context, the researcher combined findings from multiple studies. Option B 'combine' is the correct synonym. Option A 'separate' is the opposite meaning. Option C 'ignore' means to pay no attention. Option D 'destroy' means to ruin completely.",
+        "knowledge_points": ["research vocabulary", "integration", "analysis"],
+        "tags": ["vocabulary", "intermediate", "research"]
+      },
+      {
+        "id": "vocab_026",
+        "category": "vocabulary",
+        "difficulty": "intermediate",
+        "question_type": "word_meaning",
+        "question_text": "The word \"viable\" in the passage is closest in meaning to:",
+        "context": "The startup's business model proved viable after securing significant investment and gaining market traction.",
+        "options": [
+          "A) impossible",
+          "B) practical",
+          "C) theoretical",
+          "D) risky"
+        ],
+        "correct_answer": "B",
+        "explanation": "The word 'viable' means capable of working successfully; feasible. In this context, the startup's business model was practical and could work successfully. Option B 'practical' is the correct synonym. Option A 'impossible' is the opposite meaning. Option C 'theoretical' means based on theory rather than practice. Option D 'risky' means involving danger or uncertainty.",
+        "knowledge_points": ["business vocabulary", "feasibility", "startups"],
+        "tags": ["vocabulary", "intermediate", "business"]
+      },
+      {
+        "id": "vocab_027",
+        "category": "vocabulary",
+        "difficulty": "intermediate",
+        "question_type": "word_meaning",
+        "question_text": "The word \"subsequent\" in the passage is closest in meaning to:",
+        "context": "The initial experiment failed, but subsequent attempts using modified procedures yielded promising results.",
+        "options": [
+          "A) first",
+          "B) following",
+          "C) previous",
+          "D) final"
+        ],
+        "correct_answer": "B",
+        "explanation": "The word 'subsequent' means coming after something in time; following. In this context, the following attempts using modified procedures yielded results. Option B 'following' is the correct synonym. Option A 'first' refers to the initial attempt. Option C 'previous' refers to something that came before. Option D 'final' refers to the last attempt.",
+        "knowledge_points": ["sequence vocabulary", "timeline", "experiments"],
+        "tags": ["vocabulary", "intermediate", "science"]
+      },
+      {
+        "id": "vocab_028",
+        "category": "vocabulary",
+        "difficulty": "intermediate",
+        "question_type": "word_meaning",
+        "question_text": "The word \"constitute\" in the passage is closest in meaning to:",
+        "context": "Water molecules constitute approximately 60% of the adult human body by weight.",
+        "options": [
+          "A) ignore",
+          "B) form",
+          "C) destroy",
+          "D) separate"
+        ],
+        "correct_answer": "B",
+        "explanation": "The word 'constitute' means to be the elements or parts of; to make up or form. In this context, water molecules form approximately 60% of the human body. Option B 'form' is the correct synonym. Option A 'ignore' is the opposite meaning. Option C 'destroy' means to ruin completely. Option D 'separate' means to divide or keep apart.",
+        "knowledge_points": ["biology vocabulary", "composition", "human body"],
+        "tags": ["vocabulary", "intermediate", "biology"]
+      },
+      {
+        "id": "vocab_029",
+        "category": "vocabulary",
+        "difficulty": "intermediate",
+        "question_type": "word_meaning",
+        "question_text": "The word \"elaborate\" in the passage is closest in meaning to:",
+        "context": "The professor will elaborate on the key concepts in the next lecture to ensure students understand the complex material.",
+        "options": [
+          "A) simplify",
+          "B) explain",
+          "C) confuse",
+          "D) ignore"
+        ],
+        "correct_answer": "B",
+        "explanation": "The word 'elaborate' means to explain in more detail; to expand upon. In this context, the professor will explain the key concepts in more detail. Option B 'explain' is the correct synonym. Option A 'simplify' is the opposite meaning. Option C 'confuse' means to make unclear or puzzling. Option D 'ignore' means to pay no attention.",
+        "knowledge_points": ["education vocabulary", "teaching", "explanation"],
+        "tags": ["vocabulary", "intermediate", "education"]
+      },
+      {
+        "id": "vocab_030",
+        "category": "vocabulary",
+        "difficulty": "intermediate",
+        "question_type": "word_meaning",
+        "question_text": "The word \"predominant\" in the passage is closest in meaning to:",
+        "context": "In the digital age, visual content has become the predominant form of communication on social media platforms.",
+        "options": [
+          "A) rare",
+          "B) main",
+          "C) secondary",
+          "D) hidden"
+        ],
+        "correct_answer": "B",
+        "explanation": "The word 'predominant' means present as the strongest or main element; prevailing. In this context, visual content is the main form of communication. Option B 'main' is the correct synonym. Option A 'rare' is the opposite meaning. Option C 'secondary' refers to something of lesser importance. Option D 'hidden' means not visible or obvious.",
+        "knowledge_points": ["media vocabulary", "communication", "digital age"],
+        "tags": ["vocabulary", "intermediate", "media"]
+      },
+      {
+        "id": "grammar_016",
+        "category": "grammar",
+        "difficulty": "intermediate",
+        "question_type": "subjunctive_mood",
+        "question_text": "Choose the correct form: I suggest that he _____ more time on the research.",
+        "options": [
+          "A) spends",
+          "B) spend",
+          "C) spent",
+          "D) spending"
+        ],
+        "correct_answer": "B",
+        "explanation": "After verbs like 'suggest', 'recommend', 'insist', etc., we use the base form of the verb (subjunctive mood) in formal English. Option A 'spends' is third person singular. Option C 'spent' is past tense. Option D 'spending' is a gerund.",
+        "knowledge_points": ["subjunctive mood", "formal English", "suggest + base form"],
+        "tags": ["grammar", "intermediate", "mood"]
+      },
+      {
+        "id": "grammar_017",
+        "category": "grammar",
+        "difficulty": "intermediate",
+        "question_type": "inversion",
+        "question_text": "Choose the correct form: _____ the research be completed on time, we will miss the conference deadline.",
+        "options": [
+          "A) If",
+          "B) Unless",
+          "C) Although",
+          "D) Because"
+        ],
+        "correct_answer": "B",
+        "explanation": "The sentence means 'If the research is NOT completed on time, we will miss the deadline.' The word 'unless' means 'if not' and is used for negative conditions. Option A 'If' would require positive completion. Option C 'Although' shows contrast. Option D 'Because' shows cause.",
+        "knowledge_points": ["unless", "negative conditions", "conditional sentences"],
+        "tags": ["grammar", "intermediate", "conditionals"]
+      },
+      {
+        "id": "grammar_018",
+        "category": "grammar",
+        "difficulty": "intermediate",
+        "question_type": "phrasal_verbs",
+        "question_text": "Choose the correct phrasal verb: The experiment _____ several unexpected results.",
+        "options": [
+          "A) brought about",
+          "B) brought up",
+          "C) brought out",
+          "D) brought in"
+        ],
+        "correct_answer": "A",
+        "explanation": "The phrasal verb 'bring about' means 'to cause' or 'to result in'. Option B 'bring up' means 'to mention' or 'to raise'. Option C 'bring out' means 'to produce' or 'to reveal'. Option D 'bring in' means 'to introduce' or 'to earn'.",
+        "knowledge_points": ["phrasal verbs", "bring about", "cause and effect"],
+        "tags": ["grammar", "intermediate", "phrasal verbs"]
+      },
+      {
+        "id": "grammar_019",
+        "category": "grammar",
+        "difficulty": "intermediate",
+        "question_type": "parallel_structure",
+        "question_text": "Choose the sentence with correct parallel structure:",
+        "options": [
+          "A) The research involves collecting data, analyzing results, and to write a report.",
+          "B) The research involves collecting data, analyzing results, and writing a report.",
+          "C) The research involves to collect data, analyzing results, and writing a report.",
+          "D) The research involves collect data, analyze results, and to write a report."
+        ],
+        "correct_answer": "B",
+        "explanation": "In parallel structure, items in a series should have the same grammatical form. All three activities should use the -ing form: collecting, analyzing, writing. Option A mixes -ing and infinitive. Option C mixes infinitive and -ing. Option D mixes base form and infinitive.",
+        "knowledge_points": ["parallel structure", "series", "consistent grammar"],
+        "tags": ["grammar", "intermediate", "structure"]
+      },
+      {
+        "id": "grammar_020",
+        "category": "grammar",
+        "difficulty": "intermediate",
+        "question_type": "cleft_sentences",
+        "question_text": "Choose the correct cleft sentence:",
+        "options": [
+          "A) It was Einstein who developed the theory of relativity.",
+          "B) It was Einstein that developed the theory of relativity.",
+          "C) It was Einstein whom developed the theory of relativity.",
+          "D) It was Einstein what developed the theory of relativity."
+        ],
+        "correct_answer": "A",
+        "explanation": "In cleft sentences (It was/was + emphasis + who/that + clause), we use 'who' for people and 'that' for things. Since Einstein is a person, 'who' is correct. Option B uses 'that' which is less formal for people. Option C uses 'whom' which is the object form. Option D uses 'what' which is incorrect.",
+        "knowledge_points": ["cleft sentences", "who vs that", "emphasis"],
+        "tags": ["grammar", "intermediate", "emphasis"]
+      },
+      {
+        "id": "grammar_021",
+        "category": "grammar",
+        "difficulty": "intermediate",
+        "question_type": "passive_infinitives",
+        "question_text": "Choose the correct form: The results are _____ to be published next month.",
+        "options": [
+          "A) schedule",
+          "B) scheduled",
+          "C) scheduling",
+          "D) schedules"
+        ],
+        "correct_answer": "B",
+        "explanation": "After 'are' (a form of 'be'), we use the past participle to form the passive voice. The results are scheduled = The publisher schedules the results. Option A 'schedule' is the base form. Option C 'scheduling' is present participle. Option D 'schedules' is third person singular.",
+        "knowledge_points": ["passive voice", "past participles", "be + past participle"],
+        "tags": ["grammar", "intermediate", "passive"]
+      },
+      {
+        "id": "grammar_022",
+        "category": "grammar",
+        "difficulty": "intermediate",
+        "question_type": "participial_phrases",
+        "question_text": "Choose the sentence with correct participial phrase:",
+        "options": [
+          "A) Working late into the night, the experiment was completed by the team.",
+          "B) Working late into the night, the team completed the experiment.",
+          "C) The team, working late into the night, completed the experiment.",
+          "D) Both B and C are correct."
+        ],
+        "correct_answer": "D",
+        "explanation": "Both B and C are correct. In B, the participial phrase 'Working late into the night' modifies 'the team'. In C, the participial phrase is set off by commas and also modifies 'the team'. Option A is incorrect because the participial phrase cannot modify 'the experiment'.",
+        "knowledge_points": ["participial phrases", "dangling modifiers", "proper modification"],
+        "tags": ["grammar", "intermediate", "modifiers"]
+      },
+      {
+        "id": "grammar_023",
+        "category": "grammar",
+        "difficulty": "intermediate",
+        "question_type": "elliptical_constructions",
+        "question_text": "Choose the sentence with correct elliptical construction:",
+        "options": [
+          "A) She is more intelligent than he is.",
+          "B) She is more intelligent than him.",
+          "C) She is more intelligent than he.",
+          "D) All are correct."
+        ],
+        "correct_answer": "D",
+        "explanation": "All three are correct in modern English, though they have slightly different formality levels. A is the most formal with the full verb 'is'. B uses the object pronoun 'him'. C uses the subject pronoun 'he' with the understood verb 'is'.",
+        "knowledge_points": ["elliptical constructions", "comparisons", "pronoun case"],
+        "tags": ["grammar", "intermediate", "comparisons"]
+      },
+      {
+        "id": "grammar_024",
+        "category": "grammar",
+        "difficulty": "intermediate",
+        "question_type": "nominalization",
+        "question_text": "Choose the sentence with correct nominalization:",
+        "options": [
+          "A) The experiment's success depends on careful planning.",
+          "B) The success of the experiment depends on careful planning.",
+          "C) The experiment success depends on careful planning.",
+          "D) Both A and B are correct."
+        ],
+        "correct_answer": "D",
+        "explanation": "Both A and B are correct. A uses the possessive form 'experiment's' to show the relationship. B uses the prepositional phrase 'of the experiment' to show the same relationship. Option C is incorrect because 'experiment success' is not grammatically correct.",
+        "knowledge_points": ["nominalization", "possessive vs prepositional", "relationship expression"],
+        "tags": ["grammar", "intermediate", "nominalization"]
+      },
+      {
+        "id": "grammar_025",
+        "category": "grammar",
+        "difficulty": "intermediate",
+        "question_type": "emphatic_do",
+        "question_text": "Choose the correct form: I _____ believe the results are accurate.",
+        "options": [
+          "A) do",
+          "B) does",
+          "C) did",
+          "D) doing"
+        ],
+        "correct_answer": "A",
+        "explanation": "We use 'do/does/did' for emphasis in affirmative sentences. Since the subject 'I' is first person singular, we use 'do'. Option B 'does' is third person singular. Option C 'did' is past tense. Option D 'doing' is present participle.",
+        "knowledge_points": ["emphatic do", "emphasis", "affirmative sentences"],
+        "tags": ["grammar", "intermediate", "emphasis"]
+      },
+      {
+        "id": "grammar_026",
+        "category": "grammar",
+        "difficulty": "intermediate",
+        "question_type": "negative_inversion",
+        "question_text": "Choose the correct form: _____ the researcher been more careful, the error could have been avoided.",
+        "options": [
+          "A) Had",
+          "B) Has",
+          "C) Have",
+          "D) Having"
+        ],
+        "correct_answer": "A",
+        "explanation": "This is an inverted conditional sentence. The full form would be 'If the researcher had been more careful...' In inversion, we move 'had' to the beginning. Option B 'Has' is present perfect. Option C 'Have' doesn't agree with 'the researcher'. Option D 'Having' is a participle.",
+        "knowledge_points": ["inversion", "conditional sentences", "had + past participle"],
+        "tags": ["grammar", "intermediate", "inversion"]
+      },
+      {
+        "id": "grammar_027",
+        "category": "grammar",
+        "difficulty": "intermediate",
+        "question_type": "double_negatives",
+        "question_text": "Choose the sentence with correct double negative:",
+        "options": [
+          "A) I can't hardly believe the results.",
+          "B) I can't help but believe the results.",
+          "C) I don't never trust the data.",
+          "D) I won't not accept the findings."
+        ],
+        "correct_answer": "B",
+        "explanation": "Option B is correct. 'Can't help but + base verb' is a standard construction meaning 'must' or 'cannot avoid'. Option A creates a double negative with 'can't hardly'. Option C creates a double negative with 'don't never'. Option D creates a double negative with 'won't not'.",
+        "knowledge_points": ["double negatives", "standard constructions", "can't help but"],
+        "tags": ["grammar", "intermediate", "negatives"]
+      },
+      {
+        "id": "grammar_028",
+        "category": "grammar",
+        "difficulty": "intermediate",
+        "question_type": "complex_sentences",
+        "question_text": "Choose the sentence with correct complex sentence structure:",
+        "options": [
+          "A) The experiment failed, because the sample was contaminated.",
+          "B) Because the sample was contaminated, the experiment failed.",
+          "C) The experiment failed because, the sample was contaminated.",
+          "D) Both A and B are correct."
+        ],
+        "correct_answer": "D",
+        "explanation": "Both A and B are correct. In A, the dependent clause 'because the sample was contaminated' comes after the independent clause. In B, it comes before. Option C is incorrect because there should be no comma after 'because' in this construction.",
+        "knowledge_points": ["complex sentences", "subordinate clauses", "because clauses"],
+        "tags": ["grammar", "intermediate", "sentence structure"]
+      },
+      {
+        "id": "grammar_029",
+        "category": "grammar",
+        "difficulty": "intermediate",
+        "question_type": "concessive_clauses",
+        "question_text": "Choose the correct concessive conjunction: _____ the experiment was expensive, the results were worth the investment.",
+        "options": [
+          "A) Although",
+          "B) Because",
+          "C) Since",
+          "D) If"
+        ],
+        "correct_answer": "A",
+        "explanation": "The sentence shows contrast - something was expensive but still worth it. 'Although' introduces a concessive clause (showing contrast). Option B 'Because' shows cause. Option C 'Since' shows time or cause. Option D 'If' shows condition.",
+        "knowledge_points": ["concessive clauses", "although vs because", "contrast"],
+        "tags": ["grammar", "intermediate", "conjunctions"]
+      },
+      {
+        "id": "grammar_030",
+        "category": "grammar",
+        "difficulty": "intermediate",
+        "question_type": "mixed_conditional",
+        "question_text": "Choose the correct mixed conditional: If she _____ the conference, she would have learned about the new findings.",
+        "options": [
+          "A) attended",
+          "B) had attended",
+          "C) would attend",
+          "D) attends"
+        ],
+        "correct_answer": "B",
+        "explanation": "This is a mixed conditional (second conditional in the if-clause, third conditional in the main clause). It refers to a past condition that didn't happen and its past result. 'Had attended' is past perfect. Option A 'attended' is simple past. Option C 'would attend' is second conditional. Option D 'attends' is present tense.",
+        "knowledge_points": ["mixed conditionals", "past perfect", "hypothetical past"],
+        "tags": ["grammar", "intermediate", "conditionals"]
+      },
+      {
+        "id": "reading_021",
+        "category": "reading",
+        "difficulty": "intermediate",
+        "question_type": "main_idea",
+        "passage": "The intersection of artificial intelligence and healthcare represents one of the most promising and complex developments in modern medicine. AI algorithms can analyze vast datasets of medical images, identifying patterns that might escape human detection, particularly in radiology and pathology. Machine learning models trained on genomic data are enabling personalized medicine approaches, where treatments are tailored to individual genetic profiles. Natural language processing applications can extract relevant information from electronic health records, potentially streamlining clinical decision-making. However, the integration of AI in healthcare also raises significant ethical considerations, including concerns about algorithmic bias, patient privacy, and the potential for AI to replace human judgment in critical medical decisions. Furthermore, regulatory frameworks struggle to keep pace with technological advancement, creating uncertainty about liability and safety standards.",
+        "passage_title": "Artificial Intelligence in Healthcare: Promise and Challenges",
+        "question_text": "What is the central argument of the passage?",
+        "options": [
+          "A) AI will completely revolutionize healthcare within the next decade",
+          "B) AI has significant potential in healthcare but also presents complex ethical and regulatory challenges",
+          "C) Healthcare professionals should resist the adoption of AI technology",
+          "D) AI is too expensive to implement in most healthcare systems"
+        ],
+        "correct_answer": "B",
+        "explanation": "The passage presents a balanced view, discussing both the 'promising' developments (pattern recognition, personalized medicine, decision-making) and the 'complex' challenges (ethical considerations, regulatory frameworks). Option A is too optimistic. Option C contradicts the discussion of benefits. Option D is not addressed in the passage.",
+        "knowledge_points": ["main idea", "artificial intelligence", "healthcare ethics"],
+        "tags": ["reading", "intermediate", "main idea"]
+      },
+      {
+        "id": "reading_022",
+        "category": "reading",
+        "difficulty": "intermediate",
+        "question_type": "inference",
+        "passage": "The phenomenon of quantum entanglement, described by Einstein as 'spooky action at a distance,' has evolved from a theoretical curiosity to a practical tool in quantum computing and cryptography. When particles become entangled, the quantum state of each particle cannot be described independently, regardless of the distance separating them. This property enables quantum computers to perform certain calculations exponentially faster than classical computers. In quantum cryptography, entanglement ensures that any attempt to intercept a communication will inevitably alter the quantum state, alerting the communicating parties to the presence of an eavesdropper. However, maintaining entanglement over practical distances remains a significant technical challenge, requiring sophisticated cooling systems and error correction protocols.",
+        "passage_title": "Quantum Entanglement: From Theory to Application",
+        "question_text": "What can be inferred about the practical applications of quantum entanglement?",
+        "options": [
+          "A) They are purely theoretical with no real-world implementation",
+          "B) They show great promise but face significant technical obstacles",
+          "C) They have already replaced all classical computing methods",
+          "D) They only work over very short distances"
+        ],
+        "correct_answer": "B",
+        "explanation": "The passage discusses practical applications (quantum computing, cryptography) while noting that 'maintaining entanglement over practical distances remains a significant technical challenge.' This suggests promise but obstacles. Option A contradicts the mention of practical applications. Option C is too extreme. Option D is not supported as the passage mentions distance as a challenge but doesn't specify limits.",
+        "knowledge_points": ["inference", "quantum physics", "technology applications"],
+        "tags": ["reading", "intermediate", "inference"]
+      },
+      {
+        "id": "reading_023",
+        "category": "reading",
+        "difficulty": "intermediate",
+        "question_type": "detail",
+        "passage": "The concept of neuroplasticity, once considered impossible in adult brains, has fundamentally altered our understanding of brain function and rehabilitation. Unlike the previously held belief that the brain's structure was fixed after childhood, research has demonstrated that adult brains retain the ability to reorganize neural pathways in response to learning, injury, or environmental changes. This plasticity manifests in various forms: structural plasticity involves physical changes in neural connections, while functional plasticity allows undamaged brain regions to assume functions typically handled by injured areas. Therapeutic interventions such as constraint-induced movement therapy for stroke patients and cognitive rehabilitation for traumatic brain injury rely on harnessing these neuroplastic mechanisms. The discovery has also influenced educational approaches, with curricula designed to promote continuous learning and mental stimulation throughout life.",
+        "passage_title": "Neuroplasticity: The Brain's Remarkable Adaptability",
+        "question_text": "According to the passage, what is one example of how neuroplasticity is utilized in therapy?",
+        "options": [
+          "A) Prescribing medication to enhance brain function",
+          "B) Using constraint-induced movement therapy for stroke patients",
+          "C) Performing surgery to repair damaged brain tissue",
+          "D) Teaching patients to avoid mental activities"
+        ],
+        "correct_answer": "B",
+        "explanation": "The passage specifically mentions 'constraint-induced movement therapy for stroke patients' as an example of therapeutic intervention that 'relies on harnessing these neuroplastic mechanisms.' Options A, C, and D are not mentioned as examples of neuroplasticity-based therapy.",
+        "knowledge_points": ["neuroplasticity", "brain rehabilitation", "stroke therapy"],
+        "tags": ["reading", "intermediate", "detail"]
+      },
+      {
+        "id": "reading_024",
+        "category": "reading",
+        "difficulty": "intermediate",
+        "question_type": "vocabulary_in_context",
+        "passage": "The concept of cultural diffusion refers to the spread of ideas, practices, and innovations from one society to another through direct contact, trade routes, or technological transmission. Unlike cultural evolution, which occurs within a single society over time, diffusion involves cross-cultural exchange. The Silk Road, for instance, facilitated the diffusion of technologies, religious beliefs, and artistic styles between East and West. In the contemporary era, digital communication has accelerated cultural diffusion, allowing memes, fashion trends, and social movements to spread globally within hours. However, cultural diffusion can also lead to cultural homogenization, potentially threatening local traditions and languages. This tension between global connectivity and cultural preservation presents ongoing challenges for societies worldwide.",
+        "passage_title": "Cultural Diffusion in the Digital Age",
+        "question_text": "The word 'homogenization' in the passage is closest in meaning to:",
+        "options": [
+          "A) diversification",
+          "B) standardization",
+          "C) preservation",
+          "D) elimination"
+        ],
+        "correct_answer": "B",
+        "explanation": "In this context, 'homogenization' means making things uniform or standardized. The passage states that diffusion 'can also lead to cultural homogenization, potentially threatening local traditions,' suggesting that cultures become more similar/standardized. Option A is the opposite. Options C and D don't fit the context of making things uniform.",
+        "knowledge_points": ["vocabulary in context", "cultural studies", "globalization"],
+        "tags": ["reading", "intermediate", "vocabulary"]
+      },
+      {
+        "id": "reading_025",
+        "category": "reading",
+        "difficulty": "intermediate",
+        "question_type": "inference",
+        "passage": "The field of synthetic biology represents a paradigm shift from traditional genetic engineering by treating biological systems as programmable entities. Rather than simply inserting or removing individual genes, synthetic biologists design and construct new biological parts, devices, and systems that do not exist in nature. This approach has yielded remarkable achievements, including the creation of bacteria that can produce renewable fuels, yeast engineered to manufacture pharmaceutical compounds, and organisms designed to clean up environmental pollutants. The potential applications extend to agriculture, where synthetic biology could develop crops with enhanced nutritional content or increased resistance to climate change. However, this technology also raises profound ethical questions about the boundaries between natural and artificial life, the potential for unintended ecological consequences, and the democratization of powerful biological tools.",
+        "passage_title": "Synthetic Biology: Engineering Life Itself",
+        "question_text": "What can be inferred about the relationship between synthetic biology and traditional genetic engineering?",
+        "options": [
+          "A) They are completely unrelated fields",
+          "B) Synthetic biology represents a more advanced approach than traditional genetic engineering",
+          "C) Traditional genetic engineering is more effective than synthetic biology",
+          "D) Synthetic biology only uses natural biological systems"
+        ],
+        "correct_answer": "B",
+        "explanation": "The passage states that synthetic biology 'represents a paradigm shift from traditional genetic engineering' and involves 'designing and constructing new biological parts' rather than 'simply inserting or removing individual genes.' This suggests synthetic biology is a more advanced, comprehensive approach. Option A is contradicted by the comparison. Option C is the opposite of what the passage suggests. Option D is false as synthetic biology creates artificial systems.",
+        "knowledge_points": ["inference", "synthetic biology", "genetic engineering"],
+        "tags": ["reading", "intermediate", "inference"]
+      },
+      {
+        "id": "reading_026",
+        "category": "reading",
+        "difficulty": "intermediate",
+        "question_type": "detail",
+        "passage": "The phenomenon of ecosystem services refers to the direct and indirect contributions of ecosystems to human well-being. These services are typically categorized into four main types: provisioning services, which provide food, water, and raw materials; regulating services, which control climate, flood mitigation, and disease regulation; cultural services, which offer recreational, aesthetic, and spiritual benefits; and supporting services, which maintain the basic processes necessary for all other ecosystem services, such as nutrient cycling and soil formation. The economic value of ecosystem services is substantial, with estimates suggesting that the global value of these services exceeds the world's gross domestic product. However, many ecosystem services are not captured in traditional economic models, leading to their undervaluation in policy decisions.",
+        "passage_title": "Ecosystem Services: Nature's Economic Value",
+        "question_text": "According to the passage, how many main types of ecosystem services are there?",
+        "options": [
+          "A) Two",
+          "B) Three",
+          "C) Four",
+          "D) Five"
+        ],
+        "correct_answer": "C",
+        "explanation": "The passage clearly states that ecosystem services 'are typically categorized into four main types' and then lists them: provisioning, regulating, cultural, and supporting services. Options A, B, and D are incorrect.",
+        "knowledge_points": ["ecosystem services", "environmental economics", "classification"],
+        "tags": ["reading", "intermediate", "detail"]
+      },
+      {
+        "id": "reading_027",
+        "category": "reading",
+        "difficulty": "intermediate",
+        "question_type": "main_idea",
+        "passage": "The concept of behavioral economics challenges the traditional economic assumption that humans always make rational decisions. Drawing from psychology and neuroscience, behavioral economists have identified numerous cognitive biases and heuristics that influence economic choices. The endowment effect, for example, demonstrates that people value items more highly simply because they own them. Loss aversion explains why the pain of losing something is psychologically more powerful than the pleasure of gaining something of equal value. These insights have profound implications for policy design, leading to the development of 'nudges' – interventions that steer people toward better decisions without restricting their freedom of choice. Behavioral economics has influenced areas ranging from retirement savings programs to public health initiatives, though critics argue that nudging may constitute manipulation and raise questions about paternalism.",
+        "passage_title": "Behavioral Economics: The Psychology of Economic Decisions",
+        "question_text": "What is the primary focus of the passage?",
+        "options": [
+          "A) The mathematical models used in traditional economics",
+          "B) How psychological factors influence economic decisions and policy design",
+          "C) The history of economic theory development",
+          "D) The differences between individual and corporate decision-making"
+        ],
+        "correct_answer": "B",
+        "explanation": "The passage discusses how behavioral economics incorporates psychology (cognitive biases, heuristics) into economics and how this affects decision-making and policy design (nudges). This focuses on the intersection of psychology and economics. Options A, C, and D are not the primary focus.",
+        "knowledge_points": ["main idea", "behavioral economics", "psychology"],
+        "tags": ["reading", "intermediate", "main idea"]
+      },
+      {
+        "id": "reading_028",
+        "category": "reading",
+        "difficulty": "intermediate",
+        "question_type": "vocabulary_in_context",
+        "passage": "The concept of epigenetics has revolutionized our understanding of gene expression and inheritance. Unlike traditional genetics, which focuses on the DNA sequence itself, epigenetics examines how environmental factors can modify gene activity without altering the underlying genetic code. These modifications, which include DNA methylation and histone modification, can be influenced by diet, stress, toxins, and other environmental exposures. Importantly, some epigenetic changes can be inherited, meaning that the experiences of parents may affect the gene expression patterns of their offspring. This discovery has profound implications for understanding disease susceptibility, evolutionary adaptation, and the long-term effects of environmental exposures across generations.",
+        "passage_title": "Epigenetics: Beyond the Genetic Code",
+        "question_text": "The word 'susceptibility' in the passage is closest in meaning to:",
+        "options": [
+          "A) immunity",
+          "B) vulnerability",
+          "C) resistance",
+          "D) immunity"
+        ],
+        "correct_answer": "B",
+        "explanation": "In this context, 'susceptibility' means vulnerability or likelihood of being affected by something. The passage mentions 'understanding disease susceptibility,' meaning the likelihood or vulnerability to developing diseases. Options A and D (immunity) are the opposite. Option C (resistance) is also the opposite.",
+        "knowledge_points": ["vocabulary in context", "epigenetics", "genetics"],
+        "tags": ["reading", "intermediate", "vocabulary"]
+      },
+      {
+        "id": "reading_029",
+        "category": "reading",
+        "difficulty": "intermediate",
+        "question_type": "inference",
+        "passage": "The concept of the circular economy represents a fundamental shift from the traditional linear model of 'take-make-dispose' to a system where resources are kept in use for as long as possible through reuse, repair, remanufacturing, and recycling. This approach addresses the environmental challenges associated with resource depletion and waste accumulation while also creating economic opportunities. Companies adopting circular economy principles often discover that designing products for disassembly and recyclability can reduce material costs and create new revenue streams from previously discarded materials. However, the transition requires significant changes in product design, supply chain management, and consumer behavior. Furthermore, measuring the success of circular economy initiatives remains challenging, as traditional metrics focus on efficiency rather than sustainability outcomes.",
+        "passage_title": "The Circular Economy: Redefining Resource Use",
+        "question_text": "What can be inferred about the challenges of implementing circular economy principles?",
+        "options": [
+          "A) They are purely economic and can be easily overcome",
+          "B) They require fundamental changes in design, supply chains, and consumer behavior",
+          "C) They only affect large corporations, not small businesses",
+          "D) They have no impact on environmental outcomes"
+        ],
+        "correct_answer": "B",
+        "explanation": "The passage states that the transition 'requires significant changes in product design, supply chain management, and consumer behavior,' indicating fundamental changes are needed. Option A is too optimistic. Option C is not supported. Option D contradicts the mention of environmental challenges being addressed.",
+        "knowledge_points": ["inference", "circular economy", "sustainability"],
+        "tags": ["reading", "intermediate", "inference"]
+      },
+      {
+        "id": "reading_030",
+        "category": "reading",
+        "difficulty": "intermediate",
+        "question_type": "detail",
+        "passage": "The phenomenon of time dilation, predicted by Einstein's theory of relativity, has been experimentally confirmed through numerous high-precision tests. When objects move at speeds approaching the speed of light relative to an observer, time literally slows down for those objects compared to the observer's frame of reference. This effect, known as special relativistic time dilation, becomes significant at speeds above about 10% of the speed of light. Additionally, gravitational time dilation occurs in strong gravitational fields, where time passes more slowly closer to massive objects. These effects have practical implications for technologies such as GPS satellites, which must account for both types of time dilation to maintain accuracy. Without these corrections, GPS positioning errors would accumulate at a rate of several kilometers per day.",
+        "passage_title": "Time Dilation: Einstein's Time-Bending Reality",
+        "question_text": "According to the passage, at what speed does time dilation become significant?",
+        "options": [
+          "A) Any speed above walking pace",
+          "B) Speeds above 10% of the speed of light",
+          "C) Only at the speed of light",
+          "D) Speeds above 50% of the speed of light"
+        ],
+        "correct_answer": "B",
+        "explanation": "The passage states that time dilation 'becomes significant at speeds above about 10% of the speed of light.' Option A is too low. Option C is incorrect as nothing can reach the speed of light. Option D is higher than the threshold mentioned.",
+        "knowledge_points": ["time dilation", "relativity", "physics"],
+        "tags": ["reading", "intermediate", "detail"]
+      },
+      {
+        "id": "reading_031",
+        "category": "reading",
+        "difficulty": "intermediate",
+        "question_type": "main_idea",
+        "passage": "The concept of social capital refers to the networks of relationships among people who live and work in a particular society, enabling that society to function effectively. Unlike physical capital (buildings, equipment) or human capital (individual skills and knowledge), social capital exists in the connections between individuals and groups. This form of capital manifests in trust, reciprocity, and cooperation, which facilitate collective action and problem-solving. High levels of social capital are associated with better economic outcomes, improved public health, lower crime rates, and more effective governance. However, social capital can also have negative aspects, as exclusive networks may exclude certain groups and reinforce existing inequalities. The challenge lies in building inclusive forms of social capital that benefit society while avoiding the pitfalls of exclusion and discrimination.",
+        "passage_title": "Social Capital: The Value of Connections",
+        "question_text": "What is the central theme of the passage?",
+        "options": [
+          "A) Social capital is more valuable than economic capital",
+          "B) Social capital has both positive and negative aspects that must be carefully managed",
+          "C) Social capital only exists in small, close-knit communities",
+          "D) Social capital is irrelevant in modern technological societies"
+        ],
+        "correct_answer": "B",
+        "explanation": "The passage discusses both positive aspects (better economic outcomes, public health, governance) and negative aspects (exclusive networks, reinforcement of inequalities), concluding with the need to 'build inclusive forms' and 'avoid pitfalls.' This balanced view is captured in option B. Options A, C, and D are too extreme or incorrect.",
+        "knowledge_points": ["main idea", "social capital", "sociology"],
+        "tags": ["reading", "intermediate", "main idea"]
+      },
+      {
+        "id": "reading_032",
+        "category": "reading",
+        "difficulty": "intermediate",
+        "question_type": "inference",
+        "passage": "The field of space mining has evolved from science fiction to serious scientific and commercial consideration, driven by the depletion of rare earth elements on Earth and the abundance of these materials in asteroids and other celestial bodies. Near-Earth asteroids contain estimated trillions of dollars worth of platinum, gold, and rare earth elements. The technical challenges are formidable: extracting resources in the harsh environment of space, processing materials without gravity, and transporting goods back to Earth. However, the potential economic returns could be enormous, with some estimates suggesting that a single asteroid could provide more precious metals than have been mined in human history. The legal framework for space mining remains unclear, with international space law requiring updates to address property rights and environmental concerns in outer space.",
+        "passage_title": "Space Mining: The Next Frontier",
+        "question_text": "What can be inferred about the current legal framework for space mining?",
+        "options": [
+          "A) It is well-established and clearly defines all rights",
+          "B) It is outdated and needs updating for modern space activities",
+          "C) It prohibits all forms of space mining",
+          "D) It only applies to government activities, not private companies"
+        ],
+        "correct_answer": "B",
+        "explanation": "The passage states that 'international space law requires updates to address property rights and environmental concerns,' suggesting the current framework is outdated and inadequate for modern space mining activities. Option A contradicts this. Option C is not supported. Option D is not mentioned.",
+        "knowledge_points": ["inference", "space law", "space mining"],
+        "tags": ["reading", "intermediate", "inference"]
+      },
+      {
+        "id": "reading_033",
+        "category": "reading",
+        "difficulty": "intermediate",
+        "question_type": "detail",
+        "passage": "The concept of biomimicry involves studying nature's time-tested patterns and strategies and applying them to human design challenges. This approach has yielded innovations across numerous fields: Velcro was inspired by the way burr seeds stick to animal fur, while the design of high-speed trains was influenced by the aerodynamic structure of kingfisher beaks. In architecture, buildings are being designed to mimic natural ventilation systems found in termite mounds, reducing energy consumption for cooling. The field of materials science has developed self-healing materials based on the way living organisms repair damage. However, biomimicry is not merely about copying nature; it requires understanding the underlying principles and adapting them to human needs and constraints.",
+        "passage_title": "Biomimicry: Learning from Nature's Solutions",
+        "question_text": "According to the passage, what inspired the design of Velcro?",
+        "options": [
+          "A) Kingfisher beaks",
+          "B) Termite mounds",
+          "C) Burr seeds",
+          "D) Living organism repair mechanisms"
+        ],
+        "correct_answer": "C",
+        "explanation": "The passage states that 'Velcro was inspired by the way burr seeds stick to animal fur.' Option A inspired train design. Option B inspired building ventilation. Option D inspired self-healing materials.",
+        "knowledge_points": ["biomimicry", "innovation", "nature-inspired design"],
+        "tags": ["reading", "intermediate", "detail"]
+      },
+      {
+        "id": "reading_034",
+        "category": "reading",
+        "difficulty": "intermediate",
+        "question_type": "vocabulary_in_context",
+        "passage": "The phenomenon of algorithmic bias has emerged as a critical concern in the age of artificial intelligence and big data. When machine learning algorithms are trained on historical data that reflects existing societal prejudices, they can perpetuate and even amplify these biases in their decision-making processes. This issue is particularly problematic in high-stakes domains such as criminal justice, hiring, and lending, where algorithmic decisions can significantly impact people's lives. The challenge of addressing algorithmic bias is compounded by the 'black box' nature of many machine learning systems, where the decision-making process is not transparent or easily interpretable. Researchers are developing techniques for algorithmic auditing, bias detection, and fairness-aware machine learning to mitigate these issues.",
+        "passage_title": "Algorithmic Bias: When AI Perpetuates Human Prejudices",
+        "question_text": "The word 'compounded' in the passage is closest in meaning to:",
+        "options": [
+          "A) simplified",
+          "B) made worse",
+          "C) solved",
+          "D) ignored"
+        ],
+        "correct_answer": "B",
+        "explanation": "In this context, 'compounded' means made worse or more complex. The passage states that the challenge 'is compounded by the black box nature,' meaning the black box issue makes the bias problem worse or more difficult to address. Option A is the opposite. Options C and D don't fit the context.",
+        "knowledge_points": ["vocabulary in context", "algorithmic bias", "artificial intelligence"],
+        "tags": ["reading", "intermediate", "vocabulary"]
+      },
+      {
+        "id": "reading_035",
+        "category": "reading",
+        "difficulty": "intermediate",
+        "question_type": "inference",
+        "passage": "The concept of digital minimalism advocates for a deliberate and intentional approach to technology use, focusing on maximizing value while minimizing digital clutter. Proponents of digital minimalism argue that the constant connectivity and information overload of modern digital life can lead to decreased productivity, increased anxiety, and reduced ability to focus on meaningful activities. The philosophy encourages individuals to critically evaluate their digital tools and eliminate those that don't significantly contribute to their values and goals. This might involve deleting social media apps, limiting notification settings, or establishing specific times for checking email and messages. However, critics argue that digital minimalism may be a luxury that only certain socioeconomic groups can afford, as some jobs require constant digital presence and connectivity.",
+        "passage_title": "Digital Minimalism: Intentional Technology Use",
+        "question_text": "What can be inferred about the accessibility of digital minimalism?",
+        "options": [
+          "A) It is equally accessible to all socioeconomic groups",
+          "B) It may be a luxury that only certain groups can afford",
+          "C) It is only available to technology experts",
+          "D) It requires no financial investment"
+        ],
+        "correct_answer": "B",
+        "explanation": "The passage states that 'critics argue that digital minimalism may be a luxury that only certain socioeconomic groups can afford, as some jobs require constant digital presence.' This suggests accessibility varies by socioeconomic status. Option A contradicts this. Options C and D are not supported.",
+        "knowledge_points": ["inference", "digital minimalism", "socioeconomic factors"],
+        "tags": ["reading", "intermediate", "inference"]
+      },
+      {
+        "id": "reading_036",
+        "category": "reading",
+        "difficulty": "intermediate",
+        "question_type": "detail",
+        "passage": "The field of paleoclimatology reconstructs past climate conditions by analyzing various proxy data sources, including ice cores, tree rings, marine sediments, and terrestrial records. These natural archives preserve chemical and physical evidence of past environmental conditions, allowing scientists to understand climate variability over different timescales. Ice cores from Greenland and Antarctica provide high-resolution records of atmospheric gases, temperature, and precipitation stretching back hundreds of thousands of years. Tree rings serve as annual climate records, with ring width and density reflecting growing season conditions. Marine sediments contain fossilized organisms whose shell chemistry records ocean temperature and chemistry changes. This paleoclimate data is crucial for understanding natural climate variability and for contextualizing current anthropogenic climate change within the range of natural variability.",
+        "passage_title": "Paleoclimatology: Reading Earth's Climate History",
+        "question_text": "According to the passage, what information can be obtained from tree rings?",
+        "options": [
+          "A) Ocean temperature changes",
+          "B) Atmospheric gas concentrations",
+          "C) Growing season conditions",
+          "D) Marine chemistry changes"
+        ],
+        "correct_answer": "C",
+        "explanation": "The passage states that 'tree rings serve as annual climate records, with ring width and density reflecting growing season conditions.' Option A and D refer to marine sediments. Option B refers to ice cores.",
+        "knowledge_points": ["paleoclimatology", "tree rings", "climate reconstruction"],
+        "tags": ["reading", "intermediate", "detail"]
+      },
+      {
+        "id": "reading_037",
+        "category": "reading",
+        "difficulty": "intermediate",
+        "question_type": "main_idea",
+        "passage": "The concept of the Anthropocene epoch recognizes that human activities have become a dominant force shaping Earth's geological and ecological systems. Unlike previous geological epochs that were primarily defined by natural processes, the Anthropocene is characterized by human-induced changes including greenhouse gas emissions, deforestation, species extinction, and chemical pollution. The proposed epoch would mark the beginning of significant human impact on planetary systems, potentially dating from the start of the Industrial Revolution or even earlier agricultural practices. The scientific community is actively debating the formal recognition of the Anthropocene, with researchers examining various markers including plastic debris, concrete, and radioactive isotopes from nuclear testing. Regardless of formal recognition, the concept has already influenced environmental policy, conservation strategies, and public discourse about humanity's responsibility for planetary stewardship.",
+        "passage_title": "The Anthropocene: Humanity's Geological Impact",
+        "question_text": "What is the main argument presented in the passage?",
+        "options": [
+          "A) The Anthropocene should not be formally recognized as a geological epoch",
+          "B) Human activities have become a dominant force shaping Earth's systems, warranting recognition of a new epoch",
+          "C) Previous geological epochs were more significant than the proposed Anthropocene",
+          "D) Natural processes are still the primary drivers of planetary change"
+        ],
+        "correct_answer": "B",
+        "explanation": "The passage presents the argument that human activities have become a 'dominant force' and discusses the scientific debate about formal recognition, suggesting this warrants recognition of a new epoch. Option A contradicts the discussion of ongoing scientific consideration. Options C and D are not supported by the passage.",
+        "knowledge_points": ["main idea", "Anthropocene", "human impact"],
+        "tags": ["reading", "intermediate", "main idea"]
+      },
+      {
+        "id": "reading_038",
+        "category": "reading",
+        "difficulty": "intermediate",
+        "question_type": "inference",
+        "passage": "The practice of precision agriculture utilizes advanced technologies such as GPS, sensors, drones, and data analytics to optimize farming practices at the level of individual plants or small areas within fields. Unlike traditional blanket approaches to fertilization, irrigation, and pest control, precision agriculture applies resources only where and when they are needed, reducing waste and environmental impact while potentially increasing yields. Soil sensors provide real-time data on moisture, nutrient levels, and pH, allowing farmers to make data-driven decisions about irrigation and fertilization. Drone imagery can identify areas of crop stress before problems are visible to the naked eye. However, the high initial investment in technology and the need for technical expertise can be barriers to adoption, particularly for small-scale farmers in developing countries.",
+        "passage_title": "Precision Agriculture: Farming with Data and Technology",
+        "question_text": "What can be inferred about the challenges of implementing precision agriculture?",
+        "options": [
+          "A) There are no significant challenges to adoption",
+          "B) High costs and technical requirements can be barriers, especially for small farmers",
+          "C) The technology is too complex for practical use",
+          "D) Environmental concerns prevent widespread adoption"
+        ],
+        "correct_answer": "B",
+        "explanation": "The passage states that 'the high initial investment in technology and the need for technical expertise can be barriers to adoption, particularly for small-scale farmers in developing countries.' This suggests cost and complexity are barriers. Option A contradicts this. Options C and D are not supported.",
+        "knowledge_points": ["inference", "precision agriculture", "technology adoption"],
+        "tags": ["reading", "intermediate", "inference"]
+      },
+      {
+        "id": "reading_039",
+        "category": "reading",
+        "difficulty": "intermediate",
+        "question_type": "vocabulary_in_context",
+        "passage": "The concept of cognitive load theory, developed by educational psychologist John Sweller, addresses the limitations of human working memory and its implications for instructional design. The theory proposes that learning is most effective when instructional materials are designed to manage the amount of mental effort required to process information. When cognitive load exceeds working memory capacity, learning becomes inefficient or impossible. The theory distinguishes between intrinsic cognitive load (inherent complexity of the material), extraneous cognitive load (imposed by poor instructional design), and germane cognitive load (mental effort devoted to schema construction and automation). Effective instructional design aims to minimize extraneous load while optimizing germane load, allowing learners to focus their limited cognitive resources on understanding and integrating new information.",
+        "passage_title": "Cognitive Load Theory: Optimizing Learning Through Design",
+        "question_text": "The word 'schema' in the passage is closest in meaning to:",
+        "options": [
+          "A) memory capacity",
+          "B) mental framework",
+          "C) learning difficulty",
+          "D) instructional method"
+        ],
+        "correct_answer": "B",
+        "explanation": "In this context, 'schema' refers to a mental framework or organized pattern of thought that helps organize and interpret information. The passage mentions 'schema construction and automation,' indicating it's about building mental frameworks for understanding. Options A, C, and D don't fit this context.",
+        "knowledge_points": ["vocabulary in context", "cognitive load theory", "educational psychology"],
+        "tags": ["reading", "intermediate", "vocabulary"]
+      },
+      {
+        "id": "reading_040",
+        "category": "reading",
+        "difficulty": "intermediate",
+        "question_type": "detail",
+        "passage": "The phenomenon of ocean acidification, often called the 'evil twin' of climate change, results from the absorption of atmospheric carbon dioxide by seawater. When CO2 dissolves in water, it forms carbonic acid, which lowers the pH of the ocean. Since the Industrial Revolution, the ocean has absorbed approximately 30% of human-produced CO2, causing surface ocean pH to drop by about 0.1 units. While this may seem minor, the pH scale is logarithmic, meaning this represents a 30% increase in acidity. This change has significant impacts on marine ecosystems, particularly on organisms with calcium carbonate shells or skeletons, such as corals, mollusks, and some plankton species. The dissolution of these structures weakens the foundation of marine food webs and threatens biodiversity.",
+        "passage_title": "Ocean Acidification: The Hidden Crisis",
+        "question_text": "According to the passage, how much CO2 has the ocean absorbed since the Industrial Revolution?",
+        "options": [
+          "A) 10% of human-produced CO2",
+          "B) 20% of human-produced CO2",
+          "C) 30% of human-produced CO2",
+          "D) 40% of human-produced CO2"
+        ],
+        "correct_answer": "C",
+        "explanation": "The passage clearly states that 'the ocean has absorbed approximately 30% of human-produced CO2' since the Industrial Revolution. Options A, B, and D are incorrect.",
+        "knowledge_points": ["ocean acidification", "carbon dioxide", "marine ecology"],
+        "tags": ["reading", "intermediate", "detail"]
+      }
+    ]
+  }
+}

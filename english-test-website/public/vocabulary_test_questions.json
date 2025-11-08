@@ -1,0 +1,1616 @@
+{
+  "metadata": {
+    "title": "英语词汇量测试题库",
+    "description": "专业英语词汇量测试题库，包含4个难度级别",
+    "version": "1.0.0",
+    "total_questions": 100,
+    "difficulty_levels": {
+      "easy": 25,
+      "medium": 25,
+      "hard": 25,
+      "academic": 25
+    }
+  },
+  "questions": [
+    {
+      "id": "voc_001",
+      "word": "abandon",
+      "difficulty": "easy",
+      "category": "verb",
+      "question": "选择单词 'abandon' 的正确含义：",
+      "options": {
+        "0": "保护",
+        "1": "放弃；抛弃",
+        "2": "重复",
+        "3": "开始"
+      },
+      "correct_answer": "1",
+      "explanation": "verb. 放弃；抛弃；离弃",
+      "example_sentence": "They had to abandon their car and walk home."
+    },
+    {
+      "id": "voc_002",
+      "word": "ability",
+      "difficulty": "easy",
+      "category": "noun",
+      "question": "选择单词 'ability' 的正确含义：",
+      "options": {
+        "0": "地点",
+        "1": "时间",
+        "2": "困难",
+        "3": "能力；才能"
+      },
+      "correct_answer": "3",
+      "explanation": "noun. 能力；才能；本领",
+      "example_sentence": "She has the ability to solve difficult problems."
+    },
+    {
+      "id": "voc_003",
+      "word": "absolutely",
+      "difficulty": "easy",
+      "category": "adverb",
+      "question": "选择单词 'absolutely' 的正确含义：",
+      "options": {
+        "0": "完全地；绝对地",
+        "1": "慢慢地",
+        "2": "快速地",
+        "3": "稍微"
+      },
+      "correct_answer": "0",
+      "explanation": "adverb. 完全地；绝对地；确实",
+      "example_sentence": "I absolutely agree with your opinion."
+    },
+    {
+      "id": "voc_004",
+      "word": "accept",
+      "difficulty": "easy",
+      "category": "verb",
+      "question": "选择单词 'accept' 的正确含义：",
+      "options": {
+        "0": "接受；承认",
+        "1": "忘记",
+        "2": "拒绝",
+        "3": "开始"
+      },
+      "correct_answer": "0",
+      "explanation": "verb. 接受；承认；相信",
+      "example_sentence": "He accepted the job offer immediately."
+    },
+    {
+      "id": "voc_005",
+      "word": "accident",
+      "difficulty": "easy",
+      "category": "noun",
+      "question": "选择单词 'accident' 的正确含义：",
+      "options": {
+        "0": "事故；意外",
+        "1": "庆祝",
+        "2": "会议",
+        "3": "计划"
+      },
+      "correct_answer": "0",
+      "explanation": "noun. 事故；意外；偶然",
+      "example_sentence": "There was a car accident on the highway."
+    },
+    {
+      "id": "voc_006",
+      "word": "achieve",
+      "difficulty": "easy",
+      "category": "verb",
+      "question": "选择单词 'achieve' 的正确含义：",
+      "options": {
+        "0": "达到；完成",
+        "1": "停止",
+        "2": "开始",
+        "3": "失败"
+      },
+      "correct_answer": "0",
+      "explanation": "verb. 完成；达到；实现",
+      "example_sentence": "She worked hard to achieve her goals."
+    },
+    {
+      "id": "voc_007",
+      "word": "active",
+      "difficulty": "easy",
+      "category": "adjective",
+      "question": "选择单词 'active' 的正确含义：",
+      "options": {
+        "0": "安静的",
+        "1": "积极的；活跃的",
+        "2": "懒惰的",
+        "3": "缓慢的"
+      },
+      "correct_answer": "1",
+      "explanation": "adjective. 积极的；活跃的；主动的",
+      "example_sentence": "He is very active in the community."
+    },
+    {
+      "id": "voc_008",
+      "word": "actual",
+      "difficulty": "easy",
+      "category": "adjective",
+      "question": "选择单词 'actual' 的正确含义：",
+      "options": {
+        "0": "实际的；真实的",
+        "1": "想象的",
+        "2": "虚假的",
+        "3": "可能的"
+      },
+      "correct_answer": "0",
+      "explanation": "adjective. 实际的；真实的；真正的",
+      "example_sentence": "The actual cost was higher than expected."
+    },
+    {
+      "id": "voc_009",
+      "word": "add",
+      "difficulty": "easy",
+      "category": "verb",
+      "question": "选择单词 'add' 的正确含义：",
+      "options": {
+        "0": "减去",
+        "1": "删除",
+        "2": "添加；增加",
+        "3": "改变"
+      },
+      "correct_answer": "2",
+      "explanation": "verb. 添加；增加；补充说",
+      "example_sentence": "Please add sugar to my coffee."
+    },
+    {
+      "id": "voc_010",
+      "word": "address",
+      "difficulty": "easy",
+      "category": "noun",
+      "question": "选择单词 'address' 的正确含义：",
+      "options": {
+        "0": "年龄",
+        "1": "职业",
+        "2": "名字",
+        "3": "地址；演讲"
+      },
+      "correct_answer": "3",
+      "explanation": "noun. 地址；演讲；称呼",
+      "example_sentence": "What is your home address?"
+    },
+    {
+      "id": "voc_011",
+      "word": "adequate",
+      "difficulty": "easy",
+      "category": "adjective",
+      "question": "选择单词 'adequate' 的正确含义：",
+      "options": {
+        "0": "过多的",
+        "1": "足够的；适当的",
+        "2": "缺乏的",
+        "3": "不足的"
+      },
+      "correct_answer": "1",
+      "explanation": "adjective. 足够的；适当的；胜任的",
+      "example_sentence": "The salary is adequate for living expenses."
+    },
+    {
+      "id": "voc_012",
+      "word": "adjust",
+      "difficulty": "easy",
+      "category": "verb",
+      "question": "选择单词 'adjust' 的正确含义：",
+      "options": {
+        "0": "忽略",
+        "1": "破坏",
+        "2": "调整；适应",
+        "3": "固定"
+      },
+      "correct_answer": "2",
+      "explanation": "verb. 调整；适应；校准",
+      "example_sentence": "You need to adjust the brightness on your screen."
+    },
+    {
+      "id": "voc_013",
+      "word": "admire",
+      "difficulty": "easy",
+      "category": "verb",
+      "question": "选择单词 'admire' 的正确含义：",
+      "options": {
+        "0": "讨厌",
+        "1": "钦佩；赞美",
+        "2": "批评",
+        "3": "忽视"
+      },
+      "correct_answer": "1",
+      "explanation": "verb. 钦佩；赞美；欣赏",
+      "example_sentence": "I admire her dedication to work."
+    },
+    {
+      "id": "voc_014",
+      "word": "admit",
+      "difficulty": "easy",
+      "category": "verb",
+      "question": "选择单词 'admit' 的正确含义：",
+      "options": {
+        "0": "拒绝",
+        "1": "阻止",
+        "2": "承认；准许进入",
+        "3": "否认"
+      },
+      "correct_answer": "2",
+      "explanation": "verb. 承认；准许进入；容纳",
+      "example_sentence": "He admitted making a mistake."
+    },
+    {
+      "id": "voc_015",
+      "word": "adopt",
+      "difficulty": "easy",
+      "category": "verb",
+      "question": "选择单词 'adopt' 的正确含义：",
+      "options": {
+        "0": "拒绝",
+        "1": "采用；收养",
+        "2": "反对",
+        "3": "放弃"
+      },
+      "correct_answer": "1",
+      "explanation": "verb. 采用；收养；采纳",
+      "example_sentence": "They decided to adopt a child from the orphanage."
+    },
+    {
+      "id": "voc_016",
+      "word": "advance",
+      "difficulty": "easy",
+      "category": "verb",
+      "question": "选择单词 'advance' 的正确含义：",
+      "options": {
+        "0": "等待",
+        "1": "后退",
+        "2": "停止",
+        "3": "前进；提前"
+      },
+      "correct_answer": "3",
+      "explanation": "verb. 前进；提前；促进",
+      "example_sentence": "Technology continues to advance rapidly."
+    },
+    {
+      "id": "voc_017",
+      "word": "advantage",
+      "difficulty": "easy",
+      "category": "noun",
+      "question": "选择单词 'advantage' 的正确含义：",
+      "options": {
+        "0": "优势；好处",
+        "1": "问题",
+        "2": "困难",
+        "3": "劣势"
+      },
+      "correct_answer": "0",
+      "explanation": "noun. 优势；好处；有利条件",
+      "example_sentence": "Living in the city has many advantages."
+    },
+    {
+      "id": "voc_018",
+      "word": "adventure",
+      "difficulty": "easy",
+      "category": "noun",
+      "question": "选择单词 'adventure' 的正确含义：",
+      "options": {
+        "0": "冒险；奇遇",
+        "1": "常规",
+        "2": "无聊",
+        "3": "平静"
+      },
+      "correct_answer": "0",
+      "explanation": "noun. 冒险；奇遇；刺激",
+      "example_sentence": "Their trip to Africa was a great adventure."
+    },
+    {
+      "id": "voc_019",
+      "word": "advice",
+      "difficulty": "easy",
+      "category": "noun",
+      "question": "选择单词 'advice' 的正确含义：",
+      "options": {
+        "0": "威胁",
+        "1": "批评",
+        "2": "建议；忠告",
+        "3": "命令"
+      },
+      "correct_answer": "2",
+      "explanation": "noun. 建议；忠告；意见",
+      "example_sentence": "Can you give me some advice about my career?"
+    },
+    {
+      "id": "voc_020",
+      "word": "affect",
+      "difficulty": "easy",
+      "category": "verb",
+      "question": "选择单词 'affect' 的正确含义：",
+      "options": {
+        "0": "不影响",
+        "1": "影响；感动",
+        "2": "改善",
+        "3": "忽略"
+      },
+      "correct_answer": "1",
+      "explanation": "verb. 影响；感动；感染",
+      "example_sentence": "The weather will affect our travel plans."
+    },
+    {
+      "id": "voc_021",
+      "word": "afford",
+      "difficulty": "easy",
+      "category": "verb",
+      "question": "选择单词 'afford' 的正确含义：",
+      "options": {
+        "0": "买不起",
+        "1": "拒绝",
+        "2": "浪费",
+        "3": "负担得起；提供"
+      },
+      "correct_answer": "3",
+      "explanation": "verb. 负担得起；提供；给予",
+      "example_sentence": "I can't afford to buy a new car right now."
+    },
+    {
+      "id": "voc_022",
+      "word": "afraid",
+      "difficulty": "easy",
+      "category": "adjective",
+      "question": "选择单词 'afraid' 的正确含义：",
+      "options": {
+        "0": "勇敢的",
+        "1": "平静的",
+        "2": "兴奋的",
+        "3": "害怕的；担心的"
+      },
+      "correct_answer": "3",
+      "explanation": "adjective. 害怕的；担心的；遗憾的",
+      "example_sentence": "She is afraid of spiders."
+    },
+    {
+      "id": "voc_023",
+      "word": "afternoon",
+      "difficulty": "easy",
+      "category": "noun",
+      "question": "选择单词 'afternoon' 的正确含义：",
+      "options": {
+        "0": "下午",
+        "1": "夜晚",
+        "2": "晚上",
+        "3": "早上"
+      },
+      "correct_answer": "0",
+      "explanation": "noun. 下午；午后",
+      "example_sentence": "Let's meet this afternoon."
+    },
+    {
+      "id": "voc_024",
+      "word": "again",
+      "difficulty": "easy",
+      "category": "adverb",
+      "question": "选择单词 'again' 的正确含义：",
+      "options": {
+        "0": "永远",
+        "1": "从不",
+        "2": "从不",
+        "3": "再次；又"
+      },
+      "correct_answer": "3",
+      "explanation": "adverb. 再次；又；重新",
+      "example_sentence": "Please say that again."
+    },
+    {
+      "id": "voc_025",
+      "word": "against",
+      "difficulty": "easy",
+      "category": "preposition",
+      "question": "选择单词 'against' 的正确含义：",
+      "options": {
+        "0": "帮助",
+        "1": "支持",
+        "2": "反对；靠着",
+        "3": "和...一起"
+      },
+      "correct_answer": "2",
+      "explanation": "preposition. 反对；靠着；违反",
+      "example_sentence": "He is against the new policy."
+    },
+    {
+      "id": "voc_026",
+      "word": "agenda",
+      "difficulty": "medium",
+      "category": "noun",
+      "question": "选择单词 'agenda' 的正确含义：",
+      "options": {
+        "0": "议程；日程",
+        "1": "会议时间",
+        "2": "会议记录",
+        "3": "会议地点"
+      },
+      "correct_answer": "0",
+      "explanation": "noun. 议程；日程；目的",
+      "example_sentence": "The first item on the agenda is the budget review."
+    },
+    {
+      "id": "voc_027",
+      "word": "aggressive",
+      "difficulty": "medium",
+      "category": "adjective",
+      "question": "选择单词 'aggressive' 的正确含义：",
+      "options": {
+        "0": "消极的",
+        "1": "被动的",
+        "2": "侵略性的；积极的",
+        "3": "温和的"
+      },
+      "correct_answer": "2",
+      "explanation": "adjective. 侵略性的；积极的；进取的",
+      "example_sentence": "The company needs a more aggressive marketing strategy."
+    },
+    {
+      "id": "voc_028",
+      "word": "allocate",
+      "difficulty": "medium",
+      "category": "verb",
+      "question": "选择单词 'allocate' 的正确含义：",
+      "options": {
+        "0": "分配；拨出",
+        "1": "销毁",
+        "2": "浪费",
+        "3": "隐藏"
+      },
+      "correct_answer": "0",
+      "explanation": "verb. 分配；拨出；指定",
+      "example_sentence": "The government will allocate funds for education."
+    },
+    {
+      "id": "voc_029",
+      "word": "alternative",
+      "difficulty": "medium",
+      "category": "noun",
+      "question": "选择单词 'alternative' 的正确含义：",
+      "options": {
+        "0": "错误选择",
+        "1": "替代选择；供选择的事物",
+        "2": "主要选择",
+        "3": "唯一选择"
+      },
+      "correct_answer": "1",
+      "explanation": "noun. 替代选择；供选择的事物",
+      "example_sentence": "We need to find an alternative solution to this problem."
+    },
+    {
+      "id": "voc_030",
+      "word": "ambiguous",
+      "difficulty": "medium",
+      "category": "adjective",
+      "question": "选择单词 'ambiguous' 的正确含义：",
+      "options": {
+        "0": "明确的",
+        "1": "模糊的；歧义的",
+        "2": "简单的",
+        "3": "直接的"
+      },
+      "correct_answer": "1",
+      "explanation": "adjective. 模糊的；歧义的；不明确的",
+      "example_sentence": "The instructions were ambiguous and confusing."
+    },
+    {
+      "id": "voc_031",
+      "word": "ambition",
+      "difficulty": "medium",
+      "category": "noun",
+      "question": "选择单词 'ambition' 的正确含义：",
+      "options": {
+        "0": "满足",
+        "1": "懒惰",
+        "2": "恐惧",
+        "3": "野心；抱负"
+      },
+      "correct_answer": "3",
+      "explanation": "noun. 野心；抱负；志向",
+      "example_sentence": "Her ambition is to become a successful entrepreneur."
+    },
+    {
+      "id": "voc_032",
+      "word": "analyze",
+      "difficulty": "medium",
+      "category": "verb",
+      "question": "选择单词 'analyze' 的正确含义：",
+      "options": {
+        "0": "忽略",
+        "1": "猜测",
+        "2": "假设",
+        "3": "分析；解析"
+      },
+      "correct_answer": "3",
+      "explanation": "verb. 分析；解析；研究",
+      "example_sentence": "We need to analyze the data carefully."
+    },
+    {
+      "id": "voc_033",
+      "word": "ancient",
+      "difficulty": "medium",
+      "category": "adjective",
+      "question": "选择单词 'ancient' 的正确含义：",
+      "options": {
+        "0": "现代的",
+        "1": "古代的；古老的",
+        "2": "最近的",
+        "3": "当前的"
+      },
+      "correct_answer": "1",
+      "explanation": "adjective. 古代的；古老的；旧时的",
+      "example_sentence": "They discovered ancient ruins in the forest."
+    },
+    {
+      "id": "voc_034",
+      "word": "anticipate",
+      "difficulty": "medium",
+      "category": "verb",
+      "question": "选择单词 'anticipate' 的正确含义：",
+      "options": {
+        "0": "预期；预料",
+        "1": "忘记",
+        "2": "忽视",
+        "3": "惊讶"
+      },
+      "correct_answer": "0",
+      "explanation": "verb. 预期；预料；期待",
+      "example_sentence": "We anticipate a large crowd at the concert."
+    },
+    {
+      "id": "voc_035",
+      "word": "anxiety",
+      "difficulty": "medium",
+      "category": "noun",
+      "question": "选择单词 'anxiety' 的正确含义：",
+      "options": {
+        "0": "焦虑；担心",
+        "1": "兴奋",
+        "2": "平静",
+        "3": "快乐"
+      },
+      "correct_answer": "0",
+      "explanation": "noun. 焦虑；担心；不安",
+      "example_sentence": "She felt anxiety about the upcoming exam."
+    },
+    {
+      "id": "voc_036",
+      "word": "apparent",
+      "difficulty": "medium",
+      "category": "adjective",
+      "question": "选择单词 'apparent' 的正确含义：",
+      "options": {
+        "0": "明显的；表面上的",
+        "1": "模糊的",
+        "2": "复杂的",
+        "3": "隐藏的"
+      },
+      "correct_answer": "0",
+      "explanation": "adjective. 明显的；表面上的；显然的",
+      "example_sentence": "It was apparent that he was lying."
+    },
+    {
+      "id": "voc_037",
+      "word": "appeal",
+      "difficulty": "medium",
+      "category": "verb",
+      "question": "选择单词 'appeal' 的正确含义：",
+      "options": {
+        "0": "上诉；吸引",
+        "1": "拒绝",
+        "2": "反对",
+        "3": "忽略"
+      },
+      "correct_answer": "0",
+      "explanation": "verb. 上诉；吸引；恳求",
+      "example_sentence": "The design really appeals to young people."
+    },
+    {
+      "id": "voc_038",
+      "word": "appearance",
+      "difficulty": "medium",
+      "category": "noun",
+      "question": "选择单词 'appearance' 的正确含义：",
+      "options": {
+        "0": "性格",
+        "1": "思想",
+        "2": "外表；出现",
+        "3": "感情"
+      },
+      "correct_answer": "2",
+      "explanation": "noun. 外表；出现；外观",
+      "example_sentence": "She cares a lot about her appearance."
+    },
+    {
+      "id": "voc_039",
+      "word": "appreciate",
+      "difficulty": "medium",
+      "category": "verb",
+      "question": "选择单词 'appreciate' 的正确含义：",
+      "options": {
+        "0": "欣赏；感激",
+        "1": "批评",
+        "2": "抱怨",
+        "3": "忽略"
+      },
+      "correct_answer": "0",
+      "explanation": "verb. 欣赏；感激；增值",
+      "example_sentence": "I really appreciate your help."
+    },
+    {
+      "id": "voc_040",
+      "word": "approach",
+      "difficulty": "medium",
+      "category": "verb",
+      "question": "选择单词 'approach' 的正确含义：",
+      "options": {
+        "0": "拒绝",
+        "1": "接近；方法",
+        "2": "远离",
+        "3": "避开"
+      },
+      "correct_answer": "1",
+      "explanation": "verb. 接近；靠近；方法",
+      "example_sentence": "We need to approach this problem differently."
+    },
+    {
+      "id": "voc_041",
+      "word": "appropriate",
+      "difficulty": "medium",
+      "category": "adjective",
+      "question": "选择单词 'appropriate' 的正确含义：",
+      "options": {
+        "0": "过分的",
+        "1": "适当的；合适的",
+        "2": "不合适的",
+        "3": "错误的"
+      },
+      "correct_answer": "1",
+      "explanation": "adjective. 适当的；合适的；恰当的",
+      "example_sentence": "Wear appropriate clothing for the occasion."
+    },
+    {
+      "id": "voc_042",
+      "word": "approve",
+      "difficulty": "medium",
+      "category": "verb",
+      "question": "选择单词 'approve' 的正确含义：",
+      "options": {
+        "0": "拒绝",
+        "1": "批准；赞成",
+        "2": "反对",
+        "3": "忽略"
+      },
+      "correct_answer": "1",
+      "explanation": "verb. 批准；赞成；同意",
+      "example_sentence": "The board approved the new policy."
+    },
+    {
+      "id": "voc_043",
+      "word": "arbitrary",
+      "difficulty": "medium",
+      "category": "adjective",
+      "question": "选择单词 'arbitrary' 的正确含义：",
+      "options": {
+        "0": "系统的",
+        "1": "任意的；武断的",
+        "2": "逻辑的",
+        "3": "合理的"
+      },
+      "correct_answer": "1",
+      "explanation": "adjective. 任意的；武断的；专断的",
+      "example_sentence": "The decision seemed arbitrary and unfair."
+    },
+    {
+      "id": "voc_044",
+      "word": "arrange",
+      "difficulty": "medium",
+      "category": "verb",
+      "question": "选择单词 'arrange' 的正确含义：",
+      "options": {
+        "0": "忽略",
+        "1": "混乱",
+        "2": "破坏",
+        "3": "安排；整理"
+      },
+      "correct_answer": "3",
+      "explanation": "verb. 安排；整理；布置",
+      "example_sentence": "Can you arrange a meeting for next week?"
+    },
+    {
+      "id": "voc_045",
+      "word": "arrest",
+      "difficulty": "medium",
+      "category": "verb",
+      "question": "选择单词 'arrest' 的正确含义：",
+      "options": {
+        "0": "逮捕；阻止",
+        "1": "释放",
+        "2": "保护",
+        "3": "帮助"
+      },
+      "correct_answer": "0",
+      "explanation": "verb. 逮捕；阻止；吸引",
+      "example_sentence": "The police arrested the suspect."
+    },
+    {
+      "id": "voc_046",
+      "word": "arrogant",
+      "difficulty": "medium",
+      "category": "adjective",
+      "question": "选择单词 'arrogant' 的正确含义：",
+      "options": {
+        "0": "友善的",
+        "1": "谦虚的",
+        "2": "谦逊的",
+        "3": "傲慢的；自负的"
+      },
+      "correct_answer": "3",
+      "explanation": "adjective. 傲慢的；自负的；高傲的",
+      "example_sentence": "His arrogant attitude made him unpopular."
+    },
+    {
+      "id": "voc_047",
+      "word": "articulate",
+      "difficulty": "medium",
+      "category": "adjective",
+      "question": "选择单词 'articulate' 的正确含义：",
+      "options": {
+        "0": "简单的",
+        "1": "清楚表达的；发音清晰的",
+        "2": "混乱的",
+        "3": "模糊的"
+      },
+      "correct_answer": "1",
+      "explanation": "adjective. 清楚表达的；发音清晰的",
+      "example_sentence": "She gave an articulate presentation."
+    },
+    {
+      "id": "voc_048",
+      "word": "artificial",
+      "difficulty": "medium",
+      "category": "adjective",
+      "question": "选择单词 'artificial' 的正确含义：",
+      "options": {
+        "0": "人工的；人造的",
+        "1": "自然的",
+        "2": "天然的",
+        "3": "真实的"
+      },
+      "correct_answer": "0",
+      "explanation": "adjective. 人工的；人造的；虚假的",
+      "example_sentence": "The flowers look artificial."
+    },
+    {
+      "id": "voc_049",
+      "word": "assess",
+      "difficulty": "medium",
+      "category": "verb",
+      "question": "选择单词 'assess' 的正确含义：",
+      "options": {
+        "0": "创建",
+        "1": "忽略",
+        "2": "评估；评定",
+        "3": "破坏"
+      },
+      "correct_answer": "2",
+      "explanation": "verb. 评估；评定；估价",
+      "example_sentence": "We need to assess the damage from the storm."
+    },
+    {
+      "id": "voc_050",
+      "word": "assign",
+      "difficulty": "medium",
+      "category": "verb",
+      "question": "选择单词 'assign' 的正确含义：",
+      "options": {
+        "0": "分配；指派",
+        "1": "拒绝",
+        "2": "改变",
+        "3": "忽略"
+      },
+      "correct_answer": "0",
+      "explanation": "verb. 分配；指派；指定",
+      "example_sentence": "The teacher will assign homework for the weekend."
+    },
+    {
+      "id": "voc_051",
+      "word": "assimilate",
+      "difficulty": "hard",
+      "category": "verb",
+      "question": "选择单词 'assimilate' 的正确含义：",
+      "options": {
+        "0": "忽略",
+        "1": "吸收；同化",
+        "2": "排斥",
+        "3": "拒绝"
+      },
+      "correct_answer": "1",
+      "explanation": "verb. 吸收；同化；理解",
+      "example_sentence": "It takes time to assimilate new information."
+    },
+    {
+      "id": "voc_052",
+      "word": "asylum",
+      "difficulty": "hard",
+      "category": "noun",
+      "question": "选择单词 'asylum' 的正确含义：",
+      "options": {
+        "0": "庇护；收容所",
+        "1": "学校",
+        "2": "医院",
+        "3": "监狱"
+      },
+      "correct_answer": "0",
+      "explanation": "noun. 庇护；收容所；精神病院",
+      "example_sentence": "He sought asylum in the United States."
+    },
+    {
+      "id": "voc_053",
+      "word": "atlas",
+      "difficulty": "hard",
+      "category": "noun",
+      "question": "选择单词 'atlas' 的正确含义：",
+      "options": {
+        "0": "词典",
+        "1": "百科全书",
+        "2": "字典",
+        "3": "地图集；图册"
+      },
+      "correct_answer": "3",
+      "explanation": "noun. 地图集；图册；地图",
+      "example_sentence": "I need an atlas to find the location."
+    },
+    {
+      "id": "voc_054",
+      "word": "aura",
+      "difficulty": "hard",
+      "category": "noun",
+      "question": "选择单词 'aura' 的正确含义：",
+      "options": {
+        "0": "声音",
+        "1": "颜色",
+        "2": "形状",
+        "3": "光环；气质"
+      },
+      "correct_answer": "3",
+      "explanation": "noun. 光环；气质；氛围",
+      "example_sentence": "She has a mysterious aura about her."
+    },
+    {
+      "id": "voc_055",
+      "word": "authentic",
+      "difficulty": "hard",
+      "category": "adjective",
+      "question": "选择单词 'authentic' 的正确含义：",
+      "options": {
+        "0": "仿制的",
+        "1": "虚假的",
+        "2": "人造的",
+        "3": "真实的；正宗的"
+      },
+      "correct_answer": "3",
+      "explanation": "adjective. 真实的；正宗的；可靠的",
+      "example_sentence": "This is an authentic Italian restaurant."
+    },
+    {
+      "id": "voc_056",
+      "word": "autonomy",
+      "difficulty": "hard",
+      "category": "noun",
+      "question": "选择单词 'autonomy' 的正确含义：",
+      "options": {
+        "0": "依赖",
+        "1": "服从",
+        "2": "自治；自主",
+        "3": "控制"
+      },
+      "correct_answer": "2",
+      "explanation": "noun. 自治；自主；独立",
+      "example_sentence": "The region wants more autonomy."
+    },
+    {
+      "id": "voc_057",
+      "word": "auxiliary",
+      "difficulty": "hard",
+      "category": "adjective",
+      "question": "选择单词 'auxiliary' 的正确含义：",
+      "options": {
+        "0": "主要的",
+        "1": "辅助的；备用的",
+        "2": "唯一的",
+        "3": "必要的"
+      },
+      "correct_answer": "1",
+      "explanation": "adjective. 辅助的；备用的；副的",
+      "example_sentence": "The hospital has an auxiliary power system."
+    },
+    {
+      "id": "voc_058",
+      "word": "avalanche",
+      "difficulty": "hard",
+      "category": "noun",
+      "question": "选择单词 'avalanche' 的正确含义：",
+      "options": {
+        "0": "雪崩；大量",
+        "1": "洪水",
+        "2": "风暴",
+        "3": "地震"
+      },
+      "correct_answer": "0",
+      "explanation": "noun. 雪崩；大量；涌现",
+      "example_sentence": "The avalanche buried the village."
+    },
+    {
+      "id": "voc_059",
+      "word": "avert",
+      "difficulty": "hard",
+      "category": "verb",
+      "question": "选择单词 'avert' 的正确含义：",
+      "options": {
+        "0": "增加",
+        "1": "促进",
+        "2": "避免；转移",
+        "3": "引起"
+      },
+      "correct_answer": "2",
+      "explanation": "verb. 避免；转移；防止",
+      "example_sentence": "They took action to avert the crisis."
+    },
+    {
+      "id": "voc_060",
+      "word": "aviation",
+      "difficulty": "hard",
+      "category": "noun",
+      "question": "选择单词 'aviation' 的正确含义：",
+      "options": {
+        "0": "公路",
+        "1": "航海",
+        "2": "铁路",
+        "3": "航空；飞行"
+      },
+      "correct_answer": "3",
+      "explanation": "noun. 航空；飞行；航空业",
+      "example_sentence": "The aviation industry is growing rapidly."
+    },
+    {
+      "id": "voc_061",
+      "word": "bachelor",
+      "difficulty": "hard",
+      "category": "noun",
+      "question": "选择单词 'bachelor' 的正确含义：",
+      "options": {
+        "0": "单身汉；学士",
+        "1": "医生",
+        "2": "律师",
+        "3": "已婚男人"
+      },
+      "correct_answer": "0",
+      "explanation": "noun. 单身汉；学士；未婚男子",
+      "example_sentence": "He is still a bachelor at thirty."
+    },
+    {
+      "id": "voc_062",
+      "word": "baffle",
+      "difficulty": "hard",
+      "category": "verb",
+      "question": "选择单词 'baffle' 的正确含义：",
+      "options": {
+        "0": "指导",
+        "1": "帮助",
+        "2": "解释",
+        "3": "使困惑；难住"
+      },
+      "correct_answer": "3",
+      "explanation": "verb. 使困惑；难住；阻隔",
+      "example_sentence": "The puzzle completely baffled me."
+    },
+    {
+      "id": "voc_063",
+      "word": "bald",
+      "difficulty": "hard",
+      "category": "adjective",
+      "question": "选择单词 'bald' 的正确含义：",
+      "options": {
+        "0": "秃的；光秃的",
+        "1": "金色的",
+        "2": "有头发的",
+        "3": "卷发的"
+      },
+      "correct_answer": "0",
+      "explanation": "adjective. 秃的；光秃的；坦率的",
+      "example_sentence": "He is going bald at a young age."
+    },
+    {
+      "id": "voc_064",
+      "word": "bamboo",
+      "difficulty": "hard",
+      "category": "noun",
+      "question": "选择单词 'bamboo' 的正确含义：",
+      "options": {
+        "0": "树",
+        "1": "竹子",
+        "2": "花",
+        "3": "草"
+      },
+      "correct_answer": "1",
+      "explanation": "noun. 竹子；竹竿",
+      "example_sentence": "Pandas eat bamboo."
+    },
+    {
+      "id": "voc_065",
+      "word": "banquet",
+      "difficulty": "hard",
+      "category": "noun",
+      "question": "选择单词 'banquet' 的正确含义：",
+      "options": {
+        "0": "零食",
+        "1": "早餐",
+        "2": "午餐",
+        "3": "宴会；盛宴"
+      },
+      "correct_answer": "3",
+      "explanation": "noun. 宴会；盛宴；酒席",
+      "example_sentence": "The wedding banquet was magnificent."
+    },
+    {
+      "id": "voc_066",
+      "word": "barren",
+      "difficulty": "hard",
+      "category": "adjective",
+      "question": "选择单词 'barren' 的正确含义：",
+      "options": {
+        "0": "茂盛的",
+        "1": "贫瘠的；不育的",
+        "2": "肥沃的",
+        "3": "绿色的"
+      },
+      "correct_answer": "1",
+      "explanation": "adjective. 贫瘠的；不育的；无效果的",
+      "example_sentence": "The land is barren and unproductive."
+    },
+    {
+      "id": "voc_067",
+      "word": "basil",
+      "difficulty": "hard",
+      "category": "noun",
+      "question": "选择单词 'basil' 的正确含义：",
+      "options": {
+        "0": "罗勒（香料）",
+        "1": "胡椒",
+        "2": "盐",
+        "3": "糖"
+      },
+      "correct_answer": "0",
+      "explanation": "noun. 罗勒（一种香料）",
+      "example_sentence": "Fresh basil is essential for this recipe."
+    },
+    {
+      "id": "voc_068",
+      "word": "batch",
+      "difficulty": "hard",
+      "category": "noun",
+      "question": "选择单词 'batch' 的正确含义：",
+      "options": {
+        "0": "部分",
+        "1": "一批；一组",
+        "2": "全部",
+        "3": "单个"
+      },
+      "correct_answer": "1",
+      "explanation": "noun. 一批；一组；一批产品",
+      "example_sentence": "The first batch of products sold out quickly."
+    },
+    {
+      "id": "voc_069",
+      "word": "beacon",
+      "difficulty": "hard",
+      "category": "noun",
+      "question": "选择单词 'beacon' 的正确含义：",
+      "options": {
+        "0": "噪音",
+        "1": "回声",
+        "2": "灯塔；信标",
+        "3": "阴影"
+      },
+      "correct_answer": "2",
+      "explanation": "noun. 灯塔；信标；信号灯",
+      "example_sentence": "The beacon guided ships to safety."
+    },
+    {
+      "id": "voc_070",
+      "word": "beetle",
+      "difficulty": "hard",
+      "category": "noun",
+      "question": "选择单词 'beetle' 的正确含义：",
+      "options": {
+        "0": "甲虫",
+        "1": "蝴蝶",
+        "2": "蜜蜂",
+        "3": "蚂蚁"
+      },
+      "correct_answer": "0",
+      "explanation": "noun. 甲虫；甲壳虫",
+      "example_sentence": "A beetle crawled across the path."
+    },
+    {
+      "id": "voc_071",
+      "word": "belligerent",
+      "difficulty": "hard",
+      "category": "adjective",
+      "question": "选择单词 'belligerent' 的正确含义：",
+      "options": {
+        "0": "友好的",
+        "1": "好战的；挑衅的",
+        "2": "合作的",
+        "3": "和平的"
+      },
+      "correct_answer": "1",
+      "explanation": "adjective. 好战的；挑衅的；交战中的",
+      "example_sentence": "His belligerent tone made everyone uncomfortable."
+    },
+    {
+      "id": "voc_072",
+      "word": "benchmark",
+      "difficulty": "hard",
+      "category": "noun",
+      "question": "选择单词 'benchmark' 的正确含义：",
+      "options": {
+        "0": "基准；标准",
+        "1": "失败",
+        "2": "测试",
+        "3": "错误"
+      },
+      "correct_answer": "0",
+      "explanation": "noun. 基准；标准；标杆",
+      "example_sentence": "This product sets a new benchmark for quality."
+    },
+    {
+      "id": "voc_073",
+      "word": "berate",
+      "difficulty": "hard",
+      "category": "verb",
+      "question": "选择单词 'berate' 的正确含义：",
+      "options": {
+        "0": "忽略",
+        "1": "帮助",
+        "2": "表扬",
+        "3": "严厉批评；斥责"
+      },
+      "correct_answer": "3",
+      "explanation": "verb. 严厉批评；斥责；责骂",
+      "example_sentence": "The boss berated him for the mistake."
+    },
+    {
+      "id": "voc_074",
+      "word": "bias",
+      "difficulty": "hard",
+      "category": "noun",
+      "question": "选择单词 'bias' 的正确含义：",
+      "options": {
+        "0": "正义",
+        "1": "公平",
+        "2": "平衡",
+        "3": "偏见；倾向"
+      },
+      "correct_answer": "3",
+      "explanation": "noun. 偏见；倾向；偏向",
+      "example_sentence": "There is a bias against women in hiring."
+    },
+    {
+      "id": "voc_075",
+      "word": "bilateral",
+      "difficulty": "hard",
+      "category": "adjective",
+      "question": "选择单词 'bilateral' 的正确含义：",
+      "options": {
+        "0": "无边的",
+        "1": "单边的",
+        "2": "双边的；两方面的",
+        "3": "多边的"
+      },
+      "correct_answer": "2",
+      "explanation": "adjective. 双边的；两方面的；双侧的",
+      "example_sentence": "They signed a bilateral agreement."
+    },
+    {
+      "id": "voc_076",
+      "word": "bizarre",
+      "difficulty": "hard",
+      "category": "adjective",
+      "question": "选择单词 'bizarre' 的正确含义：",
+      "options": {
+        "0": "简单的",
+        "1": "普通的",
+        "2": "奇异的；怪异的",
+        "3": "正常的"
+      },
+      "correct_answer": "2",
+      "explanation": "adjective. 奇异的；怪异的；离奇的",
+      "example_sentence": "She had a bizarre dream last night."
+    },
+    {
+      "id": "voc_077",
+      "word": "blunder",
+      "difficulty": "hard",
+      "category": "noun",
+      "question": "选择单词 'blunder' 的正确含义：",
+      "options": {
+        "0": "大错；失误",
+        "1": "策略",
+        "2": "计划",
+        "3": "成功"
+      },
+      "correct_answer": "0",
+      "explanation": "noun. 大错；失误；疏忽",
+      "example_sentence": "It was a costly blunder on his part."
+    },
+    {
+      "id": "voc_078",
+      "word": "boast",
+      "difficulty": "hard",
+      "category": "verb",
+      "question": "选择单词 'boast' 的正确含义：",
+      "options": {
+        "0": "自夸；夸耀",
+        "1": "批评",
+        "2": "忽略",
+        "3": "谦虚"
+      },
+      "correct_answer": "0",
+      "explanation": "verb. 自夸；夸耀；以...为荣",
+      "example_sentence": "He likes to boast about his achievements."
+    },
+    {
+      "id": "voc_079",
+      "word": "bolster",
+      "difficulty": "hard",
+      "category": "verb",
+      "question": "选择单词 'bolster' 的正确含义：",
+      "options": {
+        "0": "削弱",
+        "1": "破坏",
+        "2": "支持；加强",
+        "3": "忽略"
+      },
+      "correct_answer": "2",
+      "explanation": "verb. 支持；加强；支撑",
+      "example_sentence": "The evidence bolstered his argument."
+    },
+    {
+      "id": "voc_080",
+      "word": "bombard",
+      "difficulty": "hard",
+      "category": "verb",
+      "question": "选择单词 'bombard' 的正确含义：",
+      "options": {
+        "0": "帮助",
+        "1": "保护",
+        "2": "安慰",
+        "3": "轰炸；大量提问"
+      },
+      "correct_answer": "3",
+      "explanation": "verb. 轰炸；大量提问；连续攻击",
+      "example_sentence": "Reporters bombarded the politician with questions."
+    },
+    {
+      "id": "voc_081",
+      "word": "aberration",
+      "difficulty": "academic",
+      "category": "noun",
+      "question": "选择单词 'aberration' 的正确含义：",
+      "options": {
+        "0": "标准",
+        "1": "正常状态",
+        "2": "规律",
+        "3": "偏差；异常现象"
+      },
+      "correct_answer": "3",
+      "explanation": "noun. 偏差；异常现象；心理失常",
+      "example_sentence": "The sudden change in behavior was just an aberration."
+    },
+    {
+      "id": "voc_082",
+      "word": "abnegation",
+      "difficulty": "academic",
+      "category": "noun",
+      "question": "选择单词 'abnegation' 的正确含义：",
+      "options": {
+        "0": "贪婪",
+        "1": "追求",
+        "2": "放弃；克制",
+        "3": "渴望"
+      },
+      "correct_answer": "2",
+      "explanation": "noun. 放弃；克制；自我否定",
+      "example_sentence": "The monk practiced abnegation of worldly pleasures."
+    },
+    {
+      "id": "voc_083",
+      "word": "abstruse",
+      "difficulty": "academic",
+      "category": "adjective",
+      "question": "选择单词 'abstruse' 的正确含义：",
+      "options": {
+        "0": "简单的",
+        "1": "直接的",
+        "2": "深奥的；难懂的",
+        "3": "明显的"
+      },
+      "correct_answer": "2",
+      "explanation": "adjective. 深奥的；难懂的；晦涩的",
+      "example_sentence": "The professor's lecture was too abstruse for most students."
+    },
+    {
+      "id": "voc_084",
+      "word": "acquiesce",
+      "difficulty": "academic",
+      "category": "verb",
+      "question": "选择单词 'acquiesce' 的正确含义：",
+      "options": {
+        "0": "抵抗",
+        "1": "拒绝",
+        "2": "反对",
+        "3": "默许；顺从"
+      },
+      "correct_answer": "3",
+      "explanation": "verb. 默许；顺从；默认",
+      "example_sentence": "She reluctantly acquiesced to their demands."
+    },
+    {
+      "id": "voc_085",
+      "word": "adulation",
+      "difficulty": "academic",
+      "category": "noun",
+      "question": "选择单词 'adulation' 的正确含义：",
+      "options": {
+        "0": "拒绝",
+        "1": "忽视",
+        "2": "批评",
+        "3": "奉承；谄媚"
+      },
+      "correct_answer": "3",
+      "explanation": "noun. 奉承；谄媚；过度赞扬",
+      "example_sentence": "The celebrity was surrounded by adulation."
+    },
+    {
+      "id": "voc_086",
+      "word": "aesthetic",
+      "difficulty": "academic",
+      "category": "adjective",
+      "question": "选择单词 'aesthetic' 的正确含义：",
+      "options": {
+        "0": "美学的；审美的",
+        "1": "政治的",
+        "2": "实用的",
+        "3": "经济的"
+      },
+      "correct_answer": "0",
+      "explanation": "adjective. 美学的；审美的；美观的",
+      "example_sentence": "The building has great aesthetic appeal."
+    },
+    {
+      "id": "voc_087",
+      "word": "affinity",
+      "difficulty": "academic",
+      "category": "noun",
+      "question": "选择单词 'affinity' 的正确含义：",
+      "options": {
+        "0": "亲和力；喜好",
+        "1": "厌恶",
+        "2": "仇恨",
+        "3": "恐惧"
+      },
+      "correct_answer": "0",
+      "explanation": "noun. 亲和力；喜好；密切关系",
+      "example_sentence": "She has an affinity for classical music."
+    },
+    {
+      "id": "voc_088",
+      "word": "alacrity",
+      "difficulty": "academic",
+      "category": "noun",
+      "question": "选择单词 'alacrity' 的正确含义：",
+      "options": {
+        "0": "乐意；敏捷",
+        "1": "不情愿",
+        "2": "缓慢",
+        "3": "犹豫"
+      },
+      "correct_answer": "0",
+      "explanation": "noun. 乐意；敏捷；欣然",
+      "example_sentence": "He accepted the invitation with alacrity."
+    },
+    {
+      "id": "voc_089",
+      "word": "altruism",
+      "difficulty": "academic",
+      "category": "noun",
+      "question": "选择单词 'altruism' 的正确含义：",
+      "options": {
+        "0": "利己",
+        "1": "贪婪",
+        "2": "自私",
+        "3": "利他主义；无私"
+      },
+      "correct_answer": "3",
+      "explanation": "noun. 利他主义；无私；利他",
+      "example_sentence": "Her altruism inspired others to help."
+    },
+    {
+      "id": "voc_090",
+      "word": "ameliorate",
+      "difficulty": "academic",
+      "category": "verb",
+      "question": "选择单词 'ameliorate' 的正确含义：",
+      "options": {
+        "0": "破坏",
+        "1": "恶化",
+        "2": "忽略",
+        "3": "改善；改良"
+      },
+      "correct_answer": "3",
+      "explanation": "verb. 改善；改良；改进",
+      "example_sentence": "The new policy will ameliorate working conditions."
+    },
+    {
+      "id": "voc_091",
+      "word": "anachronism",
+      "difficulty": "academic",
+      "category": "noun",
+      "question": "选择单词 'anachronism' 的正确含义：",
+      "options": {
+        "0": "时尚",
+        "1": "现代事物",
+        "2": "新事物",
+        "3": "时代错误；过时的事物"
+      },
+      "correct_answer": "3",
+      "explanation": "noun. 时代错误；过时的事物；不合时宜",
+      "example_sentence": "Using a quill pen in modern times is an anachronism."
+    },
+    {
+      "id": "voc_092",
+      "word": "anomaly",
+      "difficulty": "academic",
+      "category": "noun",
+      "question": "选择单词 'anomaly' 的正确含义：",
+      "options": {
+        "0": "标准",
+        "1": "规律",
+        "2": "异常；反常现象",
+        "3": "正常现象"
+      },
+      "correct_answer": "2",
+      "explanation": "noun. 异常；反常现象；不规则",
+      "example_sentence": "The data showed an anomaly in the results."
+    },
+    {
+      "id": "voc_093",
+      "word": "antipathy",
+      "difficulty": "academic",
+      "category": "noun",
+      "question": "选择单词 'antipathy' 的正确含义：",
+      "options": {
+        "0": "热情",
+        "1": "反感；厌恶",
+        "2": "喜爱",
+        "3": "中立"
+      },
+      "correct_answer": "1",
+      "explanation": "noun. 反感；厌恶；反感",
+      "example_sentence": "There was clear antipathy between the two groups."
+    },
+    {
+      "id": "voc_094",
+      "word": "apocryphal",
+      "difficulty": "academic",
+      "category": "adjective",
+      "question": "选择单词 'apocryphal' 的正确含义：",
+      "options": {
+        "0": "真实的",
+        "1": "历史的",
+        "2": "记录的",
+        "3": "虚构的；可疑的"
+      },
+      "correct_answer": "3",
+      "explanation": "adjective. 虚构的；可疑的；杜撰的",
+      "example_sentence": "The story about his childhood is probably apocryphal."
+    },
+    {
+      "id": "voc_095",
+      "word": "arbitrate",
+      "difficulty": "academic",
+      "category": "verb",
+      "question": "选择单词 'arbitrate' 的正确含义：",
+      "options": {
+        "0": "争论",
+        "1": "忽略",
+        "2": "拒绝",
+        "3": "仲裁；公断"
+      },
+      "correct_answer": "3",
+      "explanation": "verb. 仲裁；公断；调解",
+      "example_sentence": "They hired a neutral party to arbitrate the dispute."
+    },
+    {
+      "id": "voc_096",
+      "word": "ascendancy",
+      "difficulty": "academic",
+      "category": "noun",
+      "question": "选择单词 'ascendancy' 的正确含义：",
+      "options": {
+        "0": "平等",
+        "1": "下降",
+        "2": "支配地位；优势",
+        "3": "劣势"
+      },
+      "correct_answer": "2",
+      "explanation": "noun. 支配地位；优势；至高无上",
+      "example_sentence": "The party gained ascendancy in the election."
+    },
+    {
+      "id": "voc_097",
+      "word": "assiduous",
+      "difficulty": "academic",
+      "category": "adjective",
+      "question": "选择单词 'assiduous' 的正确含义：",
+      "options": {
+        "0": "随意的",
+        "1": "轻松的",
+        "2": "勤奋的；专心致志的",
+        "3": "懒惰的"
+      },
+      "correct_answer": "2",
+      "explanation": "adjective. 勤奋的；专心致志的；不懈的",
+      "example_sentence": "Her assiduous studying paid off."
+    },
+    {
+      "id": "voc_098",
+      "word": "austerity",
+      "difficulty": "academic",
+      "category": "noun",
+      "question": "选择单词 'austerity' 的正确含义：",
+      "options": {
+        "0": "紧缩；朴素",
+        "1": "丰富",
+        "2": "浪费",
+        "3": "奢侈"
+      },
+      "correct_answer": "0",
+      "explanation": "noun. 紧缩；朴素；严峻",
+      "example_sentence": "The country implemented economic austerity measures."
+    },
+    {
+      "id": "voc_099",
+      "word": "autocratic",
+      "difficulty": "academic",
+      "category": "adjective",
+      "question": "选择单词 'autocratic' 的正确含义：",
+      "options": {
+        "0": "开放的",
+        "1": "专制的；独裁的",
+        "2": "民主的",
+        "3": "自由的"
+      },
+      "correct_answer": "1",
+      "explanation": "adjective. 专制的；独裁的；专横的",
+      "example_sentence": "His autocratic leadership style was criticized."
+    },
+    {
+      "id": "voc_100",
+      "word": "axiom",
+      "difficulty": "academic",
+      "category": "noun",
+      "question": "选择单词 'axiom' 的正确含义：",
+      "options": {
+        "0": "问题",
+        "1": "公理；自明之理",
+        "2": "假设",
+        "3": "疑问"
+      },
+      "correct_answer": "1",
+      "explanation": "noun. 公理；自明之理；原理",
+      "example_sentence": "It is an axiom that practice makes perfect."
+    }
+  ]
+}
