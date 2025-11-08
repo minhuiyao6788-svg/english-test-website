@@ -14,6 +14,18 @@
 
 <body>
   <div id="root"></div>
+  <script>// 找到 id 为 minimax-floating-ball 的元素
+const floatingBall = document.getElementById('minimax-floating-ball');
+// 如果元素存在，则移除它
+if (floatingBall) {
+  floatingBall.remove(); // 从页面中彻底删除该元素
+}
+  // 找到包含该类的元素
+const element = document.querySelector('.minimax-ball-text');
+// 移除指定 class
+if (element) {
+  element.classList.remove('minimax-ball-text');
+}</script>
 </body>
 
 </html>
