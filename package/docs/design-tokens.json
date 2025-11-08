@@ -1,0 +1,101 @@
+{
+  "$schema": "https://tr.designtokens.org/format/",
+  "color": {
+    "primary": {
+      "50": { "value": "#E6F9F7", "type": "color" },
+      "100": { "value": "#B3EFE9", "type": "color" },
+      "500": { "value": "#4ECDC4", "type": "color" },
+      "600": { "value": "#44A08D", "type": "color" },
+      "700": { "value": "#3A8B7A", "type": "color" }
+    },
+    "neutral": {
+      "50": { "value": "#FAFBFC", "type": "color" },
+      "100": { "value": "#F4F6F8", "type": "color" },
+      "200": { "value": "#E4E8EC", "type": "color" },
+      "400": { "value": "#9CA3AF", "type": "color" },
+      "700": { "value": "#374151", "type": "color" },
+      "900": { "value": "#1F2937", "type": "color" }
+    },
+    "background": {
+      "page": { "value": "#FAFBFC", "type": "color" },
+      "card": { "value": "#FFFFFF", "type": "color" }
+    },
+    "success": {
+      "500": { "value": "#10B981", "type": "color" },
+      "600": { "value": "#059669", "type": "color" }
+    },
+    "warning": {
+      "500": { "value": "#F59E0B", "type": "color" },
+      "600": { "value": "#D97706", "type": "color" }
+    },
+    "error": {
+      "500": { "value": "#EF4444", "type": "color" },
+      "600": { "value": "#DC2626", "type": "color" }
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "body": { "value": "'Inter', 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif", "type": "fontFamily" },
+      "mono": { "value": "'JetBrains Mono', 'SF Mono', Consolas, monospace", "type": "fontFamily" }
+    },
+    "fontSize": {
+      "display": { "value": "56px", "type": "dimension" },
+      "h1": { "value": "40px", "type": "dimension" },
+      "h2": { "value": "32px", "type": "dimension" },
+      "h3": { "value": "24px", "type": "dimension" },
+      "bodyLg": { "value": "18px", "type": "dimension" },
+      "body": { "value": "16px", "type": "dimension" },
+      "bodySm": { "value": "14px", "type": "dimension" },
+      "button": { "value": "17px", "type": "dimension" }
+    },
+    "fontWeight": {
+      "regular": { "value": "400", "type": "number" },
+      "medium": { "value": "500", "type": "number" },
+      "semibold": { "value": "600", "type": "number" },
+      "bold": { "value": "700", "type": "number" }
+    },
+    "lineHeight": {
+      "tight": { "value": "1.1", "type": "number" },
+      "snug": { "value": "1.25", "type": "number" },
+      "normal": { "value": "1.6", "type": "number" },
+      "relaxed": { "value": "1.7", "type": "number" }
+    }
+  },
+  "spacing": {
+    "xs": { "value": "4px", "type": "dimension" },
+    "sm": { "value": "8px", "type": "dimension" },
+    "md": { "value": "16px", "type": "dimension" },
+    "lg": { "value": "24px", "type": "dimension" },
+    "xl": { "value": "32px", "type": "dimension" },
+    "2xl": { "value": "48px", "type": "dimension" },
+    "3xl": { "value": "64px", "type": "dimension" },
+    "4xl": { "value": "96px", "type": "dimension" }
+  },
+  "borderRadius": {
+    "sm": { "value": "8px", "type": "dimension" },
+    "md": { "value": "12px", "type": "dimension" },
+    "lg": { "value": "16px", "type": "dimension" },
+    "xl": { "value": "20px", "type": "dimension" },
+    "2xl": { "value": "24px", "type": "dimension" },
+    "full": { "value": "999px", "type": "dimension" }
+  },
+  "boxShadow": {
+    "sm": { "value": "0 2px 4px rgba(0,0,0,0.06)", "type": "shadow" },
+    "card": { "value": "0 4px 12px rgba(0,0,0,0.08)", "type": "shadow" },
+    "cardHover": { "value": "0 12px 32px rgba(78,205,196,0.25)", "type": "shadow" },
+    "elevated": { "value": "0 20px 48px rgba(0,0,0,0.12)", "type": "shadow" }
+  },
+  "animation": {
+    "duration": {
+      "fast": { "value": "150ms", "type": "duration" },
+      "base": { "value": "250ms", "type": "duration" },
+      "slow": { "value": "350ms", "type": "duration" },
+      "celebrate": { "value": "600ms", "type": "duration" }
+    },
+    "easing": {
+      "smooth": { "value": "cubic-bezier(0.4, 0, 0.2, 1)", "type": "cubicBezier" },
+      "bounce": { "value": "cubic-bezier(0.34, 1.56, 0.64, 1)", "type": "cubicBezier" },
+      "sharp": { "value": "cubic-bezier(0.4, 0, 0.6, 1)", "type": "cubicBezier" }
+    }
+  }
+}
