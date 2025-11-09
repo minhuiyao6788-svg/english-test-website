@@ -8,12 +8,26 @@
   <meta name="description" content="您的网站描述内容" />
   <meta name="keywords" content="关键词1,关键词2,关键词3" />
   <meta name="author" content="您的网站名称" />
+  
+  <!-- 性能优化 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+  
+  <!-- 资源预加载 -->
+  <link rel="preload" href="/src/main.tsx" as="script" />
+  
+  <!-- 关键资源预取 -->
+  <link rel="prefetch" href="/vocabulary_test_questions.json" />
+  <link rel="prefetch" href="/cet4_6_questions.json" />
+  <link rel="prefetch" href="/toefl_questions.json" />
+  <link rel="prefetch" href="/ielts_questions.json" />
 </head>
 
 <body>
   <div id="root"></div>
   <script type="module" src="/src/main.tsx"></script>
-<script>
+  <script>
   // 找到包含该类的元素
 const element = document.querySelector('.minimax-ball-text');
 // 移除指定 class

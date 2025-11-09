@@ -110,27 +110,34 @@ const TestPage: React.FC = () => {
       [questionId]: answer
     }));
     
-    // 自动跳转到下一题
+    // 自动跳转到下一题，使用函数式更新确保状态正确
     setTimeout(() => {
-      if (currentQuestionIndex < questions.length - 1) {
-        setCurrentQuestionIndex(currentQuestionIndex + 1);
-      } else {
-        // 最后一题，自动提交测试
-        handleSubmitTest();
-      }
+      setCurrentQuestionIndex(prevIndex => {
+        if (prevIndex < questions.length - 1) {
+          return prevIndex + 1;
+        } else {
+          // 最后一题，自动提交测试
+          handleSubmitTest();
+          return prevIndex;
+        }
+      });
     }, 300); // 300ms延迟，让用户看到选择效果
   };
 
   const handleNext = () => {
     if (currentQuestionIndex < questions.length - 1) {
-      setCurrentQuestionIndex(currentQuestionIndex + 1);
+      setCurrentQuestionIndex(prevIndex => prevIndex + 1);
     }
   };
 
   const handlePrevious = () => {
     if (currentQuestionIndex > 0) {
-      setCurrentQuestionIndex(currentQuestionIndex - 1);
+      setCurrentQuestionIndex(prevIndex => prevIndex - 1);
     }
+  };
+
+  const handleQuestionJump = (index: number) => {
+    setCurrentQuestionIndex(index);
   };
 
   const handleSubmitTest = () => {
@@ -294,8 +301,8 @@ const TestPage: React.FC = () => {
               {questions.map((_, index) => (
                 <button
                   key={index}
-                  onClick={() => setCurrentQuestionIndex(index)}
-                  className={`w-8 h-8 rounded-full text-sm font-medium transition-colors ${
+                  onClick={() => handleQuestionJump(index)}
+                  className={`w-8 h-8 rounded-full text-sm font-medium transition-colors cursor-pointer ${
                     index === currentQuestionIndex
                       ? 'bg-teal-500 text-white'
                       : answers[questions[index].id]
