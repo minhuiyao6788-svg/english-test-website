@@ -89,7 +89,7 @@ const HomePage: React.FC = () => {
                 <BookOpen className="w-6 h-6 text-white" />
               </div>
               <h1 className="text-2xl font-bold bg-gradient-to-r from-teal-600 to-cyan-600 bg-clip-text text-transparent">
-                您的网站名称
+                英语测试demo版
               </h1>
             </div>
           </div>
