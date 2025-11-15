@@ -40,7 +40,7 @@ export default async (req, res) => {
 
     // 发送邮件
     const { data, error } = await resend.emails.send({
-      from: 'CocoTest <onboarding@resend.dev>',
+      from: 'CocoTest <noreply@yzbandy.cn>',
       to: [email],
       subject: `CocoTest 测试结果 - ${testType}`,
       html: `
