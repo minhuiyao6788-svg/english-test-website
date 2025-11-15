@@ -1,9 +1,9 @@
-import { Resend } from 'resend';
+// Vercel Serverless Function (CommonJS)
+const { Resend } = require('resend');
 
-// Vercel Serverless Function
-export default async function handler(req, res) {
+module.exports = async (req, res) => {
   // 设置 CORS
-  res.setHeader('Access-Control-Allow-Credentials', true);
+  res.setHeader('Access-Control-Allow-Credentials', 'true');
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET,OPTIONS,PATCH,DELETE,POST,PUT');
   res.setHeader(
@@ -13,8 +13,7 @@ export default async function handler(req, res) {
 
   // 处理 OPTIONS 请求
   if (req.method === 'OPTIONS') {
-    res.status(200).end();
-    return;
+    return res.status(200).end();
   }
 
   // 只允许 POST 请求
@@ -22,15 +21,26 @@ export default async function handler(req, res) {
     return res.status(405).json({ error: 'Method not allowed' });
   }
 
-  // 从环境变量获取 API Key
-  const resend = new Resend(process.env.RESEND_API_KEY);
-
   try {
-    const { email, testType, score, totalQuestions, correctAnswers, results } = req.body;
+    // 从环境变量获取 API Key
+    const apiKey = process.env.RESEND_API_KEY;
+    
+    if (!apiKey) {
+      console.error('RESEND_API_KEY 未设置');
+      return res.status(500).json({ error: '服务器配置错误：API密钥未设置' });
+    }
+
+    const resend = new Resend(apiKey);
+    const { email, testType, score, totalQuestions, correctAnswers } = req.body;
+
+    // 验证必填字段
+    if (!email || !testType) {
+      return res.status(400).json({ error: '缺少必填字段' });
+    }
 
     // 发送邮件
     const { data, error } = await resend.emails.send({
-      from: 'CocoTest <onboarding@resend.dev>', // Resend 测试域名，生产环境需要换成你的域名
+      from: 'CocoTest <onboarding@resend.dev>',
       to: [email],
       subject: `CocoTest 测试结果 - ${testType}`,
       html: `
@@ -98,12 +108,16 @@ export default async function handler(req, res) {
     });
 
     if (error) {
-      return res.status(400).json({ error: error.message });
+      console.error('Resend API 错误:', error);
+      return res.status(400).json({ error: error.message || '发送邮件失败' });
     }
 
     return res.status(200).json({ success: true, data });
   } catch (error) {
-    console.error('发送邮件失败:', error);
-    return res.status(500).json({ error: error.message || '发送邮件失败' });
+    console.error('发送邮件异常:', error);
+    return res.status(500).json({ 
+      error: error.message || '服务器内部错误',
+      details: process.env.NODE_ENV === 'development' ? error.stack : undefined
+    });
   }
-}
+};
