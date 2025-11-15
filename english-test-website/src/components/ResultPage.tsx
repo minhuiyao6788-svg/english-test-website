@@ -263,21 +263,39 @@ const ResultPage: React.FC = () => {
     try {
       const correctAnswers = detailedResults.filter(r => r.isCorrect).length;
       
+      const requestBody = {
+        email,
+        testType: getTestTypeName(testType),
+        mode: getModeName(mode),
+        score: scoreResult?.score || 0,
+        totalQuestions: questions.length,
+        correctAnswers: correctAnswers
+      };
+
+      console.log('发送邮件请求:', requestBody);
+      
       const response = await fetch('/api/send-email', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          email,
-          testType: getTestTypeName(testType),
-          mode: getModeName(mode),
-          score: scoreResult?.score || 0,
-          totalQuestions: questions.length,
-          correctAnswers: correctAnswers,
-          results: detailedResults
-        })
+        headers: { 
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify(requestBody)
       });
       
+      console.log('响应状态:', response.status);
+      console.log('Content-Type:', response.headers.get('content-type'));
+
+      // 检查响应是否为 JSON 格式
+      const contentType = response.headers.get('content-type');
+      if (!contentType || !contentType.includes('application/json')) {
+        const text = await response.text();
+        console.error('服务器返回非-JSON 响应:', text);
+        throw new Error(`服务器错误 (${response.status}): 请检查后端配置`);
+      }
+      
       const data = await response.json();
+      console.log('响应数据:', data);
       
       if (response.ok && data.success) {
         setEmailSent(true);
