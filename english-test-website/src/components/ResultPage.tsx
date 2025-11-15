@@ -261,28 +261,33 @@ const ResultPage: React.FC = () => {
     setSendingEmail(true);
     
     try {
-      // 这里是模拟发送邮件，实际应用需要后端 API
-      // const response = await fetch('/api/send-result', {
-      //   method: 'POST',
-      //   headers: { 'Content-Type': 'application/json' },
-      //   body: JSON.stringify({
-      //     email,
-      //     testType: getTestTypeName(testType),
-      //     mode: getModeName(mode),
-      //     score: scoreResult?.score,
-      //     percentage: scoreResult?.percentage,
-      //     level: scoreResult?.level,
-      //     timeUsed: formatTime(timeUsed)
-      //   })
-      // });
+      const correctAnswers = detailedResults.filter(r => r.isCorrect).length;
       
-      // 模拟延迟
-      await new Promise(resolve => setTimeout(resolve, 1500));
+      const response = await fetch('/api/send-email', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          email,
+          testType: getTestTypeName(testType),
+          mode: getModeName(mode),
+          score: scoreResult?.score || 0,
+          totalQuestions: questions.length,
+          correctAnswers: correctAnswers,
+          results: detailedResults
+        })
+      });
       
-      setEmailSent(true);
-      alert(`测试结果已发送至 ${email}`);
-    } catch (error) {
-      alert('发送失败，请稍后重试');
+      const data = await response.json();
+      
+      if (response.ok && data.success) {
+        setEmailSent(true);
+        alert(`✅ 测试结果已成功发送至 ${email}！\n请查收您的邮箱。`);
+      } else {
+        throw new Error(data.error || '发送失败');
+      }
+    } catch (error: any) {
+      console.error('发送邮件失败:', error);
+      alert(`❌ 发送失败：${error.message}\n请检查邮箱地址或稍后重试。`);
     } finally {
       setSendingEmail(false);
     }
