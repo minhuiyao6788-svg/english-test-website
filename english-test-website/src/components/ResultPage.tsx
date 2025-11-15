@@ -253,8 +253,16 @@ const ResultPage: React.FC = () => {
   };
 
   const handleSendEmail = async () => {
+    // 仅允许发送到已验证的邮箱（Resend 测试限制）
+    const allowedEmail = 'congw7513@gmail.com';
+    
     if (!email || !email.includes('@')) {
       alert('请输入有效的邮箱地址');
+      return;
+    }
+
+    if (email.toLowerCase() !== allowedEmail.toLowerCase()) {
+      alert(`⚠️ 测试阶段仅支持发送到：${allowedEmail}\n\n请联系管理员开启其他邮箱支持。`);
       return;
     }
 
