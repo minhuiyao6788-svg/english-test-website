@@ -50,10 +50,12 @@ const TestPage: React.FC = () => {
     const loadQuestions = async () => {
       try {
         let fileName = '';
-        if (testType === 'cet4_6') {
+        if (testType === 'cet4') {
+          fileName = 'cet4_questions.json';
+        } else if (testType === 'cet6') {
+          fileName = 'cet6_questions.json';
+        } else if (testType === 'cet4_6') {
           fileName = 'cet4_6_questions.json';
-        } else if (testType === 'toefl') {
-          fileName = 'toefl_questions.json';
         } else if (testType === 'ielts') {
           fileName = 'ielts_questions.json';
         } else if (testType === 'vocabulary') {
@@ -65,14 +67,41 @@ const TestPage: React.FC = () => {
         setTestData(data);
         
         let selectedQuestions: Question[] = [];
-        if (mode === 'basic') {
-          selectedQuestions = data.basic_version?.questions || data.questions.slice(0, 50);
+        
+        // 雅思题库特殊处理
+        if (testType === 'ielts') {
+          const dataAny = data as any; // 雅思题库结构复杂，使用any类型
+          if (mode === 'basic' && dataAny.basic_version) {
+            // 合并雅思 basic_version 中的所有题目
+            const vocabQuestions = dataAny.basic_version.vocabulary?.questions || [];
+            const grammarQuestions = dataAny.basic_version.grammar?.questions || [];
+            const readingQuestions = dataAny.basic_version.reading?.questions || [];
+            selectedQuestions = [...vocabQuestions, ...grammarQuestions, ...readingQuestions];
+          } else if (mode === 'complete' && dataAny.complete_version) {
+            // 合并雅思 complete_version 中的所有题目
+            const vocabQuestions = dataAny.complete_version.vocabulary?.questions || [];
+            const grammarQuestions = dataAny.complete_version.grammar?.questions || [];
+            const readingQuestions = dataAny.complete_version.reading?.questions || [];
+            selectedQuestions = [...vocabQuestions, ...grammarQuestions, ...readingQuestions];
+          }
         } else {
-          selectedQuestions = data.complete_version?.questions || data.questions.slice(0, 100);
+          // 其他题库的处理
+          if (mode === 'basic') {
+            selectedQuestions = data.basic_version?.questions || data.questions.slice(0, 50);
+          } else {
+            selectedQuestions = data.complete_version?.questions || data.questions.slice(0, 100);
+          }
         }
         
-        setQuestions(selectedQuestions);
-        setTimeLeft(selectedQuestions.length * 45); // 每题45秒
+        // 打乱题目顺序（Fisher-Yates洗牌算法）
+        const shuffledQuestions = [...selectedQuestions];
+        for (let i = shuffledQuestions.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [shuffledQuestions[i], shuffledQuestions[j]] = [shuffledQuestions[j], shuffledQuestions[i]];
+        }
+        
+        setQuestions(shuffledQuestions);
+        setTimeLeft(shuffledQuestions.length * 45); // 每题45秒
         setIsLoading(false);
       } catch (error) {
         console.error('加载题库失败:', error);
@@ -190,6 +219,29 @@ const TestPage: React.FC = () => {
       <header className="bg-white/80 backdrop-blur-sm border-b border-teal-100 sticky top-0 z-10">
         <div className="max-w-4xl mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
+            {/* Logo and Brand */}
+            <div className="flex items-center space-x-3">
+              <div className="w-8 h-8 rounded-xl overflow-hidden">
+                <img 
+                  src="/logo.png" 
+                  alt="CocoTest Logo" 
+                  className="w-full h-full object-cover"
+                  onError={(e) => {
+                    const target = e.target as HTMLImageElement;
+                    target.style.display = 'none';
+                    const fallbackIcon = target.nextElementSibling as HTMLElement;
+                    if (fallbackIcon) fallbackIcon.style.display = 'flex';
+                  }}
+                />
+                <div className="hidden w-full h-full bg-gradient-to-r from-teal-500 to-cyan-500 items-center justify-center">
+                  <span className="text-white font-bold text-sm">C</span>
+                </div>
+              </div>
+              <h1 className="text-xl font-bold bg-gradient-to-r from-teal-600 to-cyan-600 bg-clip-text text-transparent">
+                CocoTest
+              </h1>
+            </div>
+            
             <button
               onClick={() => navigate('/')}
               className="flex items-center text-gray-600 hover:text-teal-600 transition-colors"
@@ -197,7 +249,9 @@ const TestPage: React.FC = () => {
               <ChevronLeft className="w-5 h-5 mr-1" />
               返回首页
             </button>
-            
+          </div>
+          
+          <div className="flex items-center justify-between mt-4">
             <div className="flex items-center space-x-6">
               <div className="flex items-center space-x-2">
                 <Clock className="w-5 h-5 text-gray-500" />
@@ -259,31 +313,41 @@ const TestPage: React.FC = () => {
 
           {/* Options */}
           <div className="space-y-4 mb-8">
-            {Object.entries(currentQuestion.options).map(([key, value]) => (
-              <div
-                key={key}
-                className={`p-4 rounded-xl border-2 cursor-pointer transition-all duration-200 ${
-                  answers[currentQuestion.id] === key
-                    ? 'border-teal-500 bg-teal-50'
-                    : 'border-gray-200 hover:border-teal-300 hover:bg-teal-25'
-                }`}
-                onClick={() => handleAnswerSelect(currentQuestion.id, key)}
-              >
-                <div className="flex items-center">
-                  <div className={`w-6 h-6 rounded-full border-2 flex items-center justify-center mr-4 ${
-                    answers[currentQuestion.id] === key
-                      ? 'border-teal-500 bg-teal-500'
-                      : 'border-gray-300'
-                  }`}>
-                    {answers[currentQuestion.id] === key && (
-                      <div className="w-2 h-2 bg-white rounded-full"></div>
-                    )}
+            {Object.entries(currentQuestion.options).map(([key, value], index) => {
+              // 将数字键转换为字母 A, B, C, D
+              const optionLetter = String.fromCharCode(65 + index);
+              // 用户选择的答案存储为索引格式
+              const answerIndex = String(index);
+              
+              // 只保留分号或顿号前的第一个含义，统一选项格式
+              const displayValue = value.split(/[;；、]/)[0].trim();
+              
+              return (
+                <div
+                  key={key}
+                  className={`p-4 rounded-xl border-2 cursor-pointer transition-all duration-200 ${
+                    answers[currentQuestion.id] === answerIndex
+                      ? 'border-teal-500 bg-teal-50'
+                      : 'border-gray-200 hover:border-teal-300 hover:bg-teal-25'
+                  }`}
+                  onClick={() => handleAnswerSelect(currentQuestion.id, answerIndex)}
+                >
+                  <div className="flex items-center">
+                    <div className={`w-6 h-6 rounded-full border-2 flex items-center justify-center mr-4 ${
+                      answers[currentQuestion.id] === answerIndex
+                        ? 'border-teal-500 bg-teal-500'
+                        : 'border-gray-300'
+                    }`}>
+                      {answers[currentQuestion.id] === answerIndex && (
+                        <div className="w-2 h-2 bg-white rounded-full"></div>
+                      )}
+                    </div>
+                    <span className="font-medium text-gray-700 mr-3">{optionLetter}.</span>
+                    <span className="text-gray-900">{displayValue}</span>
                   </div>
-                  <span className="font-medium text-gray-700 mr-3">{String.fromCharCode(65 + parseInt(key))}.</span>
-                  <span className="text-gray-900">{value}</span>
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
 
           {/* Navigation */}
@@ -298,21 +362,62 @@ const TestPage: React.FC = () => {
             </button>
 
             <div className="flex items-center space-x-2">
-              {questions.map((_, index) => (
-                <button
-                  key={index}
-                  onClick={() => handleQuestionJump(index)}
-                  className={`w-8 h-8 rounded-full text-sm font-medium transition-colors cursor-pointer ${
-                    index === currentQuestionIndex
-                      ? 'bg-teal-500 text-white'
-                      : answers[questions[index].id]
-                      ? 'bg-green-100 text-green-700'
-                      : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
-                  }`}
-                >
-                  {index + 1}
-                </button>
-              ))}
+              {/* 第一题按钮 */}
+              {currentQuestionIndex > 3 && (
+                <>
+                  <button
+                    onClick={() => handleQuestionJump(0)}
+                    className="w-8 h-8 rounded-full text-sm font-medium transition-colors cursor-pointer bg-gray-100 text-gray-600 hover:bg-gray-200"
+                  >
+                    1
+                  </button>
+                  <span className="text-gray-400">...</span>
+                </>
+              )}
+
+              {/* 显示当前题目附近的按钮（前后各3题） */}
+              {questions.map((_, index) => {
+                const isNearCurrent = Math.abs(index - currentQuestionIndex) <= 3;
+                const isFirst = index === 0;
+                const isLast = index === questions.length - 1;
+                
+                if (!isNearCurrent && !isFirst && !isLast) {
+                  return null;
+                }
+                
+                return (
+                  <button
+                    key={index}
+                    onClick={() => handleQuestionJump(index)}
+                    className={`w-8 h-8 rounded-full text-sm font-medium transition-colors cursor-pointer ${
+                      index === currentQuestionIndex
+                        ? 'bg-teal-500 text-white'
+                        : answers[questions[index].id]
+                        ? 'bg-green-100 text-green-700'
+                        : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+                    }`}
+                  >
+                    {index + 1}
+                  </button>
+                );
+              })}
+
+              {/* 最后一题按钮 */}
+              {currentQuestionIndex < questions.length - 4 && (
+                <>
+                  <span className="text-gray-400">...</span>
+                  <button
+                    onClick={() => handleQuestionJump(questions.length - 1)}
+                    className={`w-8 h-8 rounded-full text-sm font-medium transition-colors cursor-pointer ${
+                      answers[questions[questions.length - 1].id]
+                        ? 'bg-green-100 text-green-700'
+                        : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+                    }`}
+                  >
+                    {questions.length}
+                  </button>
+                </>
+              )}
             </div>
 
             {isLastQuestion ? (
