@@ -292,27 +292,27 @@ const TestPage: React.FC = () => {
       </div>
 
       {/* Question Content */}
-      <main className="max-w-4xl mx-auto px-4 py-8">
-        <div className="bg-white rounded-2xl shadow-lg p-8">
+      <main className="max-w-4xl mx-auto px-3 sm:px-4 py-6 sm:py-8">
+        <div className="bg-white rounded-2xl shadow-lg p-4 sm:p-8">
           {/* Question */}
-          <div className="mb-8">
-            <div className="flex items-center mb-4">
-              <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-teal-100 text-teal-800">
+          <div className="mb-6 sm:mb-8">
+            <div className="flex items-center mb-3 sm:mb-4 flex-wrap gap-2">
+              <span className="inline-flex items-center px-2.5 sm:px-3 py-1 rounded-full text-xs sm:text-sm font-medium bg-teal-100 text-teal-800">
                 {currentQuestion.category || '题目'}
               </span>
               {currentQuestion.difficulty && (
-                <span className="ml-2 inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-gray-100 text-gray-800">
+                <span className="inline-flex items-center px-2.5 sm:px-3 py-1 rounded-full text-xs sm:text-sm font-medium bg-gray-100 text-gray-800">
                   {currentQuestion.difficulty}
                 </span>
               )}
             </div>
-            <h2 className="text-xl font-semibold text-gray-900 leading-relaxed">
+            <h2 className="text-lg sm:text-xl font-semibold text-gray-900 leading-relaxed">
               {currentQuestion.question}
             </h2>
           </div>
 
           {/* Options */}
-          <div className="space-y-4 mb-8">
+          <div className="space-y-3 sm:space-y-4 mb-6 sm:mb-8">
             {Object.entries(currentQuestion.options).map(([key, value], index) => {
               // 将数字键转换为字母 A, B, C, D
               const optionLetter = String.fromCharCode(65 + index);
@@ -325,7 +325,7 @@ const TestPage: React.FC = () => {
               return (
                 <div
                   key={key}
-                  className={`p-4 rounded-xl border-2 cursor-pointer transition-all duration-200 ${
+                  className={`p-3 sm:p-4 rounded-xl border-2 cursor-pointer transition-all duration-200 ${
                     answers[currentQuestion.id] === answerIndex
                       ? 'border-teal-500 bg-teal-50'
                       : 'border-gray-200 hover:border-teal-300 hover:bg-teal-25'
@@ -333,7 +333,7 @@ const TestPage: React.FC = () => {
                   onClick={() => handleAnswerSelect(currentQuestion.id, answerIndex)}
                 >
                   <div className="flex items-center">
-                    <div className={`w-6 h-6 rounded-full border-2 flex items-center justify-center mr-4 ${
+                    <div className={`w-5 h-5 sm:w-6 sm:h-6 rounded-full border-2 flex items-center justify-center mr-3 sm:mr-4 flex-shrink-0 ${
                       answers[currentQuestion.id] === answerIndex
                         ? 'border-teal-500 bg-teal-500'
                         : 'border-gray-300'
@@ -342,8 +342,8 @@ const TestPage: React.FC = () => {
                         <div className="w-2 h-2 bg-white rounded-full"></div>
                       )}
                     </div>
-                    <span className="font-medium text-gray-700 mr-3">{optionLetter}.</span>
-                    <span className="text-gray-900">{displayValue}</span>
+                    <span className="font-medium text-gray-700 mr-2 sm:mr-3 text-sm sm:text-base flex-shrink-0">{optionLetter}.</span>
+                    <span className="text-gray-900 text-sm sm:text-base break-words">{displayValue}</span>
                   </div>
                 </div>
               );
@@ -351,92 +351,101 @@ const TestPage: React.FC = () => {
           </div>
 
           {/* Navigation */}
-          <div className="flex items-center justify-between">
-            <button
-              onClick={handlePrevious}
-              disabled={currentQuestionIndex === 0}
-              className="flex items-center px-6 py-3 text-gray-600 bg-gray-100 rounded-xl hover:bg-gray-200 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
-            >
-              <ChevronLeft className="w-5 h-5 mr-1" />
-              上一题
-            </button>
+          <div className="flex flex-col space-y-4">
+            {/* 页码导航 - 移到上方并优化手机端显示 */}
+            <div className="flex items-center justify-center overflow-x-auto pb-2 scrollbar-hide">
+              <div className="flex items-center space-x-1.5 sm:space-x-2 px-2">
+                {/* 第一题按钮 */}
+                {currentQuestionIndex > 2 && (
+                  <>
+                    <button
+                      onClick={() => handleQuestionJump(0)}
+                      className="w-7 h-7 sm:w-8 sm:h-8 flex-shrink-0 rounded-full text-xs sm:text-sm font-medium transition-colors cursor-pointer bg-gray-100 text-gray-600 hover:bg-gray-200"
+                    >
+                      1
+                    </button>
+                    <span className="text-gray-400 text-xs">...</span>
+                  </>
+                )}
 
-            <div className="flex items-center space-x-2">
-              {/* 第一题按钮 */}
-              {currentQuestionIndex > 3 && (
-                <>
-                  <button
-                    onClick={() => handleQuestionJump(0)}
-                    className="w-8 h-8 rounded-full text-sm font-medium transition-colors cursor-pointer bg-gray-100 text-gray-600 hover:bg-gray-200"
-                  >
-                    1
-                  </button>
-                  <span className="text-gray-400">...</span>
-                </>
-              )}
+                {/* 显示当前题目附近的按钮（手机端前后各2题，桌面端前后各3题） */}
+                {questions.map((_, index) => {
+                  const isNearCurrent = Math.abs(index - currentQuestionIndex) <= (window.innerWidth < 640 ? 2 : 3);
+                  const isFirst = index === 0;
+                  const isLast = index === questions.length - 1;
+                  
+                  if (!isNearCurrent && !isFirst && !isLast) {
+                    return null;
+                  }
+                  
+                  return (
+                    <button
+                      key={index}
+                      onClick={() => handleQuestionJump(index)}
+                      className={`w-7 h-7 sm:w-8 sm:h-8 flex-shrink-0 rounded-full text-xs sm:text-sm font-medium transition-colors cursor-pointer ${
+                        index === currentQuestionIndex
+                          ? 'bg-teal-500 text-white'
+                          : answers[questions[index].id]
+                          ? 'bg-green-100 text-green-700'
+                          : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+                      }`}
+                    >
+                      {index + 1}
+                    </button>
+                  );
+                })}
 
-              {/* 显示当前题目附近的按钮（前后各3题） */}
-              {questions.map((_, index) => {
-                const isNearCurrent = Math.abs(index - currentQuestionIndex) <= 3;
-                const isFirst = index === 0;
-                const isLast = index === questions.length - 1;
-                
-                if (!isNearCurrent && !isFirst && !isLast) {
-                  return null;
-                }
-                
-                return (
-                  <button
-                    key={index}
-                    onClick={() => handleQuestionJump(index)}
-                    className={`w-8 h-8 rounded-full text-sm font-medium transition-colors cursor-pointer ${
-                      index === currentQuestionIndex
-                        ? 'bg-teal-500 text-white'
-                        : answers[questions[index].id]
-                        ? 'bg-green-100 text-green-700'
-                        : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
-                    }`}
-                  >
-                    {index + 1}
-                  </button>
-                );
-              })}
-
-              {/* 最后一题按钮 */}
-              {currentQuestionIndex < questions.length - 4 && (
-                <>
-                  <span className="text-gray-400">...</span>
-                  <button
-                    onClick={() => handleQuestionJump(questions.length - 1)}
-                    className={`w-8 h-8 rounded-full text-sm font-medium transition-colors cursor-pointer ${
-                      answers[questions[questions.length - 1].id]
-                        ? 'bg-green-100 text-green-700'
-                        : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
-                    }`}
-                  >
-                    {questions.length}
-                  </button>
-                </>
-              )}
+                {/* 最后一题按钮 */}
+                {currentQuestionIndex < questions.length - 3 && (
+                  <>
+                    <span className="text-gray-400 text-xs">...</span>
+                    <button
+                      onClick={() => handleQuestionJump(questions.length - 1)}
+                      className={`w-7 h-7 sm:w-8 sm:h-8 flex-shrink-0 rounded-full text-xs sm:text-sm font-medium transition-colors cursor-pointer ${
+                        answers[questions[questions.length - 1].id]
+                          ? 'bg-green-100 text-green-700'
+                          : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+                      }`}
+                    >
+                      {questions.length}
+                    </button>
+                  </>
+                )}
+              </div>
             </div>
 
-            {isLastQuestion ? (
+            {/* 上一题/下一题按钮 */}
+            <div className="flex items-center justify-between">
               <button
-                onClick={handleSubmitTest}
-                className="flex items-center px-6 py-3 bg-gradient-to-r from-teal-500 to-cyan-500 text-white rounded-xl hover:from-teal-600 hover:to-cyan-600 transition-all"
+                onClick={handlePrevious}
+                disabled={currentQuestionIndex === 0}
+                className="flex items-center px-4 sm:px-6 py-2.5 sm:py-3 text-sm sm:text-base text-gray-600 bg-gray-100 rounded-xl hover:bg-gray-200 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
               >
-                提交测试
-                <CheckCircle className="w-5 h-5 ml-1" />
+                <ChevronLeft className="w-4 h-4 sm:w-5 sm:h-5 mr-1" />
+                <span className="hidden sm:inline">上一题</span>
+                <span className="sm:hidden">上一题</span>
               </button>
-            ) : (
-              <button
-                onClick={handleNext}
-                className="flex items-center px-6 py-3 bg-gradient-to-r from-teal-500 to-cyan-500 text-white rounded-xl hover:from-teal-600 hover:to-cyan-600 transition-all"
-              >
-                下一题
-                <ChevronRight className="w-5 h-5 ml-1" />
-              </button>
-            )}
+
+              {isLastQuestion ? (
+                <button
+                  onClick={handleSubmitTest}
+                  className="flex items-center px-4 sm:px-6 py-2.5 sm:py-3 text-sm sm:text-base bg-gradient-to-r from-teal-500 to-cyan-500 text-white rounded-xl hover:from-teal-600 hover:to-cyan-600 transition-all"
+                >
+                  <span className="hidden sm:inline">提交测试</span>
+                  <span className="sm:hidden">提交</span>
+                  <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 ml-1" />
+                </button>
+              ) : (
+                <button
+                  onClick={handleNext}
+                  className="flex items-center px-4 sm:px-6 py-2.5 sm:py-3 text-sm sm:text-base bg-gradient-to-r from-teal-500 to-cyan-500 text-white rounded-xl hover:from-teal-600 hover:to-cyan-600 transition-all"
+                >
+                  <span className="hidden sm:inline">下一题</span>
+                  <span className="sm:hidden">下一题</span>
+                  <ChevronRight className="w-4 h-4 sm:w-5 sm:h-5 ml-1" />
+                </button>
+              )}
+            </div>
           </div>
         </div>
       </main>
