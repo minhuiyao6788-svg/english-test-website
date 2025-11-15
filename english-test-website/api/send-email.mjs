@@ -1,7 +1,7 @@
-// Vercel Serverless Function (CommonJS)
-const { Resend } = require('resend');
+// Vercel Serverless Function (ES Module)
+import { Resend } from 'resend';
 
-module.exports = async (req, res) => {
+export default async (req, res) => {
   // 设置 CORS
   res.setHeader('Access-Control-Allow-Credentials', 'true');
   res.setHeader('Access-Control-Allow-Origin', '*');
