@@ -352,99 +352,76 @@ const TestPage: React.FC = () => {
 
           {/* Navigation */}
           <div className="flex flex-col space-y-4">
-            {/* 页码导航 - 移到上方并优化手机端显示 */}
-            <div className="flex items-center justify-center overflow-x-auto pb-2 scrollbar-hide">
-              <div className="flex items-center space-x-1.5 sm:space-x-2 px-2">
-                {/* 第一题按钮 */}
-                {currentQuestionIndex > 2 && (
-                  <>
-                    <button
-                      onClick={() => handleQuestionJump(0)}
-                      className="w-7 h-7 sm:w-8 sm:h-8 flex-shrink-0 rounded-full text-xs sm:text-sm font-medium transition-colors cursor-pointer bg-gray-100 text-gray-600 hover:bg-gray-200"
-                    >
-                      1
-                    </button>
-                    <span className="text-gray-400 text-xs">...</span>
-                  </>
-                )}
+            {/* 页码导航 - 简化为左右箭头 + 当前页码 */}
+            <div className="flex items-center justify-center">
+              <div className="flex items-center space-x-3 sm:space-x-4">
+                {/* 左箭头 - 快速后退 */}
+                <button
+                  onClick={() => handleQuestionJump(Math.max(0, currentQuestionIndex - 5))}
+                  disabled={currentQuestionIndex === 0}
+                  className="flex items-center justify-center w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-gray-100 text-gray-600 hover:bg-gray-200 disabled:opacity-30 disabled:cursor-not-allowed transition-all"
+                  title="后退 5 题"
+                >
+                  <ChevronLeft className="w-5 h-5 sm:w-6 sm:h-6" />
+                  <ChevronLeft className="w-5 h-5 sm:w-6 sm:h-6 -ml-3" />
+                </button>
 
-                {/* 显示当前题目附近的按钮（手机端前后各2题，桌面端前后各3题） */}
-                {questions.map((_, index) => {
-                  const isNearCurrent = Math.abs(index - currentQuestionIndex) <= (window.innerWidth < 640 ? 2 : 3);
-                  const isFirst = index === 0;
-                  const isLast = index === questions.length - 1;
-                  
-                  if (!isNearCurrent && !isFirst && !isLast) {
-                    return null;
-                  }
-                  
-                  return (
-                    <button
-                      key={index}
-                      onClick={() => handleQuestionJump(index)}
-                      className={`w-7 h-7 sm:w-8 sm:h-8 flex-shrink-0 rounded-full text-xs sm:text-sm font-medium transition-colors cursor-pointer ${
-                        index === currentQuestionIndex
-                          ? 'bg-teal-500 text-white'
-                          : answers[questions[index].id]
-                          ? 'bg-green-100 text-green-700'
-                          : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
-                      }`}
-                    >
-                      {index + 1}
-                    </button>
-                  );
-                })}
+                {/* 单步后退 */}
+                <button
+                  onClick={handlePrevious}
+                  disabled={currentQuestionIndex === 0}
+                  className="flex items-center justify-center w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-teal-100 text-teal-600 hover:bg-teal-200 disabled:opacity-30 disabled:cursor-not-allowed transition-all"
+                  title="上一题"
+                >
+                  <ChevronLeft className="w-5 h-5 sm:w-6 sm:h-6" />
+                </button>
 
-                {/* 最后一题按钮 */}
-                {currentQuestionIndex < questions.length - 3 && (
-                  <>
-                    <span className="text-gray-400 text-xs">...</span>
-                    <button
-                      onClick={() => handleQuestionJump(questions.length - 1)}
-                      className={`w-7 h-7 sm:w-8 sm:h-8 flex-shrink-0 rounded-full text-xs sm:text-sm font-medium transition-colors cursor-pointer ${
-                        answers[questions[questions.length - 1].id]
-                          ? 'bg-green-100 text-green-700'
-                          : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
-                      }`}
-                    >
-                      {questions.length}
-                    </button>
-                  </>
-                )}
+                {/* 当前页码显示 */}
+                <div className="flex items-center space-x-2 px-3 sm:px-4 py-2 bg-gradient-to-r from-teal-500 to-cyan-500 text-white rounded-xl shadow-md">
+                  <span className="text-base sm:text-lg font-bold">{currentQuestionIndex + 1}</span>
+                  <span className="text-xs sm:text-sm opacity-90">/</span>
+                  <span className="text-sm sm:text-base opacity-90">{questions.length}</span>
+                </div>
+
+                {/* 单步前进 */}
+                <button
+                  onClick={handleNext}
+                  disabled={currentQuestionIndex === questions.length - 1}
+                  className="flex items-center justify-center w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-teal-100 text-teal-600 hover:bg-teal-200 disabled:opacity-30 disabled:cursor-not-allowed transition-all"
+                  title="下一题"
+                >
+                  <ChevronRight className="w-5 h-5 sm:w-6 sm:h-6" />
+                </button>
+
+                {/* 右箭头 - 快速前进 */}
+                <button
+                  onClick={() => handleQuestionJump(Math.min(questions.length - 1, currentQuestionIndex + 5))}
+                  disabled={currentQuestionIndex === questions.length - 1}
+                  className="flex items-center justify-center w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-gray-100 text-gray-600 hover:bg-gray-200 disabled:opacity-30 disabled:cursor-not-allowed transition-all"
+                  title="前进 5 题"
+                >
+                  <ChevronRight className="w-5 h-5 sm:w-6 sm:h-6" />
+                  <ChevronRight className="w-5 h-5 sm:w-6 sm:h-6 -ml-3" />
+                </button>
               </div>
             </div>
 
-            {/* 上一题/下一题按钮 */}
+            {/* 底部操作按钮 */}
             <div className="flex items-center justify-between">
-              <button
-                onClick={handlePrevious}
-                disabled={currentQuestionIndex === 0}
-                className="flex items-center px-4 sm:px-6 py-2.5 sm:py-3 text-sm sm:text-base text-gray-600 bg-gray-100 rounded-xl hover:bg-gray-200 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
-              >
-                <ChevronLeft className="w-4 h-4 sm:w-5 sm:h-5 mr-1" />
-                <span className="hidden sm:inline">上一题</span>
-                <span className="sm:hidden">上一题</span>
-              </button>
+              {/* 进度信息 */}
+              <div className="flex items-center space-x-2 text-sm text-gray-600">
+                <CheckCircle className="w-4 h-4 text-green-500" />
+                <span>已答 {answeredCount}/{questions.length}</span>
+              </div>
 
-              {isLastQuestion ? (
-                <button
-                  onClick={handleSubmitTest}
-                  className="flex items-center px-4 sm:px-6 py-2.5 sm:py-3 text-sm sm:text-base bg-gradient-to-r from-teal-500 to-cyan-500 text-white rounded-xl hover:from-teal-600 hover:to-cyan-600 transition-all"
-                >
-                  <span className="hidden sm:inline">提交测试</span>
-                  <span className="sm:hidden">提交</span>
-                  <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 ml-1" />
-                </button>
-              ) : (
-                <button
-                  onClick={handleNext}
-                  className="flex items-center px-4 sm:px-6 py-2.5 sm:py-3 text-sm sm:text-base bg-gradient-to-r from-teal-500 to-cyan-500 text-white rounded-xl hover:from-teal-600 hover:to-cyan-600 transition-all"
-                >
-                  <span className="hidden sm:inline">下一题</span>
-                  <span className="sm:hidden">下一题</span>
-                  <ChevronRight className="w-4 h-4 sm:w-5 sm:h-5 ml-1" />
-                </button>
-              )}
+              {/* 提交按钮 */}
+              <button
+                onClick={handleSubmitTest}
+                className="flex items-center px-4 sm:px-6 py-2.5 sm:py-3 text-sm sm:text-base bg-gradient-to-r from-teal-500 to-cyan-500 text-white rounded-xl hover:from-teal-600 hover:to-cyan-600 transition-all shadow-md hover:shadow-lg"
+              >
+                <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 mr-1.5" />
+                <span>提交测试</span>
+              </button>
             </div>
           </div>
         </div>
