@@ -1,4 +1,4 @@
-const { Resend } = require('resend');
+import { Resend } from 'resend';
 
 // Vercel Serverless Function
 export default async function handler(req, res) {
